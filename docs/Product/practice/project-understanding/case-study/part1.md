@@ -1,18 +1,13 @@
----
-sidebar_position: 1
-sidebar_label: Part 1 开户绑定
----
-
 # Part 1 开户绑定
 
 :::tip
- 在金融项目全流程设计系列中，前三篇文章从方法论和实践的角度对一个互联网金融项目文档进行了拆解和分析。本篇文章会在[ 如何将项目拆解为需求？](docs\Product\practice\project-understanding\how-to-break-down.md)的基础上，基于用户体验路径，更深入地对积利金项目进行拆解。
+ 在金融项目全流程设计系列中，前三篇文章从方法论和实践的角度对一个互联网金融项目文档进行了拆解和分析。本篇文章会在[ 如何将项目拆解为需求？](/docs/Product/practice/project-understanding/how-to-break-down.md)的基础上，基于用户体验路径，更深入地对积利金项目进行拆解。
 
  在开始本篇文章之前，请确保你已阅读本系列的前三篇文章，Let's g...go!!
 :::
 
 开局一张图：
-![01](/img/product/practice/case-stydy-part1_images/01.png)
+![01](/static/img/product/practice/case-stydy-part1_images/01.png)
 
 ## 登录方案设计
 
@@ -26,7 +21,7 @@ sidebar_label: Part 1 开户绑定
 
 但互联网金融产品不太一样，从它的属性（金融）就注定产品需要控制风险，强调合规和监管。出于对投资者的保护，用户在未进行登录验证、风险测评等必要流程之前，投资产品的信息需要进行脱敏展示，或者直接弹出账户登录组件，强制游客登录。
 
-![02](/img/product/practice/case-stydy-part1_images/02.png)
+![02](/static/img/product/practice/case-stydy-part1_images/02.png)
 <div class="text-center">
 *不同金融产品对于产品外露信息的处理*
 </div>
@@ -54,7 +49,7 @@ BTW，方案 3 应该比较符合现阶段的开发要求。在主页不展示�
 
 那么，产品流程就算正式迈出了第一步，用户在页面点击`开户`按钮或者查看产品详情时才会触发登录，唤起登录组件，用户完成登录后方能进行下一步操作，开户。
 
-![03](/img/product/practice/case-stydy-part1_images/03.png)
+![03](/static/img/product/practice/case-stydy-part1_images/03.png)
 
 在功能主页，产品也只展示甲方爸爸允许展示的数据字段和公开信息，关键信息均以文字进行显示。这样做满足合规要求，规避监管风险。
 
@@ -66,7 +61,7 @@ BTW，方案 3 应该比较符合现阶段的开发要求。在主页不展示�
 
 如果不做唯一绑定，会让登录流程变得非常繁琐。试想一下，你想要查看积利金今天的盈利情况，那么首先需要登录积利金账户，输入账号密码，其次通过短信验证或人脸识别的方式验明真身。这个过程得花上 1\~2 分钟，还不如绑定直接登录来得方便。
 
-![04](/img/product/practice/case-stydy-part1_images/04.png)
+![04](/static/img/product/practice/case-stydy-part1_images/04.png)
 
 用户只需要登录一次，产品从银行（甲方）接口查询，若结果为真就能进行绑定。后续用户登录了产品账号就等同于登录了积利金账户，操作上相对便捷。
 
@@ -82,7 +77,7 @@ BTW，方案 3 应该比较符合现阶段的开发要求。在主页不展示�
 
 出于合规要求，用户在查看积利金详情、购买积利金产品之前，需要先完成**账户开立、积利金签约**以及**风险测评**流程。这意味着用户在登录账号之后，产品需要通过银行接口查询用户是否完成了这些流程。
 
-![05](/img/product/practice/case-stydy-part1_images/05.png)
+![05](/static/img/product/practice/case-stydy-part1_images/05.png)
 
 So，产品应该如何去查询用户的签约状态呢？不对，在查询用户的签约状态之前，是不是要先查询用户产品账号是否绑定了积利金账户呢？先看有没有绑定，再查询签约状态。
 
@@ -90,7 +85,7 @@ So，产品应该如何去查询用户的签约状态呢？不对，在查询用
 
 事实上，如果用户没有绑定积利金账户，查询签约接口的结果只会返回一种签约状态——用户未开户。用户可以在后续流程中进行开户或初次绑定操作。之所以省去一个绑定状态查询的环节，原因在于现有签约接口已经覆盖了这种情况。
 
-![06](/img/product/practice/case-stydy-part1_images/06.png)
+![06](/static/img/product/practice/case-stydy-part1_images/06.png)
 
 如上面的流程图所示，增加一个判断用户账户是否绑定的查询接口是没有必要的，因为银行提供的查询接口可以容纳这种情况。在银行的项目说明书中，签约接口返回的状态也涵盖了这一情况。在甲方未对这一环节进行说明时，产品才应考虑增加查询绑定关系这一接口。
 
@@ -98,7 +93,7 @@ So，产品应该如何去查询用户的签约状态呢？不对，在查询用
 
 所以，我们继续推导开户绑定的流程，可以得到：
 
-![07](/img/product/practice/case-stydy-part1_images/07.png)
+![07](/static/img/product/practice/case-stydy-part1_images/07.png)
 
 通过银行提供的接口文档，能够找到查询用户开户签约状态的接口。产品经理需要在需求文档中附上对应的查询接口名称，以及返回不同的状态后需要进行哪些步骤，如上图所示。
 
@@ -110,7 +105,7 @@ So，产品应该如何去查询用户的签约状态呢？不对，在查询用
 
 Nonono，针对这一情况，产品在开户页面做了有卡和无卡的区分，以便解决这一出现概率较低的情况。在这一环节，有卡的用户需要输入身份信息，根据接口验证返回结果进行后续操作。对于无卡的用户则继续进行剩余的开户环节。
 
-![08](/img/product/practice/case-stydy-part1_images/08.png)
+![08](/static/img/product/practice/case-stydy-part1_images/08.png)
 
 这样一来，产品能够很好的解决用户初次绑定积利金账户的问题，对整个开户流程也不会产生影响。
 
@@ -141,7 +136,7 @@ Nonono，针对这一情况，产品在开户页面做了有卡和无卡的区�
 
 根据甲方提供的信息，银行卡的绑定和开立逻辑大致如下：
 
-![09](/img/product/practice/case-stydy-part1_images/09.png)
+![09](/static/img/product/practice/case-stydy-part1_images/09.png)
 
 
 :::tip
@@ -156,11 +151,11 @@ Nonono，针对这一情况，产品在开户页面做了有卡和无卡的区�
 
 综上，结合项目书和甲方说明，产品可以得到一个完整的开户流程：
 
-![10](/img/product/practice/case-stydy-part1_images/10.png)
+![10](/static/img/product/practice/case-stydy-part1_images/10.png)
 
 看起来有点复杂，我们可以通过页面关系图来对这个复杂流程进行拆解：
 
-![11](/img/product/practice/case-stydy-part1_images/11.png)
+![11](/static/img/product/practice/case-stydy-part1_images/11.png)
 <div class="text-center">
 *\*感受到互联网金融产品的 “魅力” 了吗？如果你入了这一行，这就是日常难度。*
 </div>
@@ -192,7 +187,7 @@ Nonono，针对这一情况，产品在开户页面做了有卡和无卡的区�
     * 如果用户已经开立 Ⅰ 类户的，返回卡号；
     * 如果开立过 Ⅱ 类户的，返回卡号和绑定的一类卡（返回最近开立的一张，如果账户下存在多张卡片的话），如果未开立的，继续调开户申请接口进行后续流程。
 
-![12](/img/product/practice/case-stydy-part1_images/12.png)
+![12](/static/img/product/practice/case-stydy-part1_images/12.png)
 
 ## 开户结果
 
@@ -200,13 +195,13 @@ Nonono，针对这一情况，产品在开户页面做了有卡和无卡的区�
 
 用户完成中行的开户流程后，产品会收到中行返回的开户结果，根据返回结果，页面会展示成功或者失败两种状态页面，如下图所示：
 
-![13](/img/product/practice/case-stydy-part1_images/13.png)
+![13](/static/img/product/practice/case-stydy-part1_images/13.png)
 
 这是一种 “完美” 的情况，产品经理需要考虑更多可能会发生的特殊情况。比方说：用户在完成开户后，回调开户结果页面之前退出。产品并不知道用户是否完成开户，用户下次进入积利金功能主页，还要让用户进入开户流程吗？
 
 针对第一种情况，当产品未收到银行返回的开户结果，用户下次发起 “开户” 请求时，需要先去查询开户状态，类似一种更新：
 
-![14](/img/product/practice/case-stydy-part1_images/14.png)
+![14](/static/img/product/practice/case-stydy-part1_images/14.png)
 
 此时就不需要让用户再进入到开户流程了，通过接口返回的信息，产品能够知道用户当前最新的开户状态。
 
@@ -214,7 +209,7 @@ Nonono，针对这一情况，产品在开户页面做了有卡和无卡的区�
 
 当中行返回用户开户结果时，产品应该以哪种方式接收到这一信息呢？答案还是接口。不过这次不再是由产品去调用银行接口，而是自己开发接口，让银行调用，返回结果。
 
-![15](/img/product/practice/case-stydy-part1_images/15.png)
+![15](/static/img/product/practice/case-stydy-part1_images/15.png)
 
 这样做的好处是，银行能够实时推送开户结果，不用通过人工手动传输，保证数据的及时性。
 

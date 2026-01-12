@@ -1,13 +1,8 @@
----
-sidebar_position: 1
-sidebar_label: 产品设计必备的五张图
----
-
 # 产品设计必备的五张图 
 
 随着互联网节奏越来越快，对于互联网产品设计的要求也在不断提升。在产品设计中，产品经理需要有效地表达设计，不讲黑话讲人话，让团队快速理解你的思考和意图。本篇文章总结了五张图，希望能够帮助大家更好地进行思考。
 
-![01](/img/product/product/five-essential-diagrams_images/01.png)
+![01](/static/img/product/product/five-essential-diagrams_images/01.png)
 
 ## 为什么需要五张图？
 
@@ -17,7 +12,7 @@ sidebar_label: 产品设计必备的五张图
 
 不同的公司，比方说我所在的证券公司，因为制度和流程原因，需要进行多轮评审。包括产品内部评审，对开发、设计和测试都各自需要进行一轮评审。时间成本很高，产品经理需要在有限的时间内进行高效地表述。如果在多个页面复杂功能的评审中，直接通过原型图去讲解，将会花费非常多的时间，甚至最后开发都记不住要点。
 
-![02](/img/product/product/five-essential-diagrams_images/02.png)
+![02](/static/img/product/product/five-essential-diagrams_images/02.png)
 
 所以，产品经理为什么需要五张图？
 
@@ -35,9 +30,9 @@ sidebar_label: 产品设计必备的五张图
 
 但并不是只有唯一一条路径才能称得上用户体验路径。比如我在小红书查找攻略，最后点赞收藏了某个帖子，又或者看到某个帖子带货的商品很不错，于是激情下单，这些都算是用户体验路径。这说明一个产品往往具有多个模块，而模块中会出现多条用户体验路径。至于这条路径是否关键，还得看它起了什么作用，比方说提升活跃度、增加产品营收等等。
 
-![03](/img/product/product/five-essential-diagrams_images/03.png)
+![03](/static/img/product/product/five-essential-diagrams_images/03.png)
 
-在证券产品，用户体验路径会显得更为复杂。比如在[ 调研：广发原始股 ](docs/Product/practice/competitive-research/gf-research.md)中，广发原始股 App 的核心用户路径就包括了股单构建、个股发现、开户、交易、社区参与和投顾咨询共六条用户体验路径，这些路径和营收业务的结合非常紧密。这里就不放图了，更详细的可以看上面这篇竞品调研的内容。
+在证券产品，用户体验路径会显得更为复杂。比如在[ 调研：广发原始股 ](/docs/Product/practice/competitive-research/gf-research.md)中，广发原始股 App 的核心用户路径就包括了股单构建、个股发现、开户、交易、社区参与和投顾咨询共六条用户体验路径，这些路径和营收业务的结合非常紧密。这里就不放图了，更详细的可以看上面这篇竞品调研的内容。
 
 
 
@@ -59,7 +54,7 @@ sidebar_label: 产品设计必备的五张图
 
 转化率具体应用在哪些场景？比方说从 A 页面到 B 页面的转化率；从浏览商品到最终下单、从下单到最后收货的转化率。通过这些环节的转化率数据，可以发现哪些环节是存在问题的。比如电商产品中履约转化率较低，是不是商品出现质量问题，导致问题率较高？还是商家过度宣传，买家收货后发现货不对板，导致退货率提升？用户体验路径的每一条线索，都是未来去提升产品的关键。
 
-![04](/img/product/product/five-essential-diagrams_images/04.png)
+![04](/static/img/product/product/five-essential-diagrams_images/04.png)
 
 具体如何提升产品能力？当然不是想当然地加功能，做加法。做好产品难就难在**做减法**。就像上面提到的拼多多的例子，一个看起来非常难砍掉的功能（购物车），删除之后显著提升了产品的成交转化。或者如早期的网易云音乐通过歌单导入的功能，将用户软件的成本降低为零，帮助用户做减法。
 
@@ -73,11 +68,11 @@ sidebar_label: 产品设计必备的五张图
 
 以电商产品举例，分为导购、交易、营销、供给、履约、基建模块，模块之间可以进一步进行细分。
 
-![05](/img/product/product/five-essential-diagrams_images/05.png)
+![05](/static/img/product/product/five-essential-diagrams_images/05.png)
 
 在证券产品中，视侧重业务不同，有数据、交易、开户、理财、资讯、基建模块等。
 
-![06](/img/product/product/five-essential-diagrams_images/06.png)
+![06](/static/img/product/product/five-essential-diagrams_images/06.png)
 
 分析产品模块，有助于让产品经理具备顶层视角，洞悉产品。
 
@@ -91,7 +86,7 @@ sidebar_label: 产品设计必备的五张图
 
 产品功能树，也即通过功能罗列的形式展示产品不同模块所拥有的功能。以证券产品举例，数据模块中的行情功能可以简单区分为大盘、个股两个栏目。就大盘来说，往下一级还区分板块、行业、异动等功能。听起来一个模块相当复杂，但是将产品功能以树状形式罗列出来后就很清晰了。
 
-![07](/img/product/product/five-essential-diagrams_images/07.png)
+![07](/static/img/product/product/five-essential-diagrams_images/07.png)
 
 以上图为例，比如现在要做板块功能，板块包括的子功能有热门、涨跌停、异动三个部分。要做热门板块，需要设计一套算法去判断板块达到什么条件之后可以上热门；同理，通过设定阈值来监控哪些板块超出或低于设定区间，以此作为触发 “异动” 条件的标准。涨跌停板块则是以涨跌幅作为判断标准，正序或者倒序对板块进行排列。
 
@@ -103,9 +98,9 @@ sidebar_label: 产品设计必备的五张图
 
 页面关系图可能是**最合适**的一张图了。它不需要交互设计图（mockup）那般强调细节，也不像上面提到的产品模块图、产品功能图那么简洁。以不同页面之间的关系、连接作为阐述的目标，对于团队来说这种讲解方式更易懂。
 
-![08](/img/product/product/five-essential-diagrams_images/08.png)
+![08](/static/img/product/product/five-essential-diagrams_images/08.png)
 
-这里举一个[ 金融产品搜索设计 ](docs\Product\practice\search-design\search-design.md)中没有提及的例子。通常在金融产品的搜索功能会有图片识别自选股的功能，这个功能可以更快地将其他产品的股单迁移到至本产品，而不需要手动添加。
+这里举一个[ 金融产品搜索设计 ](/docs/Product/practice/search-design/search-design.md)中没有提及的例子。通常在金融产品的搜索功能会有图片识别自选股的功能，这个功能可以更快地将其他产品的股单迁移到至本产品，而不需要手动添加。
 
 同时，页面关系图也是对上面提到的产品功能树**完整度**的检视。页面关系图中的功能是之前遗漏或者新增的，有助于产品经理查缺补漏。功能树的功能最终都会归属到某些页面当中，也就是说，页面关系图和产品功能树是相互自洽的，通过这两张图可以更好地发现产品设计中的问题。
 
@@ -113,13 +108,13 @@ sidebar_label: 产品设计必备的五张图
 
 页面关系图的绘制可以是完整度较高的原型设计图，也可以是仅包括说明的示例图，如下所示：
 
-![09](/img/product/product/five-essential-diagrams_images/09.png)
+![09](/static/img/product/product/five-essential-diagrams_images/09.png)
 
 ### 交互设计图
 
 最后一张图是交互设计图，也称作 Mockup。这张图对于多数产品经理来说并不陌生，使用 Axure 或墨刀等原型软件绘制的产品原型图就是这张图：
 
-![10](/img/product/product/five-essential-diagrams_images/10.png)
+![10](/static/img/product/product/five-essential-diagrams_images/10.png)
 
 交互设计图是打磨产品细节最重要的步骤，完善的交互设计可以大幅度降低设计风险、进度风险。在经过评审和 UI 确认之后的交互设计图，可以认为 “最终” 的用户界面。不过对于主流行业，交互层面的创新可能并不是很需要，简单的交互形式更容易让用户上手。
 
@@ -139,4 +134,4 @@ sidebar_label: 产品设计必备的五张图
 
 
 
-👉 实战篇：[ 如何将项目拆解为需求？](docs\Product\practice\project-understanding\how-to-break-down.md)
+👉 实战篇：[ 如何将项目拆解为需求？](/docs/Product/practice/project-understanding/how-to-break-down.md)

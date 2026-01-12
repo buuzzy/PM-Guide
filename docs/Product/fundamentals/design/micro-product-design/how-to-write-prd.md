@@ -1,22 +1,17 @@
----
-sidebar_position: 2
-sidebar_label: 如何写好产品设计文档（PRD）
----
-
 # 如何写好产品设计文档（PRD） 
 
 :::tip
 读前提示：在阅读本文档之前，建议阅读以下文章：
-* [ Scrum，最常见的互联网产品研发流程 ](docs\Product\fundamentals\design\scrum-development.md)
-* [ 产品设计必备的五张图 ](docs\Product\fundamentals\design\micro-product-design\five-essential-diagrams.md)
-* [ 为什么周报如此重要？](docs\Product\general-skills\workplace-skills\why-weekly-report.md)
-* [ 什么是产品思维？](docs\Product\fundamentals\career\product-thinking.md)
-* [ 如何做好埋点设计](docs\Product\fundamentals\design\micro-product-design\data-tracking\how-to-design-tracking.md)
-* [ 数据分析体系的价值与原则](docs\Product\operations\data-analysis.md)
-* [ 宏观产品设计](docs\Product\fundamentals\design\macro-product-design.md)
+* [ Scrum，最常见的互联网产品研发流程 ](/docs/Product/fundamentals/design/scrum-development.md)
+* [ 产品设计必备的五张图 ](/docs/Product/fundamentals/design/micro-product-design/five-essential-diagrams.md)
+* [ 为什么周报如此重要？](/docs/Product/general-skills/workplace-skills/why-weekly-report.md)
+* [ 什么是产品思维？](/docs/Product/fundamentals/career/product-thinking.md)
+* [ 如何做好埋点设计](/docs/Product/fundamentals/design/micro-product-design/data-tracking/how-to-design-tracking.md)
+* [ 数据分析体系的价值与原则](/docs/Product/operations/data-analysis.md)
+* [ 宏观产品设计](/docs/Product/fundamentals/design/macro-product-design.md)
 :::
 
-还记得产品是怎么被研发出来的吗？[ Scrum，最常见的互联网产品研发流程 ](docs\Product\fundamentals\design\scrum-development.md)
+还记得产品是怎么被研发出来的吗？[ Scrum，最常见的互联网产品研发流程 ](/docs/Product/fundamentals/design/scrum-development.md)
 
 
 
@@ -28,7 +23,7 @@ sidebar_label: 如何写好产品设计文档（PRD）
     * Testing：测试工程师（Testing）
     * Ops：运营服务专员（Operations）
 
-![01](/img/product/product/how-to-write-prd_images/01.png)
+![01](/static/img/product/product/how-to-write-prd_images/01.png)
 
 基于功能规模、难度、类型的不同，PRD 文档会有不同的表现形式。常见有以下几种情况：
 
@@ -79,13 +74,13 @@ sidebar_label: 如何写好产品设计文档（PRD）
 
 还记得在产品迭代流程中 Story 是基于 Goal（目标）拆解而来的吗？因此一份好的 PRD 会从产品大目标出发开始，循序渐进拆解设计到最细的颗粒度，以 “总-分” 的结构展开。一份完整的 PRD 文档结构大致可以分为：
 
-![02](/img/product/product/how-to-write-prd_images/02.png)
+![02](/static/img/product/product/how-to-write-prd_images/02.png)
 
-其中核心体验流程、模块、功能、页面结构、交互就是[ 产品设计必备的五张图 ](docs\Product\fundamentals\design\micro-product-design\five-essential-diagrams.md)中提到的内容，是整个 PRD 的最基础也是最重要的组成部分。忘记的同学可以重新回顾一下内容。
+其中核心体验流程、模块、功能、页面结构、交互就是[ 产品设计必备的五张图 ](/docs/Product/fundamentals/design/micro-product-design/five-essential-diagrams.md)中提到的内容，是整个 PRD 的最基础也是最重要的组成部分。忘记的同学可以重新回顾一下内容。
 
 ### 版本说明
 
-正如在[ Scrum，最常见的互联网产品研发流程 ](docs\Product\fundamentals\design\scrum-development.md)中描述的那样，一个 PRD 会经过 1\~3 次 Review，每次 Review 必然会产生一些内容调整。因此对 PRD 的变动做好记录，对未来的阅读者会更加友好，避免信息缺失。一般来说，版本记录只需要概述下变动即可，因为具体的变动读者可以通过版本记录追溯，且往往最新版已经足够于开展工作。
+正如在[ Scrum，最常见的互联网产品研发流程 ](/docs/Product/fundamentals/design/scrum-development.md)中描述的那样，一个 PRD 会经过 1\~3 次 Review，每次 Review 必然会产生一些内容调整。因此对 PRD 的变动做好记录，对未来的阅读者会更加友好，避免信息缺失。一般来说，版本记录只需要概述下变动即可，因为具体的变动读者可以通过版本记录追溯，且往往最新版已经足够于开展工作。
 
 
 
@@ -182,7 +177,7 @@ sidebar_label: 如何写好产品设计文档（PRD）
 
 #### 核心体验路径
 
-按[ 产品设计必备的五张图 ](docs\Product\fundamentals\design\micro-product-design\five-essential-diagrams.md)的设计思路，我们首先要明确视频功能的核心用户体验路径，这里以发布者为例：
+按[ 产品设计必备的五张图 ](/docs/Product/fundamentals/design/micro-product-design/five-essential-diagrams.md)的设计思路，我们首先要明确视频功能的核心用户体验路径，这里以发布者为例：
 
 :::tip 发布者核心体验路径
 选择发布内容类型（图文 / 视频）--> 选择视频 --> 描述视频 --> 提交并等待审核 -> 过审发布成功
@@ -205,9 +200,9 @@ sidebar_label: 如何写好产品设计文档（PRD）
 
 在当前版本无法满足用户更多需求的前提下，通过产品指标预测，能够有效地应对上线后可能会出现的问题。产品经理在预测的环节如果能做得优秀，团队的信任度也会随之提升，建立起信任循环。
 
-扩展阅读：[ 为什么周报如此重要 ](docs\Product\general-skills\workplace-skills\why-weekly-report.md)
+扩展阅读：[ 为什么周报如此重要 ](/docs/Product/general-skills/workplace-skills/why-weekly-report.md)
 
-![03](/img/product/product/how-to-write-prd_images/03.png)
+![03](/static/img/product/product/how-to-write-prd_images/03.png)
 
 产品新人（比如我，还在摸索阶段）可能由于经验不足，无法准确的预估未来指标。不用担心，只要在进步，总能被看见。反而，如果不预测，当产品上线后再去找指标、看数据，会认为看到的是理所当然的数字，难以促进反思。根据我的经验，不断的预测、验证可以显著提升自己的经验值和预测能力。
 
@@ -250,21 +245,21 @@ sidebar_label: 如何写好产品设计文档（PRD）
 
 <br/>
 
-还是用在[ Scrum，最常见的互联网产品研发流程 ](docs\Product\fundamentals\design\scrum-development.md)中提到的网红社区作为示例：
+还是用在[ Scrum，最常见的互联网产品研发流程 ](/docs/Product/fundamentals/design/scrum-development.md)中提到的网红社区作为示例：
 
 > 本次新增视频功能，涉及到的模块：
 
-![04](/img/product/product/how-to-write-prd_images/04.png)
+![04](/static/img/product/product/how-to-write-prd_images/04.png)
 
 
 这样写起来是不是很简单？ 对于开发部门来说，只需要根据模块内的不同功能进行设计，而不必去思考究竟哪些功能属于哪些模块，应该将哪些功能归入哪些模块之中。
 
-![05](/img/product/product/how-to-write-prd_images/05.png)
+![05](/static/img/product/product/how-to-write-prd_images/05.png)
 <div class="text-center">*如果结构并不清晰，如何定位自己做的功能范围？*</div>
 <br/>
 
 
-还记得[ 什么是产品思维？](docs\Product\fundamentals\career\product-thinking.md)中提到的吗：“*能够将复杂的功能抽象、归纳出来是产品经理的基本功。”*
+还记得[ 什么是产品思维？](/docs/Product/fundamentals/career/product-thinking.md)中提到的吗：“*能够将复杂的功能抽象、归纳出来是产品经理的基本功。”*
 
 
 
@@ -274,7 +269,7 @@ sidebar_label: 如何写好产品设计文档（PRD）
 
 功能清单是基于模块的进一步细化，我们继续举例：
 
-![06](/img/product/product/how-to-write-prd_images/06.png)
+![06](/static/img/product/product/how-to-write-prd_images/06.png)
 
 <div class="text-center">*注：M 指 Model（模块），F 指 function（功能）*</div>
 <br/>
@@ -290,7 +285,7 @@ sidebar_label: 如何写好产品设计文档（PRD）
 
 举例（小红书）：
 
-![07](/img/product/product/how-to-write-prd_images/07.png)
+![07](/static/img/product/product/how-to-write-prd_images/07.png)
 
 如今关于页面结构、交互设计的协作 SaaS 越来越多，比如 Axure、墨刀等。通常在交流产品设计细节的时候都会直接甩一个链接，方便团队了解页面细节，进行标注或评论。
 
@@ -335,7 +330,7 @@ sidebar_label: 如何写好产品设计文档（PRD）
 
 由于每家公司的埋点系统不同，这里就不展开了，感兴趣的参见下面这篇文档。
 
-👉 [ 如何做好埋点设计 ](docs\Product\fundamentals\design\micro-product-design\data-tracking\how-to-design-tracking.md)
+👉 [ 如何做好埋点设计 ](/docs/Product/fundamentals/design/micro-product-design/data-tracking/how-to-design-tracking.md)
 
 ##### 报表设计
 
@@ -343,13 +338,13 @@ sidebar_label: 如何写好产品设计文档（PRD）
 
 > *有时候会遇到报表越来越多，使用率越来越低的情况？*
 >
-> 👉 [ 数据分析体系的价值和原则 ](docs\Product\operations\data-analysis.md)
+> 👉 [ 数据分析体系的价值和原则 ](/docs/Product/operations/data-analysis.md)
 
 
 <br/>
 以行情产品为例，来看看报表设计需要包括哪些要素：
 
-![08](/img/product/product/how-to-write-prd_images/08.png)
+![08](/static/img/product/product/how-to-write-prd_images/08.png)
 
 回到上面我们讲的网红社区，假如现在要做视频审核功能，与之对应就要有视频审核报表，报表需要包括以下要素：
 
@@ -393,7 +388,7 @@ sidebar_label: 如何写好产品设计文档（PRD）
 
 ## Version Design
 
-当我们要从头开始设计一个产品，或者要对产品做一次历时较长的大更新时，需要从更加宏观的视野进行版本设计。与 Story Design 不同，Version Design会更多阐述宏观设计。关于宏观设计的思考可以先阅读：[ 宏观产品设计 ](docs\Product\fundamentals\design\macro-product-design.md)。
+当我们要从头开始设计一个产品，或者要对产品做一次历时较长的大更新时，需要从更加宏观的视野进行版本设计。与 Story Design 不同，Version Design会更多阐述宏观设计。关于宏观设计的思考可以先阅读：[ 宏观产品设计 ](/docs/Product/fundamentals/design/macro-product-design.md)。
 
 如果 Version Design 只是在阐述更多的功能，那无非是个大号的 Story Design，反而将事情变复杂了（阅读体验下降）。一般需要比较有经验的产品专家来操刀才能写出像样的 Version Design，从产品、业务、市场全方位向下游团队介绍未来。
 

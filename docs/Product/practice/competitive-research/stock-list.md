@@ -1,8 +1,3 @@
----
-sidebar_position: 1
-sidebar_label: 竞品清单（证券/期货）
----
-
 # 竞品清单（证券/期货）
 
 ## 自营类证券服务应用活跃人数 Top 20

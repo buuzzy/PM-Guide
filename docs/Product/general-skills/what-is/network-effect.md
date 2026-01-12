@@ -1,8 +1,3 @@
----
-sidebar_position: 2
-sidebar_label: 网络效应
----
-
 # 网络效应
 
 有机会创造出巨大的规模效应、甚至网络效应是互联网企业能够获得高估值的根本原因。能够创造显著网络效应的互联网平台都能够获得相对较长时间的生命力和收益，例如微信、Fackbook 这类社交型平台，随着用户规模的逐渐增大，其竞争力会指数级上涨。网络效应是规模效应的一种。
@@ -51,7 +46,7 @@ sidebar_label: 网络效应
 
 如果说移动电话利用了固定电话网络基建和人口基数的优势，那么抖音则充分利用了移动网络的优势，从 2016 年 9 月上架到 2019 年 2 亿日活，只用了 3 年。
 
-![01](/img/product/general-skills/network-effect_images/01.png)
+![01](/static/img/product/general-skills/network-effect_images/01.png)
 
 ## 为什么网络效应如此强烈？
 
@@ -59,7 +54,7 @@ sidebar_label: 网络效应
 
 2 个点形成线，形成一对关系；3 个点形成三角，形成 3 对关系；4 个点可以形成 6 对关系；5 个点可以形成 10 对关系：
 
-![02](/img/product/general-skills/network-effect_images/02.png)
+![02](/static/img/product/general-skills/network-effect_images/02.png)
 
 **N 个点可以形成 N\*（N-1）/ 2 对关系：**
 
@@ -69,13 +64,13 @@ sidebar_label: 网络效应
 
 那么假设微信已经有了 10 亿用户，理论上可以产生 500000000000000000 对关系（5e17），这便是壁垒。使用的用户越多，关系连接的可能性越高，粘性越高。
 
-![03](/img/product/general-skills/network-effect_images/03.png)
+![03](/static/img/product/general-skills/network-effect_images/03.png)
 
 ### 边际价值逐渐提升
 
 节点越多，每增加一个节点的价值收获越大、成本相对越低。当 2 个点变成 3 个点时，增加了 2 对关系；当 10000 个点变成 10001 个点时，会增加 10000 对关系。
 
-![04](/img/product/general-skills/network-effect_images/04.png)
+![04](/static/img/product/general-skills/network-effect_images/04.png)
 
 节点数越多，后期加入的节点能产生的价值越大，公式为：
 

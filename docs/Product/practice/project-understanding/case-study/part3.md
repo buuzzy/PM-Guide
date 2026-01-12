@@ -1,8 +1,3 @@
----
-sidebar_position: 3
-sidebar_label: Part 3 浏览、买卖产品
----
-
 # Part 3 浏览、买卖产品
 
 :::tip
@@ -11,13 +6,13 @@ sidebar_label: Part 3 浏览、买卖产品
     2. 在买卖（买入、赎回）环节，需要思考每个环节和可能出现的异常情况，比如用户资金、交易时段、网络异常等等。
 :::
 
-![01](\img\product\practice\case-stydy-part3_images\01.png)
+![01](/static/img/product/practice/case-stydy-part3_images/01.png)
 
 ## 产品浏览
 
 浏览，是互联网产品触发用户交易动机的唯一视觉环节。在许多互联网产品中，别出心裁的设计、动效、特效，夸张的文字、颜色，以及样式和栏目展示都是吸引用户的关键要素。
 
-![02](\img\product\practice\case-stydy-part3_images\02.png)
+![02](/static/img/product/practice/case-stydy-part3_images/02.png)
 
 通过对比不同金融应用的引导页、开机页以及功能页，你会发现互联网金融产品和传统的互联网产品的风格有很大不同，在视觉设计上会偏向保守，色调不会过于夸张。这主要源于行业需要突出专业性和权威性。
 
@@ -62,7 +57,7 @@ sidebar_label: Part 3 浏览、买卖产品
 | 5 | 积利金当日上海金价格查询 | 返回价格为定投价格，每日更新，计算规则为上海金价+第三方定投升水 |
 | ... | ...          | ...                              |
 
-在[ 什么是产品思维？](docs\Product\fundamentals\career\product-thinking.md)中提过，产品经理作为连接需求和开发的桥梁，不能只作为业务的传声筒。对于甲方提供的接口信息，产品经理需要考虑的第一件事不是如何把所有的接口数据都给用上，而是思考如何匹配接口数据和产品，以达到最佳效果。举例来说：
+在[ 什么是产品思维？](/docs/Product/fundamentals/career/product-thinking.md)中提过，产品经理作为连接需求和开发的桥梁，不能只作为业务的传声筒。对于甲方提供的接口信息，产品经理需要考虑的第一件事不是如何把所有的接口数据都给用上，而是思考如何匹配接口数据和产品，以达到最佳效果。举例来说：
 
 | **栏目**  | **展示数据字段**               |
 | ------- | ------------------------ |
@@ -83,7 +78,7 @@ sidebar_label: Part 3 浏览、买卖产品
 
 如下图所示：
 
-![03](\img\product\practice\case-stydy-part3_images\03.png)
+![03](/static/img/product/practice/case-stydy-part3_images/03.png)
 
 ### 活期购买
 
@@ -93,7 +88,7 @@ sidebar_label: Part 3 浏览、买卖产品
 
 积利金账户是独立账户，不同于用户可以通过银行卡直接购买理财产品，用户需要开立一个积利金账户，通过银行卡资金将资金划转至积利金账户，使用活期余额进行购买积利金活期产品。
 
-![04](\img\product\practice\case-stydy-part3_images\04.png)
+![04](/static/img/product/practice/case-stydy-part3_images/04.png)
 <div class="text-center">
 *Tip：开立理财账户非必须步骤，一般通过银行卡就可以购买理财产品*
 </div>
@@ -101,7 +96,7 @@ sidebar_label: Part 3 浏览、买卖产品
 
 积利金活期购买流程如下：
 
-![05](\img\product\practice\case-stydy-part3_images\05.png)
+![05](/static/img/product/practice/case-stydy-part3_images/05.png)
 
 前向关于用户登录、开户、签约和测评状态的判断和流程，用户在购买前需要判断账户的开户、签约、测评状态，均完成后，才能进行积利金活期的购买，这部分后续不再赘述。
 
@@ -127,7 +122,7 @@ sidebar_label: Part 3 浏览、买卖产品
 
 用户在积利金产品首页点击`活期购买`按钮后，进入购买页面。点击`购买`按钮时需要查询用户账户状态和时间，以满足产品购买的前置要求。
 
-![06](\img\product\practice\case-stydy-part3_images\06.png)
+![06](/static/img/product/practice/case-stydy-part3_images/06.png)
 
 进入购买页面后，页面会展示当前购买的产品名称、买入价格、活期利率以及相关说明。用户可以输入买入数量，最少为 0.1 克（产品说明中的最低起购价），最大可购买数量为 3000 克，克数按每 0.01 克递增。克数的最大和最小购买数量会随着市场变化进行相应调整，所以这两个参数同样也需要调用接口，通过后端保存。
 
@@ -135,7 +130,7 @@ sidebar_label: Part 3 浏览、买卖产品
 
 用户输入正确的数量后，点击`购买`按钮，弹出弹窗进行确认。如果银行返回资金不足，页面提示错误原因，并提示 “入金” 操作说明。
 
-![07](\img\product\practice\case-stydy-part3_images\07.png)
+![07](/static/img/product/practice/case-stydy-part3_images/07.png)
 
 ### 定期购买
 
@@ -143,14 +138,14 @@ sidebar_label: Part 3 浏览、买卖产品
 
 购买积利金活期 >> 活期金额[活转定](https://baike.baidu.com/item/%E5%AE%9A%E6%B4%BB%E4%BA%92%E8%BD%AC/5139231?fr=ge_ala) >> 购买定期产品
 
-![08](\img\product\practice\case-stydy-part3_images\08.png)
+![08](/static/img/product/practice/case-stydy-part3_images/08.png)
 
 
 #### 流程说明
 
 用户在购买积利金定期产品之前需要查询账户状态，产品购买同样有*时间限制*。流程图如下所示：
 
-![09](\img\product\practice\case-stydy-part3_images\09.png)
+![09](/static/img/product/practice/case-stydy-part3_images/09.png)
 <div class="text-center">
 *\*国内证券交易所的交易时间一般为非节假日的周一至周五 09:00\~11:30，13:30\~15:30*
 </div>
@@ -159,7 +154,7 @@ sidebar_label: Part 3 浏览、买卖产品
 
 在上面这张流程图中，可以看到积利金定期购买支持两种方式：银行卡购买和活转定购买。这两者并没有区别，即便用户通过银行卡购买，也需要经过活转定流程：
 
-![10](\img\product\practice\case-stydy-part3_images\10.png)
+![10](/static/img/product/practice/case-stydy-part3_images/10.png)
 
 在定期购买流程中，还需要考虑两个可能出现交易失败的场景，包括活期购买和活转定。这部分可以通过调用接口，在前端页面以 toast 的形式提示用户。
 
@@ -170,7 +165,7 @@ sidebar_label: Part 3 浏览、买卖产品
 
 `活转定`作为一个中间环节，它的作用在于快速将积利金活期转为定期。除此之外，积利金定期也能够通过活转定的方式将定期资金转换为活期资金：
 
-![11](\img\product\practice\case-stydy-part3_images\11.png)
+![11](/static/img/product/practice/case-stydy-part3_images/11.png)
 
 *Tips：`活转定`只是一种说法，并不意味着活期产品和定期产品之间的互换。一般来说，定期产品具有封闭性的特点，也即存入后未到时间无法取出，所以也无法进行 “活转定” 。*
 
@@ -178,11 +173,11 @@ sidebar_label: Part 3 浏览、买卖产品
 
 从页面关系图上，活转定功能在这些环节发挥着作用：
 
-![12](\img\product\practice\case-stydy-part3_images\12.png)
+![12](/static/img/product/practice/case-stydy-part3_images/12.png)
 
 ## 产品赎回
 
-![13](\img\product\practice\case-stydy-part3_images\13.png)
+![13](/static/img/product/practice/case-stydy-part3_images/13.png)
 
 产品赎回的规定和产品购买相同，根据相关法律规定，投资者在赎回理财产品时，需要遵守以下规定：
     * 投资者需要在理财产品的到期日或开放赎回日进行赎回；
@@ -199,7 +194,7 @@ sidebar_label: Part 3 浏览、买卖产品
 
 积利金产品赎回流程图如下所示：
 
-![14](\img\product\practice\case-stydy-part3_images\14.png)
+![14](/static/img/product/practice/case-stydy-part3_images/14.png)
 <div class="text-center">
 *\*流程图省略了前向用户账户的登录、签约状态查询环节。*
 </div>
@@ -223,4 +218,4 @@ sidebar_label: Part 3 浏览、买卖产品
 
 点击`卖出`按钮后，产品会弹出提示弹窗，确认赎回积利金的克数和对应赎回金额。点击`确定`按钮后，通过接口查询用户账户信息，最终完成提现操作。
 
-![15](\img\product\practice\case-stydy-part3_images\15.png)
+![15](/static/img/product/practice/case-stydy-part3_images/15.png)

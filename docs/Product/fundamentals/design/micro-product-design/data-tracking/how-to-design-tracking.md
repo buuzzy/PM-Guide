@@ -1,8 +1,3 @@
----
-sidebar_position: 1
-sidebar_label: 如何做好埋点设计
----
-
 # 如何做好埋点设计 
 
 > *Salvation lies within.*
@@ -27,11 +22,11 @@ sidebar_label: 如何做好埋点设计
 
 这里我说的侦探并不是真的侦探，你可以理解为是掌握专业技能的职能人员，他们在平时的训练中被要求掌握洞察细节的能力，并在多次实践中逐渐形成一种异于常人的直觉：
 
-![01](/img/product/product/how-to-design-tracking_images/01.png)
+![01](/static/img/product/product/how-to-design-tracking_images/01.png)
 
 通过这个例子，我们大概了解了线索和分析的重要性。实际上，通过数据埋点进行设计和分析，这个过程也是类似的：发现线索，分析线索，解决问题。
 
-![02](/img/product/product/how-to-design-tracking_images/02.png)
+![02](/static/img/product/product/how-to-design-tracking_images/02.png)
 
 作为产品经理，我们要像侦探一样，拥有发现线索、分析线索的能力，最终才能发现真相。这意味着，我们不仅要有设计埋点的能力，还要知道如何进行数据分析。最后才能正确地评估问题，解决问题。
 
@@ -43,7 +38,7 @@ sidebar_label: 如何做好埋点设计
 
 数据埋点的工作原理是这样的：在游戏或者应用程序的某些地方，我们会放一些特殊的标记。当玩家到达这些地方或者完成某些动作时，这些标记就会记录下来，比如他们在某个关卡花了多长时间，或者他们最喜欢点击哪个按钮。
 
-![03](/img/product/product/how-to-design-tracking_images/03.png)
+![03](/static/img/product/product/how-to-design-tracking_images/03.png)
 
 :::tip 
 传统定义认为，数据埋点是一种在产品中嵌入追踪代码的技术，用于自动收集用户在应用程序中的操作行为数据，以便于分析和优化产品性能和用户体验。
@@ -67,7 +62,7 @@ sidebar_label: 如何做好埋点设计
 
 数据埋点是产品经理的利器。它反映出来的数据问题能够作为我们向开发提出产品优化的有力证据。比如某个功能的点击量过少，是不是埋点定位错啦？还是这个功能存在问题呢？等等。这样一来，既能明确问题所在，而且有理由去提出优化和改进方案。
 
-![04](/img/product/product/how-to-design-tracking_images/04.png)
+![04](/static/img/product/product/how-to-design-tracking_images/04.png)
 
 <br/>
 
@@ -206,7 +201,7 @@ sidebar_label: 如何做好埋点设计
 
 现在，大部分大厂已经具备了完善的数据埋点体系，通过版本迭代和定期维护也能逐步满足工作使用。还记得数据埋点的目的是什么吗？了解用户行为、发现产品问题、支持产品决策。目前大部分工具和方案已经能让我们更快地达成这三个目标。
 
-![05](/img/product/product/how-to-design-tracking_images/05.png)
+![05](/static/img/product/product/how-to-design-tracking_images/05.png)
 
 即便如此，目前的数据埋点体系仍未尽善尽美，还未形成统一的设计规范。日常会出现许多小问题：
 
@@ -224,11 +219,11 @@ Emm... 问题很多，但并非没有解决方案。那第一步应该怎么做�
 
 ## 如何思考埋点设计？
 
-思考埋点设计是一个从无到有的过程，但并不是说产品经理就只能凭空想象。在[ 数据分析体系的价值和原则 ](docs\Product\operations\data-analysis.md)中，我们探讨了数据分析体系的搭建和迭代方法，这套方法同样也适用于数据埋点体系的搭建。这要求我们需要按照产品和业务要求去设计数据埋点。在这之前，我们需要了解推进产品和业务发展需要哪些指标来衡量。
+思考埋点设计是一个从无到有的过程，但并不是说产品经理就只能凭空想象。在[ 数据分析体系的价值和原则 ](/docs/Product/operations/data-analysis.md)中，我们探讨了数据分析体系的搭建和迭代方法，这套方法同样也适用于数据埋点体系的搭建。这要求我们需要按照产品和业务要求去设计数据埋点。在这之前，我们需要了解推进产品和业务发展需要哪些指标来衡量。
 
-![06](/img/product/product/how-to-design-tracking_images/06.png)
+![06](/static/img/product/product/how-to-design-tracking_images/06.png)
 
-*Tips：如果你在读完本节后仍有疑问，请阅读：[事件–用户模型 ](docs\Product\fundamentals\design\micro-product-design\data-tracking\event-user-model.md)*
+*Tips：如果你在读完本节后仍有疑问，请阅读：[事件–用户模型 ](/docs/Product/fundamentals/design/micro-product-design/data-tracking/event-user-model.md)*
 
 ### 确定模块和产品特性
 
@@ -236,7 +231,7 @@ Emm... 问题很多，但并非没有解决方案。那第一步应该怎么做�
 
 确定模块和产品特性是一个定义问题。作为产品经理，我们必须需要知道所负责的产品或功能对应的关键指标是什么？市面上的大部分产品或功能基本能用以下几个模块进行划分，大家在使用时可通过这个模块进行相似归类。
 
-![07](/img/product/product/how-to-design-tracking_images/07.png)
+![07](/static/img/product/product/how-to-design-tracking_images/07.png)
 
 完成归类之后，我们可以通过产品或功能的属性，来确定我们的关注点是什么，进而推导出常用或者可能使用的数据指标。
 
@@ -286,7 +281,7 @@ Emm... 问题很多，但并非没有解决方案。那第一步应该怎么做�
 
 一个产品可能有多条业务线，这意味着一个产品并不是由单一的模块进行定义和划分。比如说抖音，它不仅是一个短视频内容产品，它还具备了社交、电商（交易）和短视频创作（工具）等功能，我们不能以单一的指标去衡量一个产品是否达标，是否优秀。
 
-![08](/img/product/product/how-to-design-tracking_images/08.png)
+![08](/static/img/product/product/how-to-design-tracking_images/08.png)
 
 ### 确认产品业务和场景
 
@@ -318,12 +313,12 @@ Emm... 问题很多，但并非没有解决方案。那第一步应该怎么做�
 
 
 
-关于如何找到指标关联场景，[ 产品设计必备的五张图 ](docs\Product\fundamentals\design\micro-product-design\five-essential-diagrams.md)中有详细的说明。这里简单描述一下：
+关于如何找到指标关联场景，[ 产品设计必备的五张图 ](/docs/Product/fundamentals/design/micro-product-design/five-essential-diagrams.md)中有详细的说明。这里简单描述一下：
     * 广告：用户从进入 App，到发现、点击广告，在广告中成单或下载。
     * 电商：用户从浏览、购买、下单商品，最终确认收货，完成商品交易。
     * 会员：用户自发或通过营销广告购买，或在会员功能界面进行会员付费。
 
-![09](/img/product/product/how-to-design-tracking_images/09.png)
+![09](/static/img/product/product/how-to-design-tracking_images/09.png)
 
 ### 确定埋点方式
 
@@ -343,11 +338,11 @@ Emm... 问题很多，但并非没有解决方案。那第一步应该怎么做�
 
 举个例子，用户在半年前浏览了小红书一篇带货帖子，半年后他通过小红书下单了同一款产品。那么能认为用户本次的购物行为和半年前浏览的带货帖子相关吗？显然不能。所以在设计漏斗的时候也需要注重时间因素。同理，用户进入到商品下单页或支付页的时候，也需要考虑不计入的时间区间，因为可能存在用户误触下单的情况。
 
-![10](/img/product/product/how-to-design-tracking_images/10.png)
+![10](/static/img/product/product/how-to-design-tracking_images/10.png)
 
 一般，漏斗分析大体包括三个维度的数据，如下图所示。中间是根据业务流程梳理出来的页面。左边是根据事件进行埋点得到的数据，右边为去重后的用户数据。
 
-![11](/img/product/product/how-to-design-tracking_images/11.png)
+![11](/static/img/product/product/how-to-design-tracking_images/11.png)
 
 这张图包含了许多信息。如果我们基于用户视角进行分析，那么我们可以得到单个用户的转化和流失情况：
 
@@ -373,13 +368,13 @@ Emm... 问题很多，但并非没有解决方案。那第一步应该怎么做�
 
 **2、以功能模块拆解进行埋点**
 
-关于产品功能模块更详细的内容可以参见[ 什么是产品思维？](docs\Product\fundamentals\career\product-thinking.md)以及[ 产品设计必备的五张图](docs\Product\fundamentals\design\micro-product-design\five-essential-diagrams.md)。以功能模块进行拆解，也就是我们不走产品业务流程的路子，直接通过业务指标来设计埋点，这种埋点方式可以体现功能模块的健康程度。
+关于产品功能模块更详细的内容可以参见[ 什么是产品思维？](/docs/Product/fundamentals/career/product-thinking.md)以及[ 产品设计必备的五张图](/docs/Product/fundamentals/design/micro-product-design/five-essential-diagrams.md)。以功能模块进行拆解，也就是我们不走产品业务流程的路子，直接通过业务指标来设计埋点，这种埋点方式可以体现功能模块的健康程度。
 
-![12](/img/product/product/how-to-design-tracking_images/12.png)
+![12](/static/img/product/product/how-to-design-tracking_images/12.png)
 
 以社交产品为例更为直观一些：
 
-![13](/img/product/product/how-to-design-tracking_images/13.png)
+![13](/static/img/product/product/how-to-design-tracking_images/13.png)
 
 同样，在收集数据的时候也要注意时间这一要素，某些产品具有明显的周期性特征。比如说券商和银行软件，一般周末交易所休市，使用券商 App 的用户相对较少；周末（单日）银行营业部不营业，这也导致了用户使用银行软件的次数会明显下降。在对比数据的时候，还可以选择以周、月的维度，以及同比或环比的比较方式，以使用场景来确定使用方式。
 
@@ -397,16 +392,16 @@ Emm... 问题很多，但并非没有解决方案。那第一步应该怎么做�
 
 一般来说，使用我们产品的用户都是我们的客户（**券商产品大部分功能都需要登录所属券商的交易账户**），产品业务，也即盈利来源，来自用户交易过程中产生的手续费和佣金等费用，可以简单理解为**用户产生交易，产品就能产生收入**。因此，券商产品最核心的指标就是交易规模、交易转化率，关联场景就是行情浏览、自选添加、下单交易（买卖撤）、出入金功能。
 
-![14](/img/product/product/how-to-design-tracking_images/14.png)
+![14](/static/img/product/product/how-to-design-tracking_images/14.png)
 **3、确定埋点方式**
 
 最后一步是确定采取的埋点方式，是以业务流程还是以功能模块进行设计。如果是以业务流程，那么我们可以继续采用漏斗分析的方式：
 
-![15](/img/product/product/how-to-design-tracking_images/15.png)
+![15](/static/img/product/product/how-to-design-tracking_images/15.png)
 
 如果是以功能模块进行设计，通过业务指标的拆解，我们也能够知道需要埋哪些数据：
 
-![16](/img/product/product/how-to-design-tracking_images/16.png)
+![16](/static/img/product/product/how-to-design-tracking_images/16.png)
 
 
 ## 了解更多

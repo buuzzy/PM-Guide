@@ -1,8 +1,3 @@
----
-sidebar_position: 1
-sidebar_label: OKR入门指南
----
-
 # OKR入门指南
 
 ## 对于人生的困惑
@@ -20,7 +15,7 @@ sidebar_label: OKR入门指南
 
 ## 十字路口
 
-![01](/img/product/general-skills/okr-guide_images/01.png)
+![01](/static/img/product/general-skills/okr-guide_images/01.png)
 
 ## From now on
 
@@ -147,7 +142,7 @@ OKR 即目标 & 关键结果（Objective & Key Results）。“O” 解决的问
 
 在设立 OKR 之前，我们已经进行了一轮回顾和反思，但这还不足以去真正确立我们想要的目标。在这里需要引入一个激励管理工具——生命之轮。
 
-![02](/img/product/general-skills/okr-guide_images/02.png)
+![02](/static/img/product/general-skills/okr-guide_images/02.png)
 <div class="text-center">*图源：陈庆泓*</div>
 <br/>
 
@@ -175,7 +170,7 @@ OKR 即目标 & 关键结果（Objective & Key Results）。“O” 解决的问
 
 可能在许多人看来，“使命” 和 “愿景” 这两个词太大了，自己做的事情远远够不到这个层级，而且还稍带一点 “自我” 的成分。但如果不明确自己的使命和愿景，在目标实践的过程中便永远都无法解答 “我为什么这样做” 的问题。
 
-![03](/img/product/general-skills/okr-guide_images/03.png)
+![03](/static/img/product/general-skills/okr-guide_images/03.png)
 
 #### 2、制定关键结果
 
@@ -302,7 +297,7 @@ OKR 即目标 & 关键结果（Objective & Key Results）。“O” 解决的问
 
 衡量 “瘦下来” 的关键在于体重，即便每天跑步 3 公里，但倘若每次回家都会习惯点个夜宵，那这个目标可能永远完成不了。同样的，衡量 “作息健康” 的关键在于规律作息和睡眠时长，“饮食健康” 则在于减少油脂糖盐的摄入。
 
-![04](/img/product/general-skills/okr-guide_images/04.png)
+![04](/static/img/product/general-skills/okr-guide_images/04.png)
 
 区分好什么是 “关键结果” 和 “执行”，稍微改进一下，一份优秀的减肥 OKR 2.0 就出来啦🫠！
 
@@ -332,7 +327,7 @@ OKR 即目标 & 关键结果（Objective & Key Results）。“O” 解决的问
 
 对 OKR 的跟踪和复盘除了以 “月” 作为时间节点，在我个人的实践中建议增加 “周” 的维度。在进行月度复盘时就不必再回溯每一天的工作，而是通过周总结直接获得明确的结果。
 
-![05](/img/product/general-skills/okr-guide_images/05.png)
+![05](/static/img/product/general-skills/okr-guide_images/05.png)
 
 周回顾也有助于我们快速迭代 KR，将先前设立的目标调整到合适的范围当中。
 
@@ -370,7 +365,7 @@ OKR 即目标 & 关键结果（Objective & Key Results）。“O” 解决的问
 
 作为曾经的 “文字工作者”，我日常的工作就三样：搜集信息、整合信息、输出信息。无论是以前写文章还是现在做产品都逃离不了信息三板斧的 “魔咒”。为了优化这个流程，我的目标便在于如何更好地搜集信息、整合信息以及输出信息。
 
-![06](/img/product/general-skills/okr-guide_images/06.png)
+![06](/static/img/product/general-skills/okr-guide_images/06.png)
 
 因为我个人的实践比较特殊，搜集信息和输出信息的途径关乎产品而非内容，所以在这里我引用下一位大佬的实践，这套方法在内容搜集、整合和输出上的普适性会更好一些。
 
@@ -378,19 +373,19 @@ OKR 即目标 & 关键结果（Objective & Key Results）。“O” 解决的问
 
 **Cubox：内容收集器和阅读器** [了解一下](http://reederapp.com)、[使用方法](https://help.cubox.pro/)
 
-![07](/img/product/general-skills/okr-guide_images/07.png)
+![07](/static/img/product/general-skills/okr-guide_images/07.png)
 
 **flomo：碎片想法灵感库** [了解一下](https://flomoapp.com/)、[使用方法](https://help.flomoapp.com/)
 
-![08](/img/product/general-skills/okr-guide_images/08.png)
+![08](/static/img/product/general-skills/okr-guide_images/08.png)
 
 **Notion：搭建了人生管理系统** [了解一下 ](https://www.notion.so/)、[视频教程](https://b23.tv/iPLl8sF)
 
-![09](/img/product/general-skills/okr-guide_images/09.png)
+![09](/static/img/product/general-skills/okr-guide_images/09.png)
 
 **飞书文档：写作输出分享** [了解一下](https://ieg5q4exyq.feishu.cn/drive/home/)
 
-![10](/img/product/general-skills/okr-guide_images/10.png)
+![10](/static/img/product/general-skills/okr-guide_images/10.png)
 
 ## 碎碎念
 

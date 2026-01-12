@@ -1,8 +1,3 @@
----
-sidebar_position: 1
-sidebar_label: 搜索功能设计
----
-
 # 搜索功能设计
 
 ## 前言
@@ -17,7 +12,7 @@ sidebar_label: 搜索功能设计
 
 在如今的互联网产品中，搜索已经成为了非常重要的一个功能模块。一个搜索框加上一个确定按钮，用户就能直达这个产品最偏远的角落，也正因如此，搜索成为了产品重要的流量入口之一。
 
-![01](/img/product/practice/search-design_images/01.PNG)
+![01](/static/img/product/practice/search-design_images/01.PNG)
 
 搜索功能的体验反映出产品是否具有用户意识，好的产品通过搜索能够帮助用户快速找到结果，节约时间成本。在内容算法的加持下，搜索还能成为一个可观的流量入口。如同小红书改变了很多人（包括我）搜索的习惯，我现在更倾向于去小红书搜索而不是百度。另一方面，搜索也是用户数据的重要来源。在设计好数据埋点的前提下能够为后续的更新迭代提供更多的行为数据。
 
@@ -29,7 +24,7 @@ sidebar_label: 搜索功能设计
 
 对于架构比较简单的产品来说，通过列表、图标、文字等示符就能找到目标。当应用界面的内容过多，过多的示符成为了干扰项，使用户很难仅通过视觉找到目标。
 
-![02](/img/product/practice/search-design_images/02.PNG)
+![02](/static/img/product/practice/search-design_images/02.PNG)
 <div class="text-center">*过于复杂的主页*</div>
 <br/>
 
@@ -43,7 +38,7 @@ sidebar_label: 搜索功能设计
 
 搜索的优势在于它能直达目标。在当下的产品设计中，搜索叠加筛选已经成为了常规的做法，这使得搜索的整体优势和流量在不断地放大。对于有明确需求的用户，搜索的效率已经远比产品中的导航栏和栏目高，匹配结果的精准度也更高。
 
-![03](/img/product/practice/search-design_images/03.png)
+![03](/static/img/product/practice/search-design_images/03.png)
 
 站在用户视角，我会在什么时候使用搜索？以下总结了几个日常场景：
     * 在一家咖啡厅想给女朋友拍照，于是打开小红书搜索关键词 “咖啡厅拍照技巧”
@@ -64,7 +59,7 @@ sidebar_label: 搜索功能设计
 
 搜索入口是我们直接与搜索功能发生交互的位置。许多 App 对于搜索的设计很简单，搜索框加上搜索按钮就构成了前端展示要素。但产品设计会根据不同的使用场景、功能权重去判断搜索入口的位置应该放在哪里，样式应该如何设计。搜索入口的设计主要分为 4 种形式，强度从左到右依次减弱：
 
-![04](/img/product/practice/search-design_images/04.PNG)
+![04](/static/img/product/practice/search-design_images/04.PNG)
 
 ### 底部 Tab 栏
 
@@ -85,7 +80,7 @@ sidebar_label: 搜索功能设计
 
 顶部搜索栏的设计是 4 种搜索形式中最复杂的，它的构成包括了搜索栏、占位符、图标等元素。
 
-![05](/img/product/practice/search-design_images/05.png)
+![05](/static/img/product/practice/search-design_images/05.png)
 
 * **图标**
 
@@ -95,7 +90,7 @@ sidebar_label: 搜索功能设计
 
 同理，网易云音乐的搜索图标方便用户对当下听到的歌曲进行识别，高德地图的语音图标方便驾驶中的司机更方便地描述指令。同花顺的图片（识别）图标支持用户从其他券商软件中导入股票，方便迁移。
 
-![06](/img/product/practice/search-design_images/06.png)
+![06](/static/img/product/practice/search-design_images/06.png)
 
 * **占位符**
 
@@ -105,7 +100,7 @@ sidebar_label: 搜索功能设计
 
 用户通过占位符中的文字广告进行搜索越高频，那么占位符的商业价值就越高。**占位符和推荐算法的的结合不仅能够让搜索框更加个性化，同时能够提升搜索转化率。**
 
-![07](/img/product/practice/search-design_images/07.png)
+![07](/static/img/product/practice/search-design_images/07.png)
 
 * **按钮**
 
@@ -115,13 +110,13 @@ sidebar_label: 搜索功能设计
 
 对于搜索类型和属性较多的产品，产品的搜索还会增加前置条件让用户在设定完成之后进行搜索。比如美团搜索的地区选择，携程搜索酒店时的地址选择等等，可以理解为是筛选和搜索功能的叠加，这样得出的结果更加精准，有利于提高用户的满意度。
 
-![08](/img/product/practice/search-design_images/08.png)
+![08](/static/img/product/practice/search-design_images/08.png)
 
 ### 放大镜搜索图标
 
 在产品顶部以 “放大镜” 样式的 icon 展示搜索功能，通常意味着当前产品或者当前页面的搜索行为并非特别频繁。需要用到搜索功能都是刚需，用户的操作成本几乎可以忽略不计。搜索功能相对弱化的同时，导航栏的空间也得以保留，此时搜索功能应让位给其他更重要的功能导航栏或者功能 icon。
 
-![09](/img/product/practice/search-design_images/09.png)
+![09](/static/img/product/practice/search-design_images/09.png)
 
 以上图左侧的证券应用涨乐财富通为例：在行情功能页面，搜索功能的优先级次于功能导航栏。搜索功能以图标的形式展示，导航栏功能是行情功能页面的二级菜单。
 
@@ -154,5 +149,5 @@ sidebar_label: 搜索功能设计
 
 拍照和扫描功能可拓展的场景更为丰富。在电商产品中可以识别商品同款，扫描商品条形码以快速找到对应商品。在识别领域，比如微信的扫一扫可以扫描出当前摄像头内的花草植物和动物。通过 OCR 识别拍摄的图片也能够更快地找出图片中的文字及其他关键信息。
 
-![10](/img/product/practice/search-design_images/10.png)
+![10](/static/img/product/practice/search-design_images/10.png)
 

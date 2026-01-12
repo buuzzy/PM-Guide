@@ -1,8 +1,3 @@
----
-sidebar_position: 3
-sidebar_label: 搜索精细化设计
----
-
 # 搜索精细化设计
 
 :::tip
@@ -21,11 +16,11 @@ sidebar_label: 搜索精细化设计
 
 这些问题的答案都指向了一个结论：**精细化设计，提升用户体验。**
 
-![01](/img/product/practice/search-detail_images/01.png)
+![01](/static/img/product/practice/search-detail_images/01.png)
 
 ### 精细化设计方法优势
 
-结合[ 什么是产品思维？](docs\Product\fundamentals\career\product-thinking.md)提到的方法，可以尝试对 “用户使用搜索功能” 这个过程进行解构、抽象和重组，大体可以拆分出用户类型、使用场景、使用时段三个方面。这可以作为简易版的分析框架，下文会围绕这三个方面进行说明。
+结合[ 什么是产品思维？](/docs/Product/fundamentals/career/product-thinking.md)提到的方法，可以尝试对 “用户使用搜索功能” 这个过程进行解构、抽象和重组，大体可以拆分出用户类型、使用场景、使用时段三个方面。这可以作为简易版的分析框架，下文会围绕这三个方面进行说明。
 
 ## 精细化需求分析
 
@@ -56,7 +51,7 @@ sidebar_label: 搜索精细化设计
 
 雪球的用户画像就做得很好，产品内的社区和内容运营主要围绕 “新手小白” 这类用户群体进行转化工作。对于一般散户或者专业用户来说，他们更把雪球看作是一个金融投资社区讨论的场所，而不是用来进行投资。
 
-![02](/img/product/practice/search-detail_images/02.png)
+![02](/static/img/product/practice/search-detail_images/02.png)
 <div class="text-center">
 *通过在微信小程序添加官方企业微信，发放福利的同时也触达了用户*
 </div>
@@ -78,13 +73,13 @@ sidebar_label: 搜索精细化设计
 
 回到金融产品的搜索场景，在上述提及的这些品类当中，股票是最常见且搜索量最大的证券。实际进行搜索功能优化的时候，我会着重关注如何优化股票的搜索和挖掘。在这一品类中，用户主要有这三种需求，分别是**搜索、询问和服务查找**。
 
-![03](/img/product/practice/search-detail_images/03.png)
+![03](/static/img/product/practice/search-detail_images/03.png)
 
 ### 使用时段分析
 
 股票交易有固定的时段。包括盘前、盘中、盘后三个时段，在中午会进行午休，在下午 3 点收盘。用户在不同的时段内，需求都不同。比如在开盘交易前想看到市场的走势预测，在盘中会想要看到更专业的行情信息，在开盘结束后想看到市场的复盘总结。除了固定周期的用户需求，突发性的新闻资讯类内容也会对用户的决策产生影响。在考虑设计搜索主页的时候，需要结合用户的使用时段进行设计。
 
-![04](/img/product/practice/search-detail_images/04.png)
+![04](/static/img/product/practice/search-detail_images/04.png)
 
 但如果我们观察股票软件中搜索功能的设计，其实很少针对用户的使用时段进行优化。一方面是许多产品的搜索还未成为流量入口，结合用户使用时段进行设计是非常困难的。另一方面，使用时段的功能设计更对聚焦在 “行情” 功能中。
 
@@ -100,7 +95,7 @@ sidebar_label: 搜索精细化设计
 
 综合考虑用户分类规模、产品品类规模、发展目标以及体验收益等因素来明确优化的优先级，可以得出以下结论：**在股票交易场景中，用户规模较大，而且有很多新手用户**。此优化重点放在股票交易场景下，特别是针对新手用户的高优先级设计优化。
 
-![05](/img/product/practice/search-detail_images/05.png)
+![05](/static/img/product/practice/search-detail_images/05.png)
 
 ### 判断创新点设计
 
@@ -120,7 +115,7 @@ sidebar_label: 搜索精细化设计
 
 根据以上示例提及的内容，可以对搜索功能的创新点进行总结：
 
-![06](/img/product/practice/search-detail_images/06.png)
+![06](/static/img/product/practice/search-detail_images/06.png)
 
 ## 设计优化策略
 

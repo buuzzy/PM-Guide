@@ -1,13 +1,8 @@
----
-sidebar_position: 2
-sidebar_label: 搜索流程解析
----
-
 # 搜索流程解析
 
 搜索的进行主要分为 3 个阶段，分别为搜索前、搜索中、搜索后。这 3 个阶段分别对应搜索功能的静止状态、点击触发状态、确认搜索状态。对功能状态再进行细化，可以得到一个框架清晰的搜索流程。如下图所示，展示了一个完整的搜索流程。
 
-![01](/img/product/practice/search-process_images/01.png)
+![01](/static/img/product/practice/search-process_images/01.png)
 
 ## 激活搜索
 
@@ -19,7 +14,7 @@ sidebar_label: 搜索流程解析
 
 基于搜索这一需求，搜索功能衍生出了搜索记录、搜索发现和搜索榜单的能力。从产品视角上看，我们需要提供更多的途径和选择让用户快速触达目标。
 
-![02](/img/product/practice/search-process_images/02.png)
+![02](/static/img/product/practice/search-process_images/02.png)
 
 <div class="text-center">
 *大部分互联网产品的搜索均由这三个栏目构成。产品如果没有算法能力支撑，则推荐系统通过逻辑（如曝光率、点击率）来展示。*
@@ -38,7 +33,7 @@ sidebar_label: 搜索流程解析
 
 第一种方式是实时匹配输入结果，这种方式对搜索的精确度较高，同时也考验着产品的响应速度。第二种方式是关键词联想，对精确度要求较低，讲求一个模糊，搜索大致相近的内容。
 
-![03](/img/product/practice/search-process_images/03.png)
+![03](/static/img/product/practice/search-process_images/03.png)
 
 为什么会出现两种反馈方式的差异？**我认为原因更多地可能与业务场景有关。**
 
@@ -66,14 +61,14 @@ sidebar_label: 搜索流程解析
 
 结合上面的例子和定义，总结一下用户的搜索场景。
 
-![04](/img/product/practice/search-process_images/04.png)
+![04](/static/img/product/practice/search-process_images/04.png)
 ### 联想模式
 
 **1、提供关联结果**
 
 用户输入关键词的时候会触发展示关联结果，这种做法在内容平台被广泛使用，比如下图在小红书搜索 citywalk 出现的关联内容。
 
-![05](/img/product/practice/search-process_images/05.png)
+![05](/static/img/product/practice/search-process_images/05.png)
 
 这种关联结果展示能够有效地降低用户输入成本，提升搜索效率。从用户获取网络资讯和热点的流程上看，大部分用户对于寻求问题答案的途径都大致相似，比如某天在豆瓣发现了一个大瓜，会上微博或小红书搜索。从发现内容到搜索内容，这就是一种用户路径。
 
@@ -81,7 +76,7 @@ sidebar_label: 搜索流程解析
 
 除了应用内搜索，部分应用还会针对关键词进行显示设计。比如在谷歌中搜索 “今日天气” 会直接展示天气数据，甚至搜索一些特定关键词还会触发彩蛋。感兴趣的可以搜一搜这篇文章：***谷歌，互联网界的 “彩蛋狂魔***
 
-![06](/img/product/practice/search-process_images/06.png)
+![06](/static/img/product/practice/search-process_images/06.png)
 <div class="text-center">*搜索“Super Mario Bros”（超级玛丽兄弟），搜索页面右侧就会出现超级玛丽的宝箱*</div>
 <br/>
 
@@ -89,7 +84,7 @@ sidebar_label: 搜索流程解析
 
 联想模式在商业化的运用也十分常见。在外卖软件搜索 “咖啡”，除了展示商品，产品运营还会在其中穿插营销内容和推荐产品，满足有营销诉求的商家。
 
-![07](/img/product/practice/search-process_images/07.png)
+![07](/static/img/product/practice/search-process_images/07.png)
 
 总的来说，关键词联想主要用在两个地方：
 
@@ -115,7 +110,7 @@ sidebar_label: 搜索流程解析
 
 为了更准确的理解用户想要搜什么，搜索系统通常会添加多种解析规则来增加系统对于用户输入内容的理解。比如预处理、分词、改写等方式。对关键词的解析越精确，搜索功能更能为用户带来价值和满足。
 
-![08](/img/product/practice/search-process_images/08.png)
+![08](/static/img/product/practice/search-process_images/08.png)
 
 ### 预处理
 
@@ -125,7 +120,7 @@ sidebar_label: 搜索流程解析
 
 这个定义一听有些复杂，不妨将预处理这个流程放在日常生活中去理解。什么叫做预处理？预处理可以理解为把从市场买回来的菜洗净、分类处理，等待下锅前的这一过程。
 
-![09](/img/product/practice/search-process_images/09.png)
+![09](/static/img/product/practice/search-process_images/09.png)
 
 预处理的通常有 5 种方式，分别为：拼音转文字、大小写切换、繁简体转换、无意义字符移除、长度截断。
 
@@ -168,7 +163,7 @@ sidebar_label: 搜索流程解析
 
 总体来看，“拼音转汉字”、“大小写转换”、“繁简体转换” 这三种方式是通过提高系统判断规则的复杂程度，来减小用户输入的复杂程度，降低用户的输入难度和成本。“无意义字符去除” 和 “长度限制” 则是合理筛选关键词，简化表达，以提高搜索结果的准确性。
 
-![10](/img/product/practice/search-process_images/10.png)
+![10](/static/img/product/practice/search-process_images/10.png)
 
 ### 分词
 
@@ -178,7 +173,7 @@ sidebar_label: 搜索流程解析
 
 一般出现无法完全匹配的情况时会采用分词的形式，将一个句子或一个词组拆分为多个 Term。Term 可以是单字或词组，**Term 的作用在于它能和数据库形成匹配**。
 
-![11](/img/product/practice/search-process_images/11.png)
+![11](/static/img/product/practice/search-process_images/11.png)
 
 既然采取了分词的形式，就接下来就需要考虑如何进行分词。
 
@@ -186,7 +181,7 @@ sidebar_label: 搜索流程解析
 
 在英文语句中，分词是一件很 “自然” 的事情，组成句子的单词具有固定的结构，书写句子也习惯通过空格隔开。但中文的表达通常不会用空格，且无论采用哪种分词方式都会形成不同的表达。
 
-![12](/img/product/practice/search-process_images/12.png)
+![12](/static/img/product/practice/search-process_images/12.png)
 
 目前，大多数字产品采用的是基于词典的分词方式，即维护一个分词词库。如果输入的关键词能在词库中找到对应词组，则可以召回该词组相关的内容。但是基于词库分词存在一定维护成本，例如出现新词时需要手动添加等。
 
@@ -194,7 +189,7 @@ sidebar_label: 搜索流程解析
 
 以飞书搜索作为例子。在飞书文档中搜索 “数据库”，会出现包含 “数据库” 关键词的文档。但在飞书文档中搜索 “据库”，则无结果。“据库”作为一个词组既没有命中分词数据库，也没有文档匹配内容。但如果将词组隔开，我们还是能搜索到对应结果。
 
-![13](/img/product/practice/search-process_images/13.png)
+![13](/static/img/product/practice/search-process_images/13.png)
 
 分词技术广泛应用于探索式搜索的产品场景中，通过对关键词进行合理的拆分和重组，可以召回更多相关内容，强调的是召回率。在内容资讯类产品中，通常会应用分词技术召回大量内容，以满足用户的查询需求。
 
@@ -215,7 +210,7 @@ sidebar_label: 搜索流程解析
 
 在百度输入 “appla” 系统会纠正为 “apple”，并以纠正词进行搜索。这是纠错在搜索中的运用。
 
-![14](/img/product/practice/search-process_images/14.png)
+![14](/static/img/product/practice/search-process_images/14.png)
 
 相较于英文纠错，中文关键词的纠错**更为复杂**。比如通过拼音输入时存在模糊音、同音字的错误，通过五笔键入则会出现形近字错误等情况。
 
@@ -253,7 +248,7 @@ sidebar_label: 搜索流程解析
 
 同样，还是以百度搜索作为示例：
 
-![15](/img/product/practice/search-process_images/15.png)
+![15](/static/img/product/practice/search-process_images/15.png)
 
 **3、扩展**
 
@@ -277,11 +272,11 @@ sidebar_label: 搜索流程解析
 
 一般来说搜索有两种排序思路。一种是根据匹配程度和参数进行排序。比方说在饿了么搜索我历史购买奶茶的记录，那么首先匹配的是关键词 “茶”，其次会按照时间倒序（参数）进行排序。
 
-![16](/img/product/practice/search-process_images/16.png)
+![16](/static/img/product/practice/search-process_images/16.png)
 
 第二种方式是算法打分排序，展示更受欢迎的内容。比如说微信的“搜一搜”、今日头条、知乎等内容产品，会根据阅读量、互动量、点击率等多项指标来设计权重，并给每一篇文章进行打分，权重高者优先展示。
 
-![17](/img/product/practice/search-process_images/17.png)
+![17](/static/img/product/practice/search-process_images/17.png)
 
 ## 展示结果
 
@@ -297,7 +292,7 @@ sidebar_label: 搜索流程解析
 
 如同上文中，搜索 “华为 mate60 售价” 会展示华为商城的跳转链接一样。搜索商品、人物、风景、概念都会出现不一样的搜索结果。
 
-![18](/img/product/practice/search-process_images/18.png)
+![18](/static/img/product/practice/search-process_images/18.png)
 
 <div class="text-center">*PS：百度搜索真的好多广告，只能用 Google 作为搜索示例了 = =、*</div>
 <br/>
@@ -312,7 +307,7 @@ sidebar_label: 搜索流程解析
 
 在游戏资讯类产品来说，展示结果相当重要。比如 TapTap 和网易大神。根据用户搜索的关键词不同，结果的呈现也各具特色。
 
-![19](/img/product/practice/search-process_images/19.png)
+![19](/static/img/product/practice/search-process_images/19.png)
 <div class="text-center">*快速定位指定内容，对搜索结果进行可视化优化*</div>
 
 ### 搜索失败

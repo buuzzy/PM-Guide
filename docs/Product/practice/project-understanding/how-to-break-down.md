@@ -1,12 +1,7 @@
----
-sidebar_position: 3
-sidebar_label: 如何将项目拆解为需求
----
-
 # 如何将项目拆解为需求
 
 :::tip
- 在[ 产品设计必备的五张图](docs\Product\fundamentals\design\micro-product-design\five-essential-diagrams.md)中，文章讨论过关于产品设计的思路，从用户体验路径开始，由浅入深地递进到产品交互的环节。同样，这种方式也可以应用到项目中，让产品经理更好地理解项目，将项目转化为可落地的需求。
+ 在[ 产品设计必备的五张图](/docs/Product/fundamentals/design/micro-product-design/five-essential-diagrams.md)中，文章讨论过关于产品设计的思路，从用户体验路径开始，由浅入深地递进到产品交互的环节。同样，这种方式也可以应用到项目中，让产品经理更好地理解项目，将项目转化为可落地的需求。
 :::
 
 
@@ -15,7 +10,7 @@ sidebar_label: 如何将项目拆解为需求
 
 在积利金项目文档中，甲方给过一个产品用户体验路径图，用户使用、购买积利金产品主要分为 8 个环节，如下图所示：
 
-![01](/img/product/practice/how-to-break-down_images/01.PNG)
+![01](/static/img/product/practice/how-to-break-down_images/01.PNG)
 
 <div class="text-center">
 *如果你还未读过这篇文档，👉[ 如何阅读项目文档？](docs\Product\practice\project-understanding\how-to-read-docs.md)*
@@ -27,7 +22,7 @@ sidebar_label: 如何将项目拆解为需求
 
 虽然看起来很完整，但这个路径图却不够细致。每个流程都有各自的**子流程**，需要再次进行细分。
 
-![02](/img/product/practice/how-to-break-down_images/02.png)
+![02](/static/img/product/practice/how-to-break-down_images/02.png)
 <div class="text-center">
 *在流程图中，可以使用椭圆形强调流程的起始关系。*
 </div>
@@ -42,7 +37,7 @@ sidebar_label: 如何将项目拆解为需求
 
 按照常理，产品经理只要在页面上展示这些字段就够了，但用户真正关心什么，项目说明书不会给你说明，这是产品经理这个角色需要去深入挖掘的地方。产品经理需要把自己带入用户，去考虑用户会关注什么。
 
-![03](/img/product/practice/how-to-break-down_images/03.png)
+![03](/static/img/product/practice/how-to-break-down_images/03.png)
 
 ### 开户绑定
 
@@ -56,11 +51,11 @@ sidebar_label: 如何将项目拆解为需求
 
 在这一环节，产品需要判断用户是否登录，如果登录了，需要查询用户是否绑定了银行卡。如果绑定了，需要查询用户的开户状态、签约状态、风险测评状态... 同时，用户未登录、未绑定的情况也需要思考如何处理。
 
-![04](/img/product/practice/how-to-break-down_images/04.png)
+![04](/static/img/product/practice/how-to-break-down_images/04.png)
 
 如上图所示，这只是用户进入开户流程之前的操作，后续还有很长的一段开户流程。对于用户来说，可能仅仅是点击了 “开户” 这个按钮，但背后的逻辑相当复杂。
 
-*开户绑定的坑很多，我们在[ 金融项目的完整复盘 ](docs\Product\practice\project-understanding\case-study\part1.md)接着聊。*
+*开户绑定的坑很多，我们在[ 金融项目的完整复盘 ](/docs/Product/practice/project-understanding/case-study/part1.md)接着聊。*
 
 <br/>
 
@@ -72,13 +67,13 @@ sidebar_label: 如何将项目拆解为需求
 
 根据甲方的项目说明书，积利金签约有 12 种签约状态（惊人！），接口会返回其中一种。这意味着产品经理需要定义这 12 种状态的触发条件、跳转页面以及相应的提示文案，用户根据产品提示进行后续操作。
 
-![05](/img/product/practice/how-to-break-down_images/05.png)
+![05](/static/img/product/practice/how-to-break-down_images/05.png)
 
 ### 资金入账
 
 第四个环节是`资金入账`。用户需要将资金充值进积利金账户才可以购买定期产品，这是`购买产品`和`账户出金`的前置环节。在这一环节，产品不需要设计转账流程，转账流程一般由银行实现。转账过程中出现的失败原因可以让甲方提供。
 
-![06](/img/product/practice/how-to-break-down_images/06.png)
+![06](/static/img/product/practice/how-to-break-down_images/06.png)
 
 大部分互联网产品的资金划转功能使用的都是银行的支付清算系统。之所以采用银行的系统，除了合规和安全原因，很大一部分在于银行的技术相当成熟。
 
@@ -88,7 +83,7 @@ sidebar_label: 如何将项目拆解为需求
 
 第五个环节是`购买产品`，即用户使用银行卡余额进行购买活期和定投产品。在用户购买之前，需要判断用户账户绑定状态，判断当下是否是可交易的时段。最后还需要调用接口，判断用户购买的数量和余额是否符合购买条件。如果用户均满足上述条件，就能成功买入积利金产品。
 
-![07](/img/product/practice/how-to-break-down_images/07.png)
+![07](/static/img/product/practice/how-to-break-down_images/07.png)
 <div class="text-center">
 *Tips：对于复杂流程，我还是建议写备注。万一需要对接或者自己忘记了，能够帮助更好理解。*
 </div>
@@ -102,7 +97,7 @@ sidebar_label: 如何将项目拆解为需求
 
 第六个环节是`产品赎回`，规则和`购买产品`类似，也需要判断用户状态和交易时段。
 
-![08](/img/product/practice/how-to-break-down_images/08.png)
+![08](/static/img/product/practice/how-to-break-down_images/08.png)
 
 用户想要进行赎回，一般是在持仓列表中找到对应产品进行操作。如上图所示，用户进行赎回的操作入口就是查看自己的持仓数据。在涉及交易相关功能的时，买入和卖出的操作和显示位置一般相互伴随。用户既可以在持仓列表中买入，也可以卖出。
 
@@ -121,7 +116,7 @@ sidebar_label: 如何将项目拆解为需求
     * **事件**：转入/转出的金额、购买/赎回的产品名称
     * **状态**：成功 or 失败
 
-![09](/img/product/practice/how-to-break-down_images/09.png)
+![09](/static/img/product/practice/how-to-break-down_images/09.png)
 
 在绘制用户体验路径图时，流程图能够很好地帮助产品经理捋清楚用户会去哪里。产品经理需要考虑哪些流程是可以优化的，哪些是必须保留的。逐步深挖，把整个流程优化到极致。
 
@@ -140,7 +135,7 @@ sidebar_label: 如何将项目拆解为需求
 
 积利金的功能模块可以分为十个零散的模块，除去一期决定不做的功能，模块分别为：
 
-![10](/img/product/practice/how-to-break-down_images/10.png)
+![10](/static/img/product/practice/how-to-break-down_images/10.png)
 
 从产品设计的角度看，这样的划分方式过于零散，产品经理需要对零散的模块进行组合。
 
@@ -156,11 +151,11 @@ sidebar_label: 如何将项目拆解为需求
 
 总结以上，能够得到一张新的模块图：
 
-![11](/img/product/practice/how-to-break-down_images/11.png)
+![11](/static/img/product/practice/how-to-break-down_images/11.png)
 
 产品模块的划分可以很简单，基于甲方的项目文档或者零散划分就能得到一个模块。但工作中远有比积利金更复杂的项目，图快省事只会导致产品结构混乱，最终 Crash 掉。产品经理需要利用好产品思维进行统筹，补全思考。
 
-👉[ 什么是产品思维？](docs\Product\fundamentals\career\product-thinking.md)
+👉[ 什么是产品思维？](/docs/Product/fundamentals/career/product-thinking.md)
 
 ## 产品功能树
 
@@ -170,11 +165,11 @@ sidebar_label: 如何将项目拆解为需求
 
 以`开户`作为例子进行说明。积利金的`开户`功能仅支持二类户开户，根据项目说明书，银行卡的开户流程大体分为阅读协议、填写信息、验证信息、返回结果四个方面，进行拆解后，可以得到下面这张图：
 
-![12](/img/product/practice/how-to-break-down_images/12.png)
+![12](/static/img/product/practice/how-to-break-down_images/12.png)
 
 看到这有没有一种豁然开朗的感觉呢？随着对产品功能进行逐步拆解，产品经理对于项目的认识也会更加深入和清晰。再以`产品列表`举一个例子，假如产品现在需要增加一些展示信息来提高产品下单率，那么`产品功能树`就会变成：
 
-![13](/img/product/practice/how-to-break-down_images/13.png)
+![13](/static/img/product/practice/how-to-break-down_images/13.png)
 
 这些延伸出来的分支就是我们要做的功能，新增的功能会被归入某一模块中，逐级包含却不相互冲突，最终形成产品的整体框架。
 
@@ -182,7 +177,7 @@ sidebar_label: 如何将项目拆解为需求
 
 `页面关系图`是进行原型设计之前的最后一个步骤。结合`用户体验路径图`和`产品功能树`，大致可以得到完整的产品页面结构，如下图所示：
 
-![14](/img/product/practice/how-to-break-down_images/14.png)
+![14](/static/img/product/practice/how-to-break-down_images/14.png)
 
 <div class="text-center">*如果有遗漏或者要新增页面，进行补全就可以了，不要求一开始就绘制得很完美。*</div>
 <br/>
@@ -199,7 +194,7 @@ sidebar_label: 如何将项目拆解为需求
 
 ## 交互设计图
 
-这一小节就不展开了，更多详情请复习[ 产品设计必备的五张图](docs\Product\fundamentals\design\micro-product-design\five-essential-diagrams.md)。
+这一小节就不展开了，更多详情请复习[ 产品设计必备的五张图](/docs/Product/fundamentals/design/micro-product-design/five-essential-diagrams.md)。
 
 
 

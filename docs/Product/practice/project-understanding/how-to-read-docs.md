@@ -1,8 +1,3 @@
----
-sidebar_position: 2
-sidebar_label: 如何阅读项目文档
----
-
 # 如何阅读项目文档
 
 :::tip
@@ -18,9 +13,9 @@ sidebar_label: 如何阅读项目文档
 
 
 在开始下述文档的阅读时，你需要提前了解：
-    1. [ Scrum，最常见的互联网产品研发流程](docs\Product\fundamentals\design\scrum-development.md)
-    2. [ 产品设计必备的五张图](docs\Product\fundamentals\design\micro-product-design\five-essential-diagrams.md)
-    3. [ 如何理解、掌握项目？](docs\Product\practice\project-understanding\how-to-understand.md)
+    1. [ Scrum，最常见的互联网产品研发流程](/docs/Product/fundamentals/design/scrum-development.md)
+    2. [ 产品设计必备的五张图](/docs/Product/fundamentals/design/micro-product-design/five-essential-diagrams.md)
+    3. [ 如何理解、掌握项目？](/docs/Product/practice/project-understanding/how-to-understand.md)
 
 <br/>
 
@@ -107,7 +102,7 @@ Q4：积利金的风险来源
 正式开始阅读文档时，需要记录文档中所有你不懂的关键词。比如什么叫做API、H5，开户、签约、交易的定义是什么，为什么需要这一系列步骤。
 ​
 
-在[如何理解、掌握项目？](docs\Product\practice\project-understanding\how-to-understand.md)中提到过，产品经理通常需要一张概念定义表来记录所有不理解的内容。
+在[如何理解、掌握项目？](/docs/Product/practice/project-understanding/how-to-understand.md)中提到过，产品经理通常需要一张概念定义表来记录所有不理解的内容。
 :::
 
 ### Ⅱ 类户开户
@@ -125,7 +120,7 @@ Q4：积利金的风险来源
 通常，产品都会有自己的设计标准和组件库，在UI上需要保留产品风格。
 :::
 
-![01](/img/product/practice/how-to-read-docs_images/01.png)
+![01](/static/img/product/practice/how-to-read-docs_images/01.png)
 
 开户流程共分为三步：
     1. 选择银行卡（由合作伙伴完成，上送信息至中行）
@@ -221,7 +216,7 @@ Q4：积利金的风险来源
 
 中行为合作伙伴提供了中行 II 类户资金转出至 I 类户的 H5 页面，以满足出金需求。UI 图仅供参考，可客户化，以对接时实际交付物为准。
 
-![02](/img/product/practice/how-to-read-docs_images/02.png)
+![02](/static/img/product/practice/how-to-read-docs_images/02.png)
 
 
 
@@ -233,7 +228,7 @@ Q4：积利金的风险来源
 
 客户需要完成风险测评才能交易积利金，对无风险测评服务的合作伙伴，中行提供风险测评 H5 页面，合作伙伴可选择在用户完成中行 I/II 类卡绑定或用户完成签约之后跳转到中行页面。UI 图仅供参考，可客户化，以对接时实际交付物为准。
 
-![03](/img/product/practice/how-to-read-docs_images/03.png)
+![03](/static/img/product/practice/how-to-read-docs_images/03.png)
 
 :::note
 积利金属于贵金属产品，和证券、期货开户一样，需要测评用户的风险容忍程度，来确定用户是否适合购买投资产品（参与股票市场）。
@@ -245,7 +240,7 @@ Q4：积利金的风险来源
 
 积利金业务主要分为产品浏览、开户绑定、积利金签约、账户入金、产品购买、产品赎回、账户出金、交易查询等 8 个较为独立的流程，同时，支持积利金的买卖、活转定、积利金定投、实物金提取指引、份额查询（含盈亏）、交易记录查询。具体流程如下图所示。
 
-![04](/img/product/practice/how-to-read-docs_images/04.png)
+![04](/static/img/product/practice/how-to-read-docs_images/04.png)
 
 :::note
 从这一部分开始，项目的需求就开始变得更为具体。产品经理需要对8个流程进行拆分，搞清楚每个流程之间的子流程。
@@ -254,7 +249,7 @@ Q4：积利金的风险来源
 其次，具体的子流程需要调用哪些接口和字段也需要详细说明。
 ​
 
-我们可以沿用[《产品设计必备的五张图》](docs\Product\fundamentals\design\micro-product-design\five-essential-diagrams.md)的思路进行推导，在开始工作时，思路也会比较清晰。
+我们可以沿用[《产品设计必备的五张图》](/docs/Product/fundamentals/design/micro-product-design/five-essential-diagrams.md)的思路进行推导，在开始工作时，思路也会比较清晰。
 :::
 
 ### 产品查询

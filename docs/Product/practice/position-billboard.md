@@ -1,8 +1,3 @@
----
-sidebar_position: 1
-sidebar_label: 持仓龙虎榜
----
-
 # 持仓龙虎榜
 
 ## 持仓功能是什么
@@ -13,7 +8,7 @@ sidebar_label: 持仓龙虎榜
 
 期货领域也有龙虎榜，上榜规则要比证券简单一些，是以持仓量和交易量进行排序的，交易所会展示排名前 20 名的的期货公司持仓和交易量数据。
 
-![01](\img\product\practice\position-billboard_images\01.PNG)
+![01](/static/img/product/practice/position-billboard_images/01.PNG)
 
 <div class="text-center">
 *上海期货交易所铜期货合约持仓数据  2024.09.10*
@@ -26,7 +21,7 @@ sidebar_label: 持仓龙虎榜
 
 在许多期货 App 中，大多都集成了基础的持仓功能，也即将国内期货交易所公布的数据进行可视化处理，以列表的形式展示，同时支持用户手动筛选。大概就是下图这种展示形式。
 
-![02](\img\product\practice\position-billboard_images\02.png)
+![02](/static/img/product/practice/position-billboard_images/02.png)
 
 如果只是单纯看持仓数据，对复杂的数据做清洗和可视化能够满足多数用户的需求，但是并非所有的交易者能理解或者会使用龙虎榜。产品经理需要进一步挖掘持仓数据的价值。
 
@@ -34,7 +29,7 @@ sidebar_label: 持仓龙虎榜
 
 无论是在证券还是期货领域，持仓数据都是反映量价关系的核心一环。原因在于，持仓数据能够反映期货市场上主力的对于期货未来走势的态度。而这正是交易者所关注的。
 
-![03](\img\product\practice\position-billboard_images\03.png)
+![03](/static/img/product/practice/position-billboard_images/03.png)
 
 持仓数据对于交易者具有一定参考作用，这些作用在于：
 
@@ -50,7 +45,7 @@ sidebar_label: 持仓龙虎榜
 
 同理，如果持仓量下降但价格上涨，这暗示当前上涨趋势的动力不足或短期内可能会面临回调风险。多头对后市涨幅持谨慎态度，选择获利了结。或空头由于亏损压力而被迫回补仓位（平仓），推动价格进一步上涨。而持仓量下降但价格下跌的情况，则意味着市场看空情绪增强，价格下跌有可能持续，且反弹的可能性较小。
 
-![04](\img\product\practice\position-billboard_images\04.png)
+![04](/static/img/product/practice/position-billboard_images/04.png)
 
 <div class="text-center">
 *推论比较复杂，看图说话👆*
@@ -70,7 +65,7 @@ sidebar_label: 持仓龙虎榜
 
 趋势判断较为常用的形态在于价格和持仓量增减发生背离的情况，持仓量的变化能够让交易者发现市场的隐藏细节。
 
-![05](\img\product\practice\position-billboard_images\05.png)
+![05](/static/img/product/practice/position-billboard_images/05.png)
 
 
 **3、资金流向判断**
@@ -119,7 +114,7 @@ sidebar_label: 持仓龙虎榜
 
 ### 主力追踪
 
-![06](\img\product\practice\position-billboard_images\06.png)
+![06](/static/img/product/practice/position-billboard_images/06.png)
 
 <div class="text-center">
 *同花顺期货通 - 持仓分析 - 主力追踪  2024.09.11  V3.82.01*
@@ -143,7 +138,7 @@ sidebar_label: 持仓龙虎榜
 
 在变盘预警栏目中，展示了净多头或净空头增仓手数、期货价格和涨跌幅以及变盘风险值。净持仓（流多或者流空）等数据可以通过计算或者接口直接返回，但是不同的产品会存在一些特色的计算方法，如变盘风险值。
 
-![07](\img\product\practice\position-billboard_images\07.png)
+![07](/static/img/product/practice/position-billboard_images/07.png)
 
 同花顺期货通并未给出具体的计算公式，仅提到是依据市场主力持仓规模、市场波动变化等因子构建而来的。我们可以尝试通过几组关联的数据进行相关性分析，从而得出相近的变盘风险值公式。相关性越强，关联程度越高。
 
@@ -151,7 +146,7 @@ sidebar_label: 持仓龙虎榜
 
 那么如何进行相关性分析呢？对于产品经理而言并不需要掌握太多分析方法和工具，只需要整理一定量级的数据输出给 Agent，并通过多轮对话优化公式，我们就能得到变盘风险值的计算公式。
 
-![08](\img\product\practice\position-billboard_images\08.png)
+![08](/static/img/product/practice/position-billboard_images/08.png)
 
 至于其他的字段，比方说近一周胜率、近一年盈利。我们并不知道具体的计算规则，这个时候可以在详情页查看具体的计算公式，或者以用户角色和产品客服进行交流 “套” 出具体规则。这是较为省事的方式，不过在多数情况下，我们只能通过相关性分析得出结论。
 
@@ -161,7 +156,7 @@ sidebar_label: 持仓龙虎榜
 
 在主力追踪详情页，页面展示了标的、累计盈亏和净持仓的对比数据，比较直观地展示了当前期货公司在某一标的下的盈利情况。
 
-![09](\img\product\practice\position-billboard_images\09.png)
+![09](/static/img/product/practice/position-billboard_images/09.png)
 
 <div class="text-center">   
 *主力追踪详情页*
@@ -181,7 +176,7 @@ sidebar_label: 持仓龙虎榜
 
 ### 持仓排名
 
-![10](\img\product\practice\position-billboard_images\10.png)
+![10](/static/img/product/practice/position-billboard_images/10.png)
 
 在持仓排名功能页中，用户首先可以选择对应的期货品种，功能页会以图表形式汇总多空持仓数据，同时以多单持仓、空单持仓、净持仓、成交量四个维度进行筛选。
 
@@ -199,7 +194,7 @@ sidebar_label: 持仓龙虎榜
 
 ### 建仓过程
 
-![11](\img\product\practice\position-billboard_images\11.png)
+![11](/static/img/product/practice/position-billboard_images/11.png)
 
 记录交易所每天公布的期货公司在不同品种下的持仓数据，将数据以日为维度进行展示，我们就能得到期货公司在某个期货合约下的持仓变化，即建仓过程。
 
@@ -211,7 +206,7 @@ sidebar_label: 持仓龙虎榜
 
 但建仓过程仍有局限，因为交易所公布的持仓数据并没有剔除套保、套利、产业、跨境等类型的持仓，盲目跟随操作很可能导致亏损。总而言之，建仓过程能够让用户看到主力的操作过程，但没有办法解释操作原因。
 
-![12](\img\product\practice\position-billboard_images\12.png)
+![12](/static/img/product/practice/position-billboard_images/12.png)
 
 建仓过程中，还有一个子功能值得关注，就是上图中的净持仓菜单页面。净持仓能够反映当前期货公司的持仓倾向，理论认为净持仓通常与期货合约的价格（收盘价）相关，如图 1 所示，宏观趋势的相似性很高。
 
@@ -234,7 +229,7 @@ sidebar_label: 持仓龙虎榜
 
 持仓品种展示了不同期货公司在不同日期下的持仓情况，在这个页面可以看到期货公司目前持仓的所有期货合约以及占比，能够让交易者大概了解期货公司主要做什么合约，结合胜率和盈利情况可以了解期货公司擅长什么，不擅长什么。
 
-![13](\img\product\practice\position-billboard_images\13.png)
+![13](/static/img/product/practice/position-billboard_images/13.png)
 
 在持仓品种中有一个细节，如上图 1 所示。东方财富期货的玻璃多单持仓是 26691 手，但是把这家期货公司的持仓合约加总却是 25747 手，相差 944 手。
 

@@ -1,8 +1,3 @@
----
-sidebar_position: 3
-sidebar_label: 宏观产品设计
----
-
 # 宏观产品设计
 
 ## 什么是产品的宏观设计
@@ -17,7 +12,7 @@ sidebar_label: 宏观产品设计
 
 在宏观层面设计一个产品，就不仅仅是设计一个产品需要的功能了，而是设计一个真正具有用户价值和可持续商业模式的产品，更像是写 PRD（产品需求文档，Product Requirements Document）与写 BP（商业计划，Business Plan）的区别。宏观层面，任何一个成熟的产品至少需要经过五个显著的阶段：
 
-![01](/img/product/product/macro-product-design_images/01.png)
+![01](/static/img/product/product/macro-product-design_images/01.png)
 
 每个阶段的使命不同，但环环相扣。每一步都是基于前一步的成果递进，虽然过程中会经常出现根据实际情况的调整，但是主干路线的稳定性将大大提升探索的速度。
 
@@ -26,13 +21,13 @@ sidebar_label: 宏观产品设计
 打开 Airbnb 和 Booking 的主页，能够感受到截然不同的风格定位。前者更加年轻、活泼，突出社区感，后者更加严谨，突出功能和促转化，这便是 2 家公司的定位差异所致。 Airbnb 更加注重旅行中的融入感 （[Airbnb's mission is to create a world where anyone can belong anywhere](https://news.airbnb.com/airbnb-2019-business-update/)）；Booking 的使命是：[make it easier for everyone to experience the world](https://www.booking.com/content/about.en-gb.html?label=gen173bo-1FCBQoggJCBWFib3V0SCtYA2hiiAEBmAEruAEHyAEN2AEB6AEB-AEFiAIBogIKYm9va2luZy5jbqgCA7gC75bokwbAAgHSAiQ4ZDQ2Y2RmMC1kMGYyLTQ4MDMtOTlkYi01OWQ4MGQ2OGUwNjHYAgXgAgE\&sid=31436bcb42579843fbae458a6001f7f1\&tmpl=docs/about\&lang=en-gb\&soz=1\&lang_click=other;cdl=zh-cn;lang_changed=1)。（中国区的使命介绍：[游世界，更简单](https://www.booking.cn/content/about.zh-cn.html?sid=a16146651476283498af479a26ee06c3)。）更加突出了简单。
 
 
-![02](/img/product/product/macro-product-design_images/02.PNG) 
+![02](/static/img/product/product/macro-product-design_images/02.PNG) 
 
 <div className="text-center">
 *当你需要和家人、朋友一起去全世界走动游玩，花更多时间探寻当地文化时，会选择 Airbnb。*
 </div>
 
-![03](/img/product/product/macro-product-design_images/03.png)
+![03](/static/img/product/product/macro-product-design_images/03.png)
 
 <div className="text-center">
 *当你希望有一场确定性很强、不让自己分心的商务之旅时，你会选择 Booking（or 携程）*
@@ -50,7 +45,7 @@ sidebar_label: 宏观产品设计
 
 我们往往会因为遇到某个现实生活的不爽而迸发出一个新的产品念头，这是动机，而动机并不能帮助我们最终实现产品。因此你需要资源、方法论等来将念头实现，而 “定位” 凌驾于这些过程之上。
 
-![04](/img/product/product/macro-product-design_images/04.png)  
+![04](/static/img/product/product/macro-product-design_images/04.png)  
     * 只有在第一象限的产品才能够创造巨大而高效的价值增量，但显然难度也较大；
     * 第二象限的产品，虽然可以创造价值，但市场上已经有众多类似的产品，供大于求，必然会陷入同质化的竞争、价格战，并不是宏观上的最优解。投资人在第二象限前仆后继的资本投入，便是为了尽快获得更大的用户规模，在用户规模上形成一种后天塑造的与众不同。
     * 第三象限，既没有价值，又没有差异，背后的原因往往是团队对行业和用户需求的分析都不够充分，纯靠想象，经不起推敲。
@@ -62,14 +57,14 @@ sidebar_label: 宏观产品设计
 
 除了有价值的独特性，“潜在客户” 也十分关键。你的独特是面向全球，还是面向中国，还是面向上海在校大学生。面向全球的独特性打造要远远难于面向某一类人群的独特性。但也正因如此，无论某个行业有多厉害的巨头垄断，人们总能找到某一个细分人群提供更好的产品。定义潜在人群便是定义产品一段时期的规模期望。
 
-![05](/img/product/product/macro-product-design_images/05.png)
+![05](/static/img/product/product/macro-product-design_images/05.png)
 例如，拼多多便是通过与淘宝、京东的差异化人群定位获得了第一阶段增长，有了一定规模后再逐步扩圈增长。
 
-![06](/img/product/product/macro-product-design_images/06.png)
+![06](/static/img/product/product/macro-product-design_images/06.png)
 
 美团通过中小单体酒店的开拓在中国酒店出租间夜数上超过了携程。中高端连锁酒店以万计，中低端单体酒店以几十万计，这便帮助美团撕开了一条赛道。
 
-![07](/img/product/product/macro-product-design_images/07.png)
+![07](/static/img/product/product/macro-product-design_images/07.png)
 
 
 :::tip
@@ -101,7 +96,7 @@ sidebar_label: 宏观产品设计
 
 因此，明确**产品价值、独特性**和**潜在客户群体类型、规模**是一个制衡的过程。
 
-![08](/img/product/product/macro-product-design_images/08.png)
+![08](/static/img/product/product/macro-product-design_images/08.png)
 
 例如去年走红的[妙鸭相机](https://www.miaoya.cn/)，上线后被人称作 “颠覆性的 AI 应用”。它支持用户上传图片，系统生成不同类型的写真照片。但后来，整个社区变成 “伸手党” 的乐土，每个使用妙鸭相机的用户进来就是抄模板、生成图片，走人。
 
@@ -109,13 +104,13 @@ sidebar_label: 宏观产品设计
 
 AI 写真的概念具有独特价值，但是人群较小，社区运营难度大。如果想和美图秀秀、美颜相机竞争是很难的，其他家产品只需要出一个 AI 模板大概率就会让其逐渐式微。**所以一开始定位、选择好客户群体相当重要，而非直接通过新技术去实现产品。**
 
-![09](/img/product/product/macro-product-design_images/09.png)
+![09](/static/img/product/product/macro-product-design_images/09.png)
 
 ### 定位是会发生变化的
 
 谨记，定位是可以变化的，我们需要辩证的看待当初设计的定位。倘若经过科学试验后发现定位有误，应立即进行复盘和**重新定位**。切忌迷迷糊糊地在错误的定位指导下继续消耗资源。**选择大于努力**。错误的定位会让产品完全迷失，最终走向终结。偏离的定位有机会被补救，但需要消耗更多的资源（C + B - A）。
 
-![10](/img/product/product/macro-product-design_images/10.png)
+![10](/static/img/product/product/macro-product-design_images/10.png)
 
 ## 验证用户价值
 
@@ -123,11 +118,11 @@ AI 写真的概念具有独特价值，但是人群较小，社区运营难度�
 
 当团队达成一致的定位目标后便需要开始分解工作，以达成目标。在互联网领域，企业往往选择优先论证新产品对目标用户是否真的有价值（PMF），然后再去验证是否能获取商业回报，使之可持续。
 
-![11](/img/product/product/macro-product-design_images/11.png)
+![11](/static/img/product/product/macro-product-design_images/11.png)
 
-PMF 的概念源自 2007 年：[Product-Market Fit - PMF](docs\Product\reading\book-recommendations\tools-and-theories.md)。很多投资人会说需要找到产品和市场的契合点，Make it PMF。但它就是句非常完美的废话，如果做不到 PMF，产品就会死掉，PMF 是产品的核心要素。这里的 PMF 更像是一种思考指引，产品经理在实践中仍需要寻找客观的数字来帮助我们判断是否达到 PMF。还记得 AARRR 吗？
+PMF 的概念源自 2007 年：[Product-Market Fit - PMF](/docs/Product/reading/book-recommendations/tools-and-theories.md)。很多投资人会说需要找到产品和市场的契合点，Make it PMF。但它就是句非常完美的废话，如果做不到 PMF，产品就会死掉，PMF 是产品的核心要素。这里的 PMF 更像是一种思考指引，产品经理在实践中仍需要寻找客观的数字来帮助我们判断是否达到 PMF。还记得 AARRR 吗？
 
-![12](/img/product/product/macro-product-design_images/12.png)
+![12](/static/img/product/product/macro-product-design_images/12.png)
 <div class="text-center">*AARRR 模型可能是每个产品经理入门都会接触的模型，它和下文提到的《Hacking Growth》密切相关*</div>
 <br/>
 
@@ -137,9 +132,9 @@ PMF 的概念源自 2007 年：[Product-Market Fit - PMF](docs\Product\reading\b
 
 当有一定的用户规模后，团队通过观察精准用户使用产品后的留存情况、付费意愿情况（根据商业模式）等确定是否满足 PMF。同时，这个阶段我们并没有开始资金用于大规模获客，大量的获客手段无法执行，对 AA 的判断也不具备参考价值。因此，此刻我们的重心是通过 RRR 来验证产品是否具有用户价值：
 
-![13](/img/product/product/macro-product-design_images/13.png)
+![13](/static/img/product/product/macro-product-design_images/13.png)
 
-了解更多：[倒漏斗营销](docs\Product\reading\book-recommendations\tools-and-theories.md)
+了解更多：[倒漏斗营销](/docs/Product/reading/book-recommendations/tools-and-theories.md)
 
 ### Retention 留存
 
@@ -150,7 +145,7 @@ PMF 的概念源自 2007 年：[Product-Market Fit - PMF](docs\Product\reading\b
 留存率大家一定非常熟悉了，各类数据分析软件也提供了非常实用的留存率分析功能。重要的是你选择哪一种方式观察留存率的趋势和现状，是按周、还是按月，怎么横向对比、怎么纵向对比等。
 
 :::tip
-深入理解留存率：[为什么用户留存比增长更重要](docs\Product\operations\growth-matters.md)
+深入理解留存率：[为什么用户留存比增长更重要](/docs/Product/operations/growth-matters.md)
 :::
 
 这里重点要提一下留存质量，以往我们会首先通过留存率关注用户有没有留下，但是这里面存在非常大的盲区，容易产生误判。每月访问 1 次和每月访问 20 次的用户，从月留存率上看结果是一致的，但实际上这两类用户的价值有天壤之别，我们需要继续剖析。
@@ -163,7 +158,7 @@ PMF 的概念源自 2007 年：[Product-Market Fit - PMF](docs\Product\reading\b
 
 DAU 和 MAU 属于数据分析入门的经典指标，用于观察用户一个月内有几天会产生访问行为，如果是 100%，那绝对是一个操作系统级别的产品。例如：iOS、WeChat。一般社交、社区类（如小红书、B 站）、日常工具类（如：支付宝）产品这个比值都会比较高，常常超过 50%；电商类产品往往略低一些，可能在 20% 以内。这个指标可以粗略帮你评估产品的留存质量。但是它依然可能存在偏差，因为这是平均数统计，会掩盖掉离群值和离散度影响，在实际操作中还需要进一步想办法让数据说真话。
 
-*\*如果你有兴趣研究更加严谨的中心值度量方式，可以扩展阅读：[ 面向数学科学家的实用统计学](docs\Product\reading\book-recommendations\tools-and-theories.md)*
+*\*如果你有兴趣研究更加严谨的中心值度量方式，可以扩展阅读：[ 面向数学科学家的实用统计学](/docs/Product/reading/book-recommendations/tools-and-theories.md)*
 
 <br/>
 
@@ -228,15 +223,15 @@ PMF 的一个衡量标准是：至少 40% 的受访客户表示，如果他们�
 
 ## 验证商业价值
 
-![14](/img/product/product/macro-product-design_images/14.png)
+![14](/static/img/product/product/macro-product-design_images/14.png)
 
 当确定用户爱上了你的 MVP 产品后，便要开始验证这份喜爱是否可以养活这个产品，任何一家公司都得赚钱养活自己，不是吗？
 
 
 
-互联网公司常通过[规模效应](docs\Product\general-skills\what-is\scale-effect.md)（甚至[网络效应](docs\Product\general-skills\what-is\network-effect.md)）来想办法养活自己，不断降低自己的成本，提升壁垒、利润率最终达到 Breakeven，继而开始回收投资并盈利。正如我们在[规模效应](docs\Product\general-skills\what-is\scale-effect.md)章节中介绍的，首先要**关注可变成本与收入的关系**，而固定成本最终会被边际收益覆盖达到整体盈利。
+互联网公司常通过[规模效应](/docs/Product/general-skills/what-is/scale-effect.md)（甚至[网络效应](/docs/Product/general-skills/what-is/network-effect.md)）来想办法养活自己，不断降低自己的成本，提升壁垒、利润率最终达到 Breakeven，继而开始回收投资并盈利。正如我们在[规模效应](/docs/Product/general-skills/what-is/scale-effect.md)章节中介绍的，首先要**关注可变成本与收入的关系**，而固定成本最终会被边际收益覆盖达到整体盈利。
 
-![15](/img/product/product/macro-product-design_images/15.png)
+![15](/static/img/product/product/macro-product-design_images/15.png)
 
 大部分互联网产品的可变成本主要集中在获客成本，也就是 CAC（Customer Acquisition Cost）。如果能够赚回获取用户的成本，自然就产生了利润。 而用户的贡献常用 LTV 来代表，用户生命周期价值，Life-time Value。其中 Value 的定义根据公司的业务类型不同算法也会不同，例如电商的 Value 常见是： 用户实际支付金额 - 商品采购成本 - 商品履约成本。而 Life-time 也需要根据产品实际情况来定义，用户留存得越久，自然越有机会产生更多的 Value。
 
@@ -250,7 +245,7 @@ Payback Period，投资回收期。
 
 即使 LTV > CAC 了，也要小心，要自己评估 Payback Period 在行业 or 规划里的水平，如果需要很长时间回收成本，则未来会存在很大的不确定性，商业模式过于脆弱。若需要很大量的获客成本，则对企业经营会产生现金流压力。同样是回本，3 周回本和 3 个月回本完全是两回事。因此，需要重点关注 CAC 的高低以及回本的斜率（Line：LTV-CAC）。
 
-![16](/img/product/product/macro-product-design_images/16.png)
+![16](/static/img/product/product/macro-product-design_images/16.png)
 
 ## 价值最大化
 
@@ -260,9 +255,9 @@ Payback Period，投资回收期。
 
 ## 第二曲线
 
-第二曲线是指在当前设计的产品成功后寻找新发展的过程，也就是回到 “明确定位” 这个环节从头再来。不同的是，你已经积累的用户、资金、生态、能力等资源，成功概率比起第一次创业会高出很多。但不是所有的曲线都可以称为第二曲线，往往需要基于上一阶段产生的积累，形成[飞轮效应](docs\Product\general-skills\what-is\flywheel-effect.md)。
+第二曲线是指在当前设计的产品成功后寻找新发展的过程，也就是回到 “明确定位” 这个环节从头再来。不同的是，你已经积累的用户、资金、生态、能力等资源，成功概率比起第一次创业会高出很多。但不是所有的曲线都可以称为第二曲线，往往需要基于上一阶段产生的积累，形成[飞轮效应](/docs/Product/general-skills/what-is/flywheel-effect.md)。
 
-![17](/img/product/product/macro-product-design_images/17.png)
+![17](/static/img/product/product/macro-product-design_images/17.png)
 
 无法利用当前产品资源，一切从 0 开始的第二曲线是具有极大风险的，等同于从头再来，将再次面临 1% 不到的创业成功率。
     * 亚马逊开始 Kindle 之前，他已经积累了大量的实体图书消费者；
@@ -272,7 +267,7 @@ Payback Period，投资回收期。
 
 ## 最后
 
-![18](/img/product/product/macro-product-design_images/18.png)
+![18](/static/img/product/product/macro-product-design_images/18.png)
 完成了上述阶段的规划便是完成了产品的宏观设计，你可能会觉得这不就是在设计一家初创企业吗？
 
 谁说不是呢？！

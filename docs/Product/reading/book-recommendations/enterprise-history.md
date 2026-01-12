@@ -1,8 +1,3 @@
----
-sidebar_position: 1
-sidebar_label: 企业历史类
----
-
 # 企业历史类
 
 | 公司 | 书名 | 链接 |

@@ -1,13 +1,8 @@
----
-sidebar_position: 2
-sidebar_label: 埋点设计流程
----
-
 # 埋点设计流程
 
-一篇完整的数据埋点文档通常包括三个模块，分别为**指标体系、标签场景和标签体系**。通过产品业务分析和指标定义，我们能够梳理出一套较为完善的指标体系；标签场景，也即通过事件设计总结出指标体系要适用于哪些场景，也即我们提到过的[ 事件–用户模型](docs\Product\fundamentals\design\micro-product-design\data-tracking\event-user-model.md)。最后是标签体系，通过属性设计完善整个标签系统，以便于后续的上线、维护与更新。
+一篇完整的数据埋点文档通常包括三个模块，分别为**指标体系、标签场景和标签体系**。通过产品业务分析和指标定义，我们能够梳理出一套较为完善的指标体系；标签场景，也即通过事件设计总结出指标体系要适用于哪些场景，也即我们提到过的[ 事件–用户模型](/docs/Product/fundamentals/design/micro-product-design/data-tracking/event-user-model.md)。最后是标签体系，通过属性设计完善整个标签系统，以便于后续的上线、维护与更新。
 
-![01](/img/product/product/tracking-process_images/01.png)
+![01](/static/img/product/product/tracking-process_images/01.png)
 
 结合上面这个图表，我们可以发现数据埋点文档并不是写完就结束了，相反，它是一个动态更新的文档。产品版本的更新迭代，其中包含了新增、下线、修改的流程，数据埋点也需要跟随版本进行相应调整。
 
@@ -27,7 +22,7 @@ sidebar_label: 埋点设计流程
 
 简单来说，一个产品功能好不好，一个产品盈利数据多不多，都可以通过指标体系进行衡量。以社交产品为例，我们可以得到一套简易的指标体系。
 
-![02](/img/product/product/tracking-process_images/02.png)
+![02](/static/img/product/product/tracking-process_images/02.png)
 
 那么，如何构建指标体系呢？一般来说，指标体系的构建由两个方面构成，分别是业务分析和指标定义。在业务分析的环节，产品经理主要的工作就是梳理业务流程，以及每个业务流程下的用户路径和细分场景。一般思路是根据用户在产品上具体的操作步骤，来定义用户行为路径。
 
@@ -35,7 +30,7 @@ sidebar_label: 埋点设计流程
 
 比如在电商产品交易的场景中，核心操作步骤是用户在商品信息流中点击进入商品详情页，再到确认订单页、支付页等页面。如下图所示：
 
-![03](/img/product/product/tracking-process_images/03.png)
+![03](/static/img/product/product/tracking-process_images/03.png)
 
 那么，我们就可以把业务拆解为`点击商品详情页`，`点击商品购买按钮`、`进入商品支付页`、`完成支付`四个环节。在`点击商品详情页`这个环节中，我们可以通过用户是从哪个模块、栏目，在信息流中的哪个位置进入的商品详情页，来分析用户对页面布局的敏感程度。这样就能够知道哪些位置对用户来说更具吸引力。
 
@@ -47,7 +42,7 @@ sidebar_label: 埋点设计流程
 
 完成业务分析之后，需要结合业务分析目标思考，每个细分的业务过程可以有哪些指标来分析。
 
-![04](/img/product/product/tracking-process_images/04.png)
+![04](/static/img/product/product/tracking-process_images/04.png)
 
 举几个例子：
 
@@ -77,11 +72,11 @@ sidebar_label: 埋点设计流程
 
 **1、电商产品事件（用户行为）：**
 
-![05](/img/product/product/tracking-process_images/05.png)
+![05](/static/img/product/product/tracking-process_images/05.png)
 
 **2、券商产品事件（用户行为）：**
 
-![06](/img/product/product/tracking-process_images/06.png)
+![06](/static/img/product/product/tracking-process_images/06.png)
 
 ### 单独事件设计
 
@@ -142,7 +137,7 @@ sidebar_label: 埋点设计流程
 
 当出现这种情况时，我们往往要回到业务去进行分析。如果在后续的数分中，业务需要区分信息流和 Banner 广告点击，或者需要单独将这两者合并统计。那么我们会采用 A 方案。但如果后续业务并不会看数据，那就选择 B 方案。在事件设计中，首先通过重要性判断需要单独设计的事件，其次以业务视角，选择合适的采集方案。
 
-![07](/img/product/product/tracking-process_images/07.png)
+![07](/static/img/product/product/tracking-process_images/07.png)
 
 ### 数据采集细节
 
@@ -156,7 +151,7 @@ sidebar_label: 埋点设计流程
 
 再比如 商品详情点击 的埋点事件，如果不明确采集时机，那么点击事件应该是一点击就采集上报，还是点击之后停留 2s 后才上报（排除误触情况），又或者是页面完成加载后再上报呢（排除页面加载失败情况）？
 
-![08](/img/product/product/tracking-process_images/08.png)
+![08](/static/img/product/product/tracking-process_images/08.png)
 
 除了明确采集时机之外，对于通过哪一端进行采集也同等重要，选择不同端的采集行为同样也会导致数据出现相当大的差异。在事件设计时需要描述清楚在什么样的情况下会触发事件数据的采集。
 
@@ -176,7 +171,7 @@ sidebar_label: 埋点设计流程
 
 以淘宝下单流程中的`购买成功`为例，详细介绍下单埋点事件的触发逻辑类型：
 
-![09](/img/product/product/tracking-process_images/09.png)
+![09](/static/img/product/product/tracking-process_images/09.png)
 
 **1、前端触发，上报**
 
@@ -251,5 +246,5 @@ sidebar_label: 埋点设计流程
 
 *PS：本篇文档内容仅以大家最熟知的电商和作者所从事的券商行业示例，关于更多行业和内容，可以参考神策数据的[行业解决方案](https://www.sensorsdata.cn/demo/demo.html)，里面提供了不同行业的埋点设计文档案例，希望对大家有所帮助\~*
 
-![10](/img/product/product/tracking-process_images/10.png)
+![10](/static/img/product/product/tracking-process_images/10.png)
 

@@ -1,8 +1,3 @@
----
-sidebar_position: 4
-sidebar_label: 运营如何与产品协作
----
-
 # 运营如何与产品协作
 
 虽然我在这本手册一直强调产品运营不分家，但这并不妨碍运营和产品岗位 “相爱相杀”，这是互联网企业的传统文化。作为产品经理，日常工作中经常听到运营的各种灵魂拷问：
@@ -49,7 +44,7 @@ Let‘s 学习 \~
 | **需求的目标/价值是？**      | 首先描述清楚需求的目标是什么？产品到需求模块的业务边界是什么？ 如何描述清楚对我们能产生什么价值，对用户能产生什么价值？         |
 | ...                 | ...                                                                  |
 
-还记得我们在[ 什么是产品思维](docs\Product\fundamentals\career\product-thinking.md)中提到的观点吗？产品需求并非越做多越好，在产品和开发资源有限的前提下，在需求层面就需要考虑好大部分细节。
+还记得我们在[ 什么是产品思维](/docs/Product/fundamentals/career/product-thinking.md)中提到的观点吗？产品需求并非越做多越好，在产品和开发资源有限的前提下，在需求层面就需要考虑好大部分细节。
 
 
 
@@ -90,7 +85,7 @@ Let‘s 学习 \~
 
 说明白这个环节之所以重要，原因在于运营的实现思路和研发的思路并不完全一致。运营的思路可能是 A to B，这件事就解决了。但在研发角度上看，A to B 中间还需要经历 toX、toY、toZ ... 才能真正到达 B。有些需求表面上看起来简单，但背地里复杂程度极高的比比皆是。
 
-![01](/img/product/operations/cooperation-with-pm_images/01.png)
+![01](/static/img/product/operations/cooperation-with-pm_images/01.png)
 
 这个时候，需要运营思考可能的流程会经历哪些环节，尽可能详细地描述，讲明白自己的思路。在 C 端，运营需要讲明白交互行为可能就满足基础要求了。
 
@@ -153,7 +148,7 @@ Let‘s 学习 \~
 
 
 
-具体的流程可以参考[ Scrum，最常见的互联网产品研发流程](docs\Product\fundamentals\design\scrum-development.md)，这里从运营的视角，去看看需求来到产研阶段的过程：
+具体的流程可以参考[ Scrum，最常见的互联网产品研发流程](/docs/Product/fundamentals/design/scrum-development.md)，这里从运营的视角，去看看需求来到产研阶段的过程：
 
 | 阶段          | 说明 |
 | :------------ | :-------------------------- |

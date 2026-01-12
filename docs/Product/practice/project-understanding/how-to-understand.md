@@ -1,8 +1,3 @@
----
-sidebar_position: 1
-sidebar_label: 如何理解、掌握项目
----
-
 # 如何理解、掌握项目
 
 随着产品经理的工作年限不断提高，接触到的工作也会发生变化。一开始，产品经理大概只能当 “画图狗”，做一个上行下效的角色。随着产品经理的产品设计能力、工作和沟通能力不断提升，且公司恰好有适合的业务时，新项目的 “雷” 就会劈到你的头上。
@@ -19,7 +14,7 @@ sidebar_label: 如何理解、掌握项目
 
 对于半路进组或者在结束期进入项目的产品经理就有点难熬了。在项目收尾阶段，产品经理通常只需要负责特定功能模块的设计、开发和验收工作，可以不用重新梳理项目，但很多内容会涉及项目的其他功能；如果是半路进组的情况，产品经理不仅要补位，还要在短时间内了解甲方项目的来龙去脉，这对信息的检索和理解能力提出了挑战。
 
-![01](/img/product/practice/how-to-understand_images/01.png)
+![01](/static/img/product/practice/how-to-understand_images/01.png)
 
 <div class="text-center">
 *随着项目不断深入，项目难度不断提升。对于参与者来说，难度水平则在不断下降*
@@ -35,17 +30,17 @@ sidebar_label: 如何理解、掌握项目
 
 除了请教他人，和甲方乙方会议沟通，更高效的方式或许是**读文档，读各种文档**。到项目产品说明书，需求说明书，小到每一次的会议纪要，各方记录。了解不同文档中的信息，能让产品经理对项目现状有所把握。明确项目的背景和目标，项目需要做什么？交付哪些东西？进而推导出项目开发的时间、成本、人员配置以及可能出现的风险和问题。
 
-![02](/img/product/practice/how-to-understand_images/02.png)
+![02](/static/img/product/practice/how-to-understand_images/02.png)
 
 ### 梳理文档
 
 拿到文档的第一步，先对文档进行梳理，梳理的目标在于将所有内容**文字化**。不用的类型信息都可以通过工具转换成文字内容。
 
-![03](/img/product/practice/how-to-understand_images/03.png)
+![03](/static/img/product/practice/how-to-understand_images/03.png)
 
 第二步，弄清楚信息的类别，根据附属关系进行排序，这一步需要将所有内容形成一个有完整目录的文档。然后，将这个庞大的 word 文档转换成 pdf 格式的文件。
 
-![04](/img/product/practice/how-to-understand_images/04.png)
+![04](/static/img/product/practice/how-to-understand_images/04.png)
 
 <div class="text-center">
 将文本转化成带目录的完整文档，按照重要性、附属关系或时间顺序进行排序
@@ -68,7 +63,7 @@ sidebar_label: 如何理解、掌握项目
 
 打开 Kimi，完成注册后，我们将文件拖进输入框，并在输入框中输入你想要了解的内容。等待几秒后，Kimi 就会返回本篇文档的主要内容：
 
-![05](/img/product/practice/how-to-understand_images/05.png)
+![05](/static/img/product/practice/how-to-understand_images/05.png)
 
 即便如此，这个回答还是太过宽泛，作为提问者你并不知道文档的细节，我们可以进行多轮提问以获取想要的答案。比方说：
     1. 请梳理本篇需求说明书的功能流程;
@@ -83,12 +78,12 @@ sidebar_label: 如何理解、掌握项目
 
 需要注意的是，大模型的回答有可能并不是准确的，需要结合真实的场景进行核实。举个例子，我在使用 Google 的大模型对话机器人 [Gemini](https://gemini.google.com/app) 时，我提问它关于中国银行积利金和支付宝黄金的区别时，他给出了错误的回答：
 
-![06](/img/product/practice/how-to-understand_images/06.png)
+![06](/static/img/product/practice/how-to-understand_images/06.png)
 
 :::tip
 产品经理需要有敏锐的直觉，而非将答案全盘交由大模型，下场弄清真相很重要。AI 工具并非神器，它对产品经理的辨识能力提出了新的挑战，稍有不慎很容易被带进沟里。
 
- [👉什么是产品思维？](docs\Product\fundamentals\career\product-thinking.md)
+ [👉什么是产品思维？](/docs/Product/fundamentals/career/product-thinking.md)
 :::
 
 ## 如何掌握文档？
@@ -104,7 +99,7 @@ sidebar_label: 如何理解、掌握项目
 
 根据 AI 工具的答案，产品经理可以通过飞书、Visio、墨刀等工具绘制流程图。即便没有 AI 工具，我们也能根据文档描述对整个流程进行梳理。
 
-![07](/img/product/practice/how-to-understand_images/07.png)
+![07](/static/img/product/practice/how-to-understand_images/07.png)
 
 针对复杂定义，则单独以表单的形式进行罗列，甚至可以附上例子进行说明，以便于更好地了解一些专有名词。如下表所示：
 
@@ -124,4 +119,4 @@ sidebar_label: 如何理解、掌握项目
 
 在沟通之前，确保自己阅读了项目说明书等一系列文档，准备好相关问题。开始答疑会议时，确保自己能够理解甲方的回答，并对更多细节进行追问。不要有任何犹豫和担心。最后，记录好沟通中的重要信息，可以使用飞书妙记或者其他能将会议语言转换成文字稿的软件，方便进行会后复盘。
 
-![08](/img/product/practice/how-to-understand_images/08.png)
+![08](/static/img/product/practice/how-to-understand_images/08.png)

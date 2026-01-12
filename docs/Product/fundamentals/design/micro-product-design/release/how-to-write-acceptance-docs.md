@@ -1,13 +1,8 @@
----
-sidebar_position: 2
-sidebar_label: 如何写好产品验收文档
----
-
 # 如何写好产品验收文档 
 
 产品经理进行上线前验收可以理解为以测试的视角去验证产品功能和需求的符合度。不同的公司对测试的要求各异，但一般来说，产品功能开发完成之后大致会经历产品测试、仿真测试、产品验收、上线前测试几个过程。产品经理在这其中，主要参与产品测试、仿真测试和验收三个环节。
 
-![01](/img/product/product/how-to-write-acceptance-docs_images/01.png)
+![01](/static/img/product/product/how-to-write-acceptance-docs_images/01.png)
 
 在产品开发完成且进行初步内测之后，测试部门介入，组织测试评审会议并开始进行测试，这个时候会根据测试阶段发布测试包或仿真包，即 Android 和 iOS 两个系统的 Apk 安装包，测试人员需要使用不同的手机系统分别进行测试，以验证产品更新后是否符合产品需求。
 

@@ -1,8 +1,3 @@
----
-sidebar_position: 3
-sidebar_label: 为什么用户留存比增长更重要
----
-
 # 为什么用户留存比增长更重要
 
 当我们在聊产品数据的时候，我们通常会聊增长，会聊获客，聊关于如何把盘子做大做强。但在当下的互联网环境再去做增长，似乎是在一个出水口不停地放水，用户来得快，去的也快。做好留存而非增长也在几年前逐渐成为了互联网共识，用户留存变得重要了。
@@ -23,19 +18,19 @@ sidebar_label: 为什么用户留存比增长更重要
 
 假设你正在做一个产品，产品每天会新增 100 个新用户，当你的用户留存率是 100% 的时候，随着日期不断往前走，你的累计新用户数会呈线性上涨的趋势。
 
-![01](/img/product/operations/growth-matters_images/01.png)
+![01](/static/img/product/operations/growth-matters_images/01.png)
 
 假设你的用户一个都没有留下来，留存率为 0%，那你每天只能有 100 个用户，因为你的用户只有每天获客新增的那 100 个人。
 
-![02](/img/product/operations/growth-matters_images/02.png)
+![02](/static/img/product/operations/growth-matters_images/02.png)
 
 假设你的留存率是 50%，留存率可能是一条斜率更低的直线。
 
-![03](/img/product/operations/growth-matters_images/03.png)
+![03](/static/img/product/operations/growth-matters_images/03.png)
 
 运营一个产品，我们希望它的活跃用户越来越多，把产品的体量规模做大。反映在图表中，我们会希望它整体的面积越大越好，面积越大，留存率越高。
 
-![04](/img/product/operations/growth-matters_images/04.png)
+![04](/static/img/product/operations/growth-matters_images/04.png)
 
 所以无论运营如何拼命往水池里放水，提高获客数量。产品留存率最终会改变你的累计用户的斜率。这也是为什么说增长的核心是留存，**没有留存，增长没有意义。**
 
@@ -47,17 +42,17 @@ sidebar_label: 为什么用户留存比增长更重要
 
 举个例子，假设 A 产品的留存率为 60%，B 产品为 20%，这两个产品每天会获取 100 个新用户。到了第五天，A 产品和 B 产品的比例为 217.6:124.8，**累计用户量相差了 42.6%**，距非常大。
 
-![05](/img/product/operations/growth-matters_images/05.png)
+![05](/static/img/product/operations/growth-matters_images/05.png)
 
 ## 产品收入与留存
 
 当我们提到产品收入的时候，我们会认为用户愿意留下来的同时为你的产品付费，用户喜欢你的产品。从一个用户的生命周期来看，一个新用户下载注册了你的产品，过了一阵，他可能体验了一些基础功能，对产品有了一定了解，之后他想要体验一些付费功能，这个时候用户产生支出，产品获得收入。这是一个大致过程。
 
-![06](/img/product/operations/growth-matters_images/06.png)
+![06](/static/img/product/operations/growth-matters_images/06.png)
 
 如果从电商产品来看，新用户首单能得到一张无门槛优惠券，后续 2\~5 单用户都是通过你发放的优惠券下单，此刻平台可能没赚到什么钱，甚至付出了相当的获客成本。当用户购买了许多次后，他发现平台的服务还不错，商品的质量也可以，他愿意在这个平台持续消费。于是，他就会愿意付出更多的金额去购买你毛利相对较高的商品。
 
-![07](/img/product/operations/growth-matters_images/07.png)
+![07](/static/img/product/operations/growth-matters_images/07.png)
 
 就电商平台来说，他们的策略可能大家都比较熟悉了。首单一般都是纸巾或者牛奶，平台会给你推送低毛利的东西。然后第 2\~5 单，平台往往会推荐用户购买一些有使用频次的东西，比方说柴米油盐等快消品、必需品。
 
@@ -65,7 +60,7 @@ sidebar_label: 为什么用户留存比增长更重要
 
 有些平台还会定期推一些充值类的服务，目的是为了培养消费习惯，达到一定的购买频次。在这之后，平台可能会给你推荐一些更贵的商品，比方说 3C 产品，平板电脑手机，或者保健品、酒水等高毛利的商品，这样平台才能慢慢赚钱。
 
-![08](/img/product/operations/growth-matters_images/08.png)
+![08](/static/img/product/operations/growth-matters_images/08.png)
 
 所以你会看到，平台的盈利完全是跟着用户生命周期走的。用户之所以能够从第一单消费到第六单，留存率起到了非常重要的作用。如果留存率很差，用户薅完首单羊毛就走了，或者只消费了两三单就流失。对于平台来说，前面花费的营销费用就全部打水漂了。所以说，**留存率是产品收入的基础保障。**
 
@@ -81,13 +76,13 @@ sidebar_label: 为什么用户留存比增长更重要
 
 活跃留存统计的对象包含了新客和老用户。比方说你上一周有 500 个老用户来交易的，有 100 个新用户来交易，最终你上周交易用户是 600 个，这就是活跃用户的目标群体。如果活跃留存率也为 50%，那在下一周你就会有 300 个活跃用户。
 
-![09](/img/product/operations/growth-matters_images/09.png)
+![09](/static/img/product/operations/growth-matters_images/09.png)
 
 ### Cohort
 
 理解了留存率的概念后，接下来的问题是应该如何去看留存率数据？常见的方法叫做 cohort，它主要用于分析相同的用户群体随着时间延续的发展变化情况，例如不同月份进入的用户群体在不同月份的**留存**、跃和流失情况。图表大致长下面这样：
 
-![10](/img/product/operations/growth-matters_images/10.PNG)
+![10](/static/img/product/operations/growth-matters_images/10.PNG)
 <div class="text-center">
 *\*https://www.projectbi.net/blog/cohort-analysis-resources*
 </div>
@@ -95,7 +90,7 @@ sidebar_label: 为什么用户留存比增长更重要
 
 比方说现在我们的产品已经跑了很多周的数据，第一周的活跃率是 100%，第二周是 50%，第三周是 40%... 以此类推，这就是在第一周产品获得的这批用户在接下去每一周的留存情况，呈现**递减效应**。往产品都会递减到一定的值，可能在第七周或者第八周开始稳定，这就是产品的**永续留存率。**
 
-![11](/img/product/operations/growth-matters_images/11.png)
+![11](/static/img/product/operations/growth-matters_images/11.png)
 
 你可以看看自己负责的产品当前的留存率是多少，是 10% 还是 20%，还是说没达到 5%？什么样的留存率可以认为是好的产品，你可以自行判断。
 
@@ -103,11 +98,11 @@ sidebar_label: 为什么用户留存比增长更重要
 
 同样地，产品在第二周也会有新用户出现，留存率视作 100%，它在接下去几周的留存率可能是 40%、30%、15%... 最终达到一个永续的水平。在第三周、第四周也会有新用户出现，以此类推。
 
-![12](/img/product/operations/growth-matters_images/12.png)
+![12](/img/ product/operations/growth-matters_images/12.png)
 
 但有时候留存率并不一直都是线性下降的。比方说现在正值双十一活动，电商产品的周留存很可能因为大促的刺激提升了留存率，甚至比之前还要高。或者当一些比较好的供给上线，如几个月前（2024.08）瑞幸联名黑神话悟空推出的新品。留存率出现波动是很正常的现象。
 
-![13](/img/product/operations/growth-matters_images/13.png)
+![13](/static/img/product/operations/growth-matters_images/13.png)
 
 所以通过这样一个 “阶梯式” 的图表，你可以看到留存率的变化趋势。但 Cohort 不像是折线图，并不能让我们一眼就看出留存率的变化趋势。那我们应该怎么去看呢？
 
@@ -115,19 +110,19 @@ sidebar_label: 为什么用户留存比增长更重要
 
 第一种方式是横向去看，你可以观察这一周的用户留存率是如何衰减的。第二种方式是竖向去看，你会看到每一周的用户在某一周的表现是不一样的，有些好有些差。如果你发现产品在某一周出现了普跌，那很可能不是你的产品或用户出现了问题，往往是运营动作上发生了较大的变化。
 
-![14](/img/product/operations/growth-matters_images/14.png)
+![14](/static/img/product/operations/growth-matters_images/14.png)
 
 又或者，假设产品在第六周数据很不错，但唯独有一个数据特别低，这个时候你去考虑，产品迭代和运营上都没有大动作，那很可能是获客出现了问题。总而言之，这里想要强调的是，**产品经理需要对数据极度敏感**，你要明确到底是什么问题导致了留存率的下降。
 
-![15](/img/product/operations/growth-matters_images/15.png)
+![15](/static/img/product/operations/growth-matters_images/15.png)
 
 Cohort 图还有最后一种解读的方法，就是斜着去看图表。比方说下图框出来的数据，就代表着每周获得的用户第一周留存率，也就是次周留存率。这个这根线上的数字都在不停地上涨，说明你对新用户的粘性在不断提升，这是一个好的现象。但如果这根线上的数字是下跌的（50%\~40%\~30%\~20%...），这意味着用户粘性越来越差，这是需要**警惕**的现象。
 
-![16](/img/product/operations/growth-matters_images/16.png)
+![16](/static/img/product/operations/growth-matters_images/16.png)
 
 如果我们把次周留存率拆分，拿到折线图上去看，就可以观察到每周用户的质量。如果折线图中的走势是持续上涨的，意味着短期内用户留存数据在变好。你也可以去看季度或是半年以上的留存，去观察长期留存率发生的变化。
 
-![17](/img/product/operations/growth-matters_images/17.png)
+![17](/static/img/product/operations/growth-matters_images/17.png)
 
 Cohort 图能够帮助你观察数据变动的细节，**看得精细**。而折线图可以帮你看到趋势，**看得更简单**。
 
@@ -139,15 +134,15 @@ Cohort 图能够帮助你观察数据变动的细节，**看得精细**。而折
 
 比方说 A 用户在本周出现了 1 次，B 用户出现了 3 次，C 用户出现了 5 次。同样是被激活的留存的用户，他们的产生的天数不同，他们带来的价值也会不同。
 
-![18](/img/product/operations/growth-matters_images/18.png)
+![18](/static/img/product/operations/growth-matters_images/18.png)
 
 那有同学会问了，不就是登录天数的差异吗，似乎这个数据好像没有特别重大的价值？假设用户登录产品是为了购物，我们把用户的每一天登录视作他下了一单，或许你对数据的看法会有所改观。很显然，虽然 A、B、C 三个用户都叫做留存用户，但他们的贡献率是不一样的。
 
-![19](/img/product/operations/growth-matters_images/19.png)
+![19](/static/img/product/operations/growth-matters_images/19.png)
 
 通常这个时候，我们会使用 RFM 去做精细化的运营。通过模型去拆分用户的消费频率、消费时间、贡献的金额，形成一个网格化的群像，然后去把网格里的用户做差异化的运营动作。所以除了留存率，大家还需要更加深入地去了解数据的细节。
 
-![20](/img/product/operations/growth-matters_images/20.png)
+![20](/static/img/product/operations/growth-matters_images/20.png)
 <div class="text-center">
 *图源：https://www.baogaoting.com/info/177998*
 </div>
@@ -161,7 +156,7 @@ Cohort 图能够帮助你观察数据变动的细节，**看得精细**。而折
 
 从公式可以看出，如果用户在一个月内只来了 1 次，那么用户粘性就是 1/30，粘性很低。如果用户在一个月内来了 30 次，那么用户粘性就是 1，意味着实现了完全的用户粘性。当然这种情况并不多见。在实际操作中，产品都希望用户粘性逐步稳定，慢慢爬升。
 
-![21](/img/product/operations/growth-matters_images/21.png)
+![21](/static/img/product/operations/growth-matters_images/21.png)
 
 ## 如何提升留存率
 
@@ -171,11 +166,11 @@ Cohort 图能够帮助你观察数据变动的细节，**看得精细**。而折
 
 假设我们是小红书的产品经理，这款产品的平均 DAU 约为 1.14 亿，产品的核心体验是让用户在社区进行分享和发现。我们现在需要去提升整个产品留存率的办法，首先我们可以通过拆解常见功能，按功能的影响度和使用留存率做一个矩阵。
 
-![22](/img/product/operations/growth-matters_images/22.png)
+![22](/static/img/product/operations/growth-matters_images/22.png)
 
 X 轴表示这个功能每天有多少人用，比方说在首页浏览瀑布流，查看笔记的数量就会相对较多。Y 轴表示留存率，比方说愿意在小红书进行购物或开播的用户往往会长时间的使用小红书，留存率相对较高。同样地还有搜索功能，这是个目的性很强的动作，正因为用户有明确的目的，所以搜索功能的留存率也会相对较高。
 
-![23](/img/product/operations/growth-matters_images/23.png)
+![23](/static/img/product/operations/growth-matters_images/23.png)
 
 慢慢地，你会找到很多功能，他们的位置不同。把这些所有功能的用户并集起来就形成了产品的留存率。假设产品的目标不再是提高用户的使用频次，而是追求一个更加长期的留存率。这个时候我们观察到使用收藏功能的用户在未来的留存率情况很好，可以通过提高收藏功能的使用率来提升产品整体的留存率。
 
@@ -183,7 +178,7 @@ X 轴表示这个功能每天有多少人用，比方说在首页浏览瀑布流
 
 那么是否可以围绕这一点，让全部用户都去不断地使用收藏功能呢？这显然不太合理。但从数据上看，越多人使用收藏功能，理论上是能够提升用户的留存率的。所以我们还需要从数据和产品的角度上去更加深入的分析。
 
-![24](/img/product/operations/growth-matters_images/24.png)
+![24](/static/img/product/operations/growth-matters_images/24.png)
 
 假设使用收藏功能的用户留存率很高，但是使用的人数并不多。产品经理可能要去考虑的点有很多，比方说用户是不是平时就不太会用收藏功能，或者他们觉得收藏功能并不好用，或者平台帖子普遍质量较差，广告多，不足以让他们去收藏，这个是产品角度需要分析的。
 
@@ -191,7 +186,7 @@ X 轴表示这个功能每天有多少人用，比方说在首页浏览瀑布流
 
 从数据上，我们可以把收藏用户进行分组，然后按使用次数和留存率进行分组。我们会发现在一段时间内收藏 1 次帖子的用户整体留存率较低，收藏 2 次的用户留存度些许提高，但是用户数量大幅下跌，收藏 3 次的用户留存度大幅提高，但用户数量比重更低了。收藏 4、5 次的用户留存率基本持平，用户数量也保持稳定。
 
-![25](/img/product/operations/growth-matters_images/25.png)
+![25](/static/img/product/operations/growth-matters_images/25.png)
 
 从图中我们能够比较清楚地发现，留存率的拐点集中在 1\~2、2\~3 次，这是用户留存率和使用数量出现显著差异的地方。那我们的改进方向就很明显了，产品需要让更多地让用户收藏 2 次以上，能够拉动整个留存率提高。
 

@@ -1,7 +1,3 @@
----
-sidebar_position: 6
----
-
 # 产品经理的职业发展路径 
 
 产品经理整体上的发展路径可以参考[运营的职业发展路径](/docs/Product/operations/career/career-path.md)，归纳起来看，不同职级的能力无非都是分这几个阶段：

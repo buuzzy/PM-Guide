@@ -1,8 +1,3 @@
----
-sidebar_position: 4
-sidebar_label: 单位经济
----
-
 # 单位经济
 
 :::tip
@@ -71,7 +66,7 @@ sidebar_label: 单位经济
 
 
 
-在[规模效应](docs\Product\general-skills\what-is\scale-effect.md)一文中分享过，企业通常是通过规模效应实现盈利，而初创企业尚处于 MVP 验证期，无法获得理想的规模。因此，为了搞清楚初创企业产品的真正经济效应，我们会更加关注产品的 UE 情况。也就是主要关注和 “卖一个肉包” 密切相关的成本与收益情况。
+在[规模效应](/docs/Product/general-skills/what-is/scale-effect.md)一文中分享过，企业通常是通过规模效应实现盈利，而初创企业尚处于 MVP 验证期，无法获得理想的规模。因此，为了搞清楚初创企业产品的真正经济效应，我们会更加关注产品的 UE 情况。也就是主要关注和 “卖一个肉包” 密切相关的成本与收益情况。
 
 
 
@@ -81,7 +76,7 @@ sidebar_label: 单位经济
 
 通过 UE 的收入与成本关系，团队可以非常直观地理解产品的成本结构，正确的认知挑战。例如卖肉包，我们可以把UE数据通过 Breakdown 图表清晰表达：
 
-![01](/img/product/general-skills/unit-economics_images/01.png)
+![01](/static/img/product/general-skills/unit-economics_images/01.png)
 
 
 ### 验证可行性
@@ -164,11 +159,11 @@ UE 还可以帮助我们合理评估竞争力，如果恰好竞争对手是一�
 
 通过这些学习，经过一段时间的经营调整，阳阳的店的毛利很可能会逐步超越 AA 的店。下图是 BIRD 公司将自己的 UE 与 Uber、Lyft 进行对比的结构。 以每一次 Trip 订单为 Unit，BIRD 认为自己的业务模式 Margin 更加可观，经济效益更优。
 
-![02](/img/product/general-skills/unit-economics_images/02.png)
+![02](/static/img/product/general-skills/unit-economics_images/02.png)
 
 以月为周期，BIRD 以一台滑板车 Scooter 为 Unit，对比了自己 2019 与 2018 年的 UE，可以看到在 Charging（充电维护）这块 cost 上做出了大幅度的改善，使得单个滑板车在扣除所有可变成本（包括市场成本）后可以获利 300 美元。而一台滑板车的造价是 660 美元，也就是一台 Scooter 投放后大约 2 个月便可回收制造成本。
 
-![03](/img/product/general-skills/unit-economics_images/03.png)
+![03](/static/img/product/general-skills/unit-economics_images/03.png)
 
 在很多商业产品打磨中，大家有时候会惯性的关注表面用户体验，而忽略了真正的经济效益。虽然产品功能的好用非常重要，但是最终一定要能够影响 UE 中某个指标的改善，才能真正推动企业的理性发展。
 

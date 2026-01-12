@@ -1,15 +1,10 @@
----
-sidebar_position: 2
-sidebar_label: Part 2 签约测评
----
-
 # Part 2 签约测评
 
 ## 签约
 
-> 在[ Part1 开户绑定 ](docs\Product\practice\project-understanding\case-study\part1.md)中，我们对开户和银行卡绑定流程做了一次梳理。用户在完成开户绑定之后，还需要进行积利金签约和风险测评，最终才能进入积利金产品交易的环节。
+> 在[ Part1 开户绑定 ](/docs/Product/practice/project-understanding/case-study/part1.md)中，我们对开户和银行卡绑定流程做了一次梳理。用户在完成开户绑定之后，还需要进行积利金签约和风险测评，最终才能进入积利金产品交易的环节。
 
-![01](/img/product/practice/case-stydy-part2_images/01.png)
+![01](/static/img/product/practice/case-stydy-part2_images/01.png)
 
 ### 为什么需要签约
 
@@ -56,7 +51,7 @@ sidebar_label: Part 2 签约测评
 
 下图是用户进行积利金交易之前的开户环节。可以先思考一下，产品需要在哪个页面区验证用户的签约信息。
 
-![02](/img/product/practice/case-stydy-part2_images/02.png)
+![02](/static/img/product/practice/case-stydy-part2_images/02.png)
 
 根据流程可知，用户在完成`开户绑定`之后会进入`签约测评`环节。“完成” 意味着用户已经有了一张中国银行的银行卡。那么产品需要在完成开户的页面进行签约查询，查询用户的签约状态。
 
@@ -77,7 +72,7 @@ sidebar_label: Part 2 签约测评
 
 签约状态大致流程如下：
 
-![03](/img/product/practice/case-stydy-part2_images/03.png)
+![03](/static/img/product/practice/case-stydy-part2_images/03.png)
 
 对应到页面，产品需要在 “有中行卡页” 和 “中行开户页” 进行查询，甲方也很贴心地为合作方提供了可供查询的接口。根据用户状态判断共有 12 种结果，产品需要针对不同的结果进行处理。
 
@@ -100,7 +95,7 @@ So，这意味着产品经理需要针对 12 个场景设计 12 个页面吗？
 
 <br/>
 
-当然不是，运用好[产品思维](docs\Product\fundamentals\career\product-thinking.md)，我们将这些场景进行结构重组，将接口进行分类：
+当然不是，运用好[产品思维](/docs/Product/fundamentals/career/product-thinking.md)，我们将这些场景进行结构重组，将接口进行分类：
     1. 对于未签约、未开户的用户，引导进行开户；
     2. 对于已开户，未签约的用户，引导进行签约；
     3. 对于已开户，已签约的用户，引导进行测评；
@@ -137,7 +132,7 @@ So，这意味着产品经理需要针对 12 个场景设计 12 个页面吗？
 
 用户最终完成签约后，银行会将签约信息返回到产品接口。产品需要针对签约信息查询开发一个接口，用以接收信息。接口由产品开发，银行调用，银行实时推送签约结果，保证数据的及时性。
 
-![04](/img/product/practice/case-stydy-part2_images/04.png)
+![04](/static/img/product/practice/case-stydy-part2_images/04.png)
 
 ## 风险测评
 

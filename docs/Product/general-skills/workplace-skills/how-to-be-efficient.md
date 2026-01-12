@@ -1,8 +1,3 @@
----
-sidebar_position: 4
-sidebar_label: 如何保持高效
----
-
 # 如何保持高效
 
 ## 为什么要保持高效
@@ -45,7 +40,7 @@ IEASE  = **I**nternalization, **E**xternalization, **A**ssets, **S**ystem, **E**
 =  内在化，外在化，资产，系统，能量
 :::
 
-![01](/img/product/general-skills/how-to-be-efficient_images/01.png)
+![01](/static/img/product/general-skills/how-to-be-efficient_images/01.png)
 
 ### 资产 Assets
 
@@ -131,7 +126,7 @@ Internalization，内在化。是指将经历转化为物质和非物质资产�
 
 学习金字塔是美国缅因州的国家训练实验室研究成果，它用数字形式形象显示了：采用不同的学习方式，学习者在两周以后还能记住内容（平均学习保持率）的多少。
 
-![02](/img/product/general-skills/how-to-be-efficient_images/02.png)
+![02](/static/img/product/general-skills/how-to-be-efficient_images/02.png)
 
 Practice Doing 和 Teach Others 是最棒的学习方式，你不仅要学会，还要能够应用和让别人拿去用。教别人最轻量级的办法我认为是写作，甚至你可以**通过写作教自己**。
 
@@ -169,7 +164,7 @@ Practice Doing 和 Teach Others 是最棒的学习方式，你不仅要学会，
 
 好记性比不过烂笔头，无论你用哪种记录方式、工具，总是有益的。当我遇到有价值的知识时，都习惯与记录在一个地方（我现在用 Flomo，之前用 Apple 的备忘录，最早用 Evernote），然后定期的回顾。每次回顾都可以把过去一、两周遇到的知识点从脑海中挖掘回来，在有空闲时间的时候加深理解，进一步扩展阅读。
 
-![03](/img/product/general-skills/how-to-be-efficient_images/03.png)
+![03](/static/img/product/general-skills/how-to-be-efficient_images/03.png)
 
 人是靠不住的，一套好的 SOP 才是效率的保障。更高效的人士往往也具备更高的经历内在化效能。
 
@@ -185,7 +180,7 @@ Externalization，外在化，是指让资产产生更多价值的过程。
 
 **对于非物质资产**，然你已经开始写作，不如把小作文通过合适的途径让更多人阅读到，成为更多人的 “扩展阅读资料”。由于个人实践的有限性，外在化则可以将你的资产应用到他人的实践过程中，帮助他们提升内在化效率，而你也可以从效率提升中获取一定的资产增值。
 
-![04](/img/product/general-skills/how-to-be-efficient_images/04.png)
+![04](/static/img/product/general-skills/how-to-be-efficient_images/04.png)
     * 牛顿的第一定律、爱因斯坦的相对论等著名理论的不断应用，加强了公众对他们的敬仰（声誉）；
     * Marty Cagan 的《启示录》，Eric Ries 的《精益创业》等书，帮助数以万计的产品人开阔了思路；
     * 我在撰写和分享《产品入门手册》的过程中帮助了许多新人产品的成长，同时也接收到了很多小伙伴的新知识补充。
@@ -194,11 +189,11 @@ Externalization，外在化，是指让资产产生更多价值的过程。
 
 我们需要注意外在化的效率，我们不应用有限的时间去创造更多的价值，而是**要尽量学会使用杠杆来放大价值**。能从中获得的收获自然也更多。
 
-![05](/img/product/general-skills/how-to-be-efficient_images/05.png)
+![05](/static/img/product/general-skills/how-to-be-efficient_images/05.png)
 
 例如，如果我是 1 对 1 辅导小伙伴们怎么做好产品，那时间成本会很高，同时也只能帮助 1 位小伙伴成长。但是如果我是通过知识库来帮助更多的（理论上可以无限）小伙伴打开思路，价值显然要大很多。
 
-![06](/img/product/general-skills/how-to-be-efficient_images/06.png)
+![06](/static/img/product/general-skills/how-to-be-efficient_images/06.png)
 
 在这个 case 中，知识库便是我的 Externalization 杠杆。
 

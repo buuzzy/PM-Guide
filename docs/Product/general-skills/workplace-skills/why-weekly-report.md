@@ -1,8 +1,3 @@
----
-sidebar_position: 3
-sidebar_label: 为什么周报如此重要？
----
-
 # 为什么周报如此重要？
 
 ## 为什么要写周报
@@ -93,7 +88,7 @@ sidebar_label: 为什么周报如此重要？
     * 对策：调整了产品设计，不再经过算法平台取数，**直接通过业务库取数**，通过二级品类价格带选取商品，按近7天销量降序确定商品来实现该功能。预计点击率 2.5% 左右，**低于原设计的 3.5%**。但能够准时上线。
 :::
 
-关于如何搭建合理的数据体系，可以看这里：[ 数据分析体系的价值和原则](docs\Product\operations\data-analysis.md)
+关于如何搭建合理的数据体系，可以看这里：[ 数据分析体系的价值和原则](/docs/Product/operations/data-analysis.md)
 
 #### 统一设计理念
 
@@ -177,7 +172,7 @@ sidebar_label: 为什么周报如此重要？
 
 通过周报的总结，可以将大家关心的内容统一答复，可以减少大量的重复沟通，将自己的时间投入到更重要的事情中去。
 
-![01](/img/product/general-skills/why-weekly-report_images/01.png)
+![01](/static/img/product/general-skills/why-weekly-report_images/01.png)
 
 #### 锻炼表达能力
 
@@ -195,7 +190,7 @@ sidebar_label: 为什么周报如此重要？
 
 * **近期新功能数据表现**，是指对近期还没有复盘过的新功能复盘，有头有尾的产品需求可以大幅增加产品经理在运营、研发团队中的权威性和信任感。 想要在讨(si)论(bi)的现场获取信任几乎是不可能的，**信用是需要累积的，信用可以换取信任，信任可以换取效率；**
 
-![02](/img/product/general-skills/why-weekly-report_images/02.png)
+![02](/static/img/product/general-skills/why-weekly-report_images/02.png)
 
 * **思考**则可以给团队打预防针，铺垫近期可能会发生的、但还未决定的变化。
 

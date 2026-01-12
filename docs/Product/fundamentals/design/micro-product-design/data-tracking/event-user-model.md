@@ -1,12 +1,7 @@
----
-sidebar_position: 4
-sidebar_label: 事件-用户模型
----
-
 # 事件-用户模型 
 
 :::tip
-本篇为[ 如何做好埋点设计 ](docs\Product\fundamentals\design\micro-product-design\data-tracking\how-to-design-tracking.md)的补充。在上篇文档中，存在着思考过程和设计过程无法通用的情况。故新开一篇来进行详细说明。
+本篇为[ 如何做好埋点设计 ](/docs/Product/fundamentals/design/micro-product-design/data-tracking/how-to-design-tracking.md)的补充。在上篇文档中，存在着思考过程和设计过程无法通用的情况。故新开一篇来进行详细说明。
 :::
 
 ## 数据观
@@ -31,7 +26,7 @@ sidebar_label: 事件-用户模型
 
 在前向几篇文章中，我们使用的便是这种思考视角。但整体来看，分析思路是零碎的。核心业务的漏斗数据或者某些重要的数据组并不能直接告诉我们背后的答案，在当时的语境下，产品经理需要将用户和事件视角结合起来分析，才更有可能发现数据背后的秘密。分析单一维度，并不能有所收获。
 
-![01](/img/product/product/event-user-model_images/01.png)
+![01](/static/img/product/product/event-user-model_images/01.png)
 <div class="text-center">*这两种分析方法如何回答：用户在何时何地做了什么事情？*</div>
 <br/>
 
@@ -80,7 +75,7 @@ sidebar_label: 事件-用户模型
 
 ## 谋定而后动
 
-回到最开始的问题，为什么在[ 如何做好埋点设计 ](docs\Product\fundamentals\design\micro-product-design\data-tracking\how-to-design-tracking.md)中，采用的思考方式和设计方法是不同的？
+回到最开始的问题，为什么在[ 如何做好埋点设计 ](/docs/Product/fundamentals/design/micro-product-design/data-tracking/how-to-design-tracking.md)中，采用的思考方式和设计方法是不同的？
 
 
 

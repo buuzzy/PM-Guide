@@ -1,7 +1,3 @@
----
-sidebar_position: 5
----
-
 # 如何识别需求？ 
 
 在[什么是产品需求](/docs/Product/fundamentals/career/product-requirements.md)中，我们讨论了需求的定义和特点。在了解需求的属性之后，我更感兴趣的一点是，**需求是如何被发现的？**

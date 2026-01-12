@@ -1,11 +1,6 @@
----
-sidebar_position: 4
-sidebar_label: Part 4 出入金、查询
----
-
 # Part 4 出入金、查询
 
-![01](\img\product\practice\case-stydy-part4_images\01.png)
+![01](/static/img/product/practice/case-stydy-part4_images/01.png)
 
 |      | **定义**               | **目的**               |
 | :---- | :-------------------- | :-------------------- |
@@ -15,7 +10,7 @@ sidebar_label: Part 4 出入金、查询
 
 在功能设计中，产品把`账户管理`、`交易记录`、`我的持仓`三个功能并列为三个 Tab。这样做的原因在于这三个功能具有一致性，都属于用户的资金账户数据。
 
-![02](\img\product\practice\case-stydy-part4_images\02.png)
+![02](/static/img/product/practice/case-stydy-part4_images/02.png)
 
 ## 账户管理
 
@@ -34,7 +29,7 @@ sidebar_label: Part 4 出入金、查询
 
 `账户管理`模块的第一个功能是`账户入金`，指从中行银行卡账户转入资金至中行积利金账户的行为。这个功能看起来好像挺简单？产品调用中国银行的转账功能页应该就可以了。
 
-![03](\img\product\practice\case-stydy-part4_images\03.png)
+![03](/static/img/product/practice/case-stydy-part4_images/03.png)
 
 But，中行在项目说明书中给合作方上的强度不止一点：
 
@@ -46,7 +41,7 @@ But，中行在项目说明书中给合作方上的强度不止一点：
 
 这句话的意思是，产品应该需要提供从他行银行卡转入中行银行卡的功能服务。这句话一出，瞬间将`账户入金`功能的难度抬升了一个等级，变得更加复杂。
 
-![04](\img\product\practice\case-stydy-part4_images\04.png)
+![04](/static/img/product/practice/case-stydy-part4_images/04.png)
 
 复杂之处在于，如果用户使用的是中国银行的银行卡，产品只需要考虑如何将银行卡资金转入积利金账户。但现在产品还需要考虑其他五大行的账户入金，牵涉到的问题瞬间大量增加...
 
@@ -132,7 +127,7 @@ But，中行在项目说明书中给合作方上的强度不止一点：
 
 在证券或基金应用中，多数采用了二级页的形式展示用户账户的持仓数据，原因在于持仓数据字段过多，单个栏目或模块大概率展示不下。其次在二级页中，可以用可视化图表和账户分析功能，为用户提供更丰富的信息和功能。
 
-![05](\img\product\practice\case-stydy-part4_images\05.png)
+![05](/static/img/product/practice/case-stydy-part4_images/05.png)
 
 积利金的持仓信息需要展示的字段并不多，仅有活期和定期持仓。考虑到用户可以在`我的持仓`功能中进行定期产品的购买和赎回，故在页面中插入了`金价走势`模块，辅助用户做出决策。
 
@@ -154,7 +149,7 @@ But，中行在项目说明书中给合作方上的强度不止一点：
 
 用户完成风险等级测评流程之后，会强制要求用户完成安全码的设置，流程和互联网应用设置密码类似。同样地，功能也支持修改、忘记重设密码：
 
-![06](\img\product\practice\case-stydy-part4_images\06.png)
+![06](/static/img/product/practice/case-stydy-part4_images/06.png)
 
 安全码相对独立，不隶属于任一模块。在登录的角度上，安全码登录视同密码登录。六位数的便捷输入省去了每次键入复杂密码的繁琐流程；从安全的角度上，超过一定输入错误次数进行账户锁定的设定，也使得账户安全性得到了加强。
 

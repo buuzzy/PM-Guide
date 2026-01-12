@@ -1,8 +1,3 @@
----
-sidebar_position: 5
-sidebar_label: Scrum，最常见的互联网产品研发流程
----
-
 # Scrum，最常见的互联网产品研发流程
 
 :::tip
@@ -37,7 +32,7 @@ Scrum 是用于开发、交付和持续支持复杂产品的一个框架，是�
 
 只要有一家公司采用了快速迭代的方式并获得了成功，那么未来行业使用同一方法就只是时间问题。更快的版本更新可以更快地提升产品满意度，修补漏洞，提供用户迫切需要的功能。市场如战场，假如 A 公司采用快速迭代的方法，B 公司使用传统的瀑布式研发，即便两家公司旗鼓相当，但 A 公司的用户需求会被快速满足。倘若 A、B 公司产品都有重大的漏洞，响应速度在这里就起到了关键的作用。
 
-![01](/img/product/product/scrum-development_images/01.png)
+![01](/static/img/product/product/scrum-development_images/01.png)
 <div class="text-center">*不同研发流程的响应速度*</div>
 <br/>
 
@@ -76,7 +71,7 @@ Scrum，可以把这种产品研发流程想象为精益创业的具象化，特
 
 团队的人力有限，产出必然也有限。在不考虑人力成本的情况下，可以通过配置多个团队并行工作，解决总量不足的问题。每个团队只需要关注自己正在实现的目标，而这些目标叠加起来就形成了一个完整的产品。
 
-![02](/img/product/product/scrum-development_images/02.png)
+![02](/static/img/product/product/scrum-development_images/02.png)
 <div class="text-center">*多个团队并行工作*</div>
 <br/>
 
@@ -84,7 +79,7 @@ Scrum，可以把这种产品研发流程想象为精益创业的具象化，特
 
 一种方式是耗时短，要求人数多。另一种方式则相反，耗时长，但是能够节约人力。单个团队可以交付大量结果，不过只需要更多的时间。
 
-![03](/img/product/product/scrum-development_images/03.png)
+![03](/static/img/product/product/scrum-development_images/03.png)
 <div class="text-center">*一个团队单线程工作*</div>
 <br/>
 
@@ -98,7 +93,7 @@ Scrum，可以把这种产品研发流程想象为精益创业的具象化，特
 
 Scrum 给了我们一种可行的产品发布思路，通过 2 周 1 次，甚至 1 周 1 次的快速迭代发布，来满足小而快的交付要求，尽快地得到用户反馈。
 
-![04](/img/product/product/scrum-development_images/04.png)
+![04](/static/img/product/product/scrum-development_images/04.png)
 <div class="text-center">*Scrum，快速迭代的理念*</div>
 <br/>
 
@@ -110,7 +105,7 @@ Scrum 给了我们一种可行的产品发布思路，通过 2 周 1 次，甚�
 
 企业需要有明确的目标（Goal 1、2、3...），为了实现目标需要做若干的准备（Sprint 1、2、3...），最终将目标和准备结合，就形成了一列完整功能的火车。目标就像是火车头，而若干的准备就像一节一节的车厢。
 
-![05](/img/product/product/scrum-development_images/05.png)
+![05](/static/img/product/product/scrum-development_images/05.png)
 
 Sprint 的中文翻译为冲刺，为什么叫做 “冲刺”？放在这里其实很好理解。
 
@@ -118,7 +113,7 @@ Sprint 的中文翻译为冲刺，为什么叫做 “冲刺”？放在这里其
 
 产品团队一般会有需求池，即便团队没有，每一个产品经理多多少少也有一些想做或者用户反馈的功能。那么，当企业提出了一个目标，首先按照之前文章提到的方法，先拆解。将企业目标拆解为一个个 “用户故事（User Story）”，然后通过分析罗列支撑用户故事的产品功能（Feature），来匹配需求池中的功能。
 
-![06](/img/product/product/scrum-development_images/06.png)
+![06](/static/img/product/product/scrum-development_images/06.png)
 
 举个例子，假如现在我是一个网红社区的老板，我要设立这么一个目标：
 
@@ -148,7 +143,7 @@ Sprint 的中文翻译为冲刺，为什么叫做 “冲刺”？放在这里其
 
 前文详细讲了 Scrum 的机制，是如何一步步拆分和组合的。那么放到实际的产品开发流程中，Scrum 是如何被组织起来的？这就要来聊聊产品经理的日常工作：**开会。**
 
-![07](/img/product/product/scrum-development_images/07.png)
+![07](/static/img/product/product/scrum-development_images/07.png)
 
 #### Review Meeting 评审会议
 
@@ -164,11 +159,11 @@ Sprint 的中文翻译为冲刺，为什么叫做 “冲刺”？放在这里其
 
 在一些磨合得还不够好、或者产品极其复杂的团队，有时会多开一次叫做 Pre-review 的会议。简单来说就是先拿需求和技术团队碰一下，看看实现难度大不大，有没有简单的实现方案等等。避免在正式的需求评审中频繁出现 “做不了” 或者沉默的尴尬局面。
 
-![08](/img/product/product/scrum-development_images/08.png)
+![08](/static/img/product/product/scrum-development_images/08.png)
 
 在进行评审会议，产品经理需要完成产品设计的工作。还记得上文提到的需求池吗？产品经理需要从目前的需求池（Backlog）中挑选优先级较高的需求（用户故事），并进行对应的产品设计。经常提到的 P0、P1、P2 就是对于优先级的表述，P0 级别意味着优先级最高。
 
-![09](/img/product/product/scrum-development_images/09.png)
+![09](/static/img/product/product/scrum-development_images/09.png)
 <div class="text-center">*Select Story to Sprint*</div>
 <br/>
 
@@ -178,7 +173,7 @@ Backlog，也即需求池。是产品经理日常接收到的需求，来自公�
 
 在完成（预）评审会议，工程师团队理解了车厢（Sprint）功能设计后，便会在内部评估团队能力和功能的实现方式。他们会进一步将产品经理提出的功能（Feature）细化为具体的（Task），以便能够准确预估工期耗时和人力分配。最终，会给出这节车厢的最大容量和包含的功能。
 
-![10](/img/product/product/scrum-development_images/10.png)
+![10](/static/img/product/product/scrum-development_images/10.png)
 <div class="text-center">*工程师团队对于产品需求的计划*</div>
 <br/>
 
@@ -228,7 +223,7 @@ Daily Meeting 是非常有效的团队沟通方式，以"日”为维度复盘�
 
 另外，由于团队会由产品经理、交互设计师、UI设计师、研发工程师、测试工程师组成。他们的职能各不相同，当产品设计进入研发阶段后，设计团队便开始进入下一节车厢的设计周期。因此实际工作中，车厢是交替制作的。
 
-![11](/img/product/product/scrum-development_images/11.png)
+![11](/static/img/product/product/scrum-development_images/11.png)
 
 以上运作方式在互联网行业已经应用非常广泛，大家也可以在网上找到很多资料，所服务的公司也定会有更细节的要求帮助大家提效。
 
@@ -236,4 +231,4 @@ Daily Meeting 是非常有效的团队沟通方式，以"日”为维度复盘�
 
 Scrum 的工作流其实也很适合自己的成长路径规划，给自己定 1 个全年目标，然后拆解成 52 个周，每周实现一个小故事。之后我会分享如何利用 Scrum 理念打造自己的效率系统。
 
-参见：[如何保持高效](docs\Product\general-skills\workplace-skills\how-to-be-efficient.md)
+参见：[如何保持高效](/docs/Product/general-skills/workplace-skills/how-to-be-efficient.md)

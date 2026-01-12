@@ -1,8 +1,3 @@
----
-sidebar_position: 2
-sidebar_label: 数据分析体系的价值与原则
----
-
 # 数据分析体系的价值与原则
 
 > If you can't measure it, you can't manage it.
@@ -19,7 +14,7 @@ sidebar_label: 数据分析体系的价值与原则
 
 建立认知最好的办法之一是理解背后的数据，数据虽然不能预测未来，但是能告诉我们过去和当下发生了什么。因此搭建数据分析体系是一件非常重要、基础的事情。通过数据，可以获得客观的见解，帮助更好地决策和优化产品。
 
-![01](/img/product/operations/data-analysis_images/01.png)
+![01](/static/img/product/operations/data-analysis_images/01.png)
 
 数据分析这个职能在不同的公司会有不同的负责人，常见的做法是由运营、产品、业务一同提出需求，再由广义上的数据分析团队汇总、分析和搭建。但并非所有的公司都有一套合理高效的数分规范，多数情况还是比较 “野生” 的。
 
@@ -38,7 +33,7 @@ sidebar_label: 数据分析体系的价值与原则
 
 这些问题的出现往往是因为对于数据分析体系的设计还不够好，**如果将数据分析体系也看作一个"产品”，那么其同样有价值定位，也需要：分析、规划、迭代。**
 
-![02](/img/product/operations/data-analysis_images/02.png)
+![02](/static/img/product/operations/data-analysis_images/02.png)
 
 ## 数据分析体系的价值
 
@@ -82,7 +77,7 @@ sidebar_label: 数据分析体系的价值与原则
 
 制定好规划以及确定落地方案后，接下来便是执行。一般来说，企业业务的开展都会制定明确的目标，具体到周度、月度、季度和年度，并一层层拆解到员工的日常工作当中。
 
-![03](/img/product/operations/data-analysis_images/03.png)
+![03](/static/img/product/operations/data-analysis_images/03.png)
 
 公司管理是反规模效应的，规模越大，目标越细碎、复杂、越难协同。优秀的数据分析体系可以更好的帮助各级管理层盯紧业务进度，识别业务风险。比方说基层团队A首月的销售额落后了 15%，根据分析，是竞品的推出挤占了市场份额，且产品在未来 2 个月内很难达到季度目标。那么基层团队B能否提高销售额，来弥补A团队的销售额亏空？如果不行，还有什么其他的方法？
 
@@ -90,7 +85,7 @@ sidebar_label: 数据分析体系的价值与原则
 
 针对执行的过程管理，一般会有**进度**和**效率**两个维度进行支撑分析。
 
-![04](/img/product/operations/data-analysis_images/04.png)
+![04](/static/img/product/operations/data-analysis_images/04.png)
 
 #### 进度分析
 
@@ -136,7 +131,7 @@ sidebar_label: 数据分析体系的价值与原则
 
 #### 关注长期，面向对象
 
-当业务方抛过来一个数据需求，你会怎么做？最简单的方法就是实现它，不问原因。但是业务方的需求通常代表着当下的急迫诉求，并不能体现诉求背后的矛盾。还记得在[ 什么是产品思维？](docs\Product\fundamentals\career\product-thinking.md)中提到的一段话吗？
+当业务方抛过来一个数据需求，你会怎么做？最简单的方法就是实现它，不问原因。但是业务方的需求通常代表着当下的急迫诉求，并不能体现诉求背后的矛盾。还记得在[ 什么是产品思维？](/docs/Product/fundamentals/career/product-thinking.md)中提到的一段话吗？
 
 :::tip
 产品经理需要找到需求背后的人和问题，甄别、洞察之后，再去考虑找解决方案。
@@ -152,7 +147,7 @@ sidebar_label: 数据分析体系的价值与原则
 
 笼统来说，变化的是当下的需求，关注的是短期价值；不变的是体系架构，关注的是长期价值。
 
-![05](/img/product/operations/data-analysis_images/05.png)
+![05](/static/img/product/operations/data-analysis_images/05.png)
 
 如上图所示，**对象是不变，实例是变**。抖音投放效果分析是实例，投放渠道分析是对象；分析咖啡豆购买人群是实例，分析商品消费用户画像是对象，类似集合和子集。不变的数据对象能够做到可持续、可复制、可挖掘。试想一下，当你将公司（不仅是业务）的对象都梳理清楚后，无论需求方是谁，他们提出的实例必然包含在对象当中，这有利于避免重复劳动，降低没人使用的报表。
 
@@ -160,7 +155,7 @@ sidebar_label: 数据分析体系的价值与原则
 
 不同层级的员工关注的数据颗粒度不尽相同，老板和管理层更多地看公司和地区的销售业绩，基层员工需要看推广和运营计划带来的销售数据变化。这些数据颗粒度不同、作用不同，即便是针对同一个对象，也要做好层次布局。
 
-![06](/img/product/operations/data-analysis_images/06.png)
+![06](/static/img/product/operations/data-analysis_images/06.png)
 
 在比较成熟的公司，对数据安全也有比较严格的要求。在券商的数金部门，数分的权限仍需要通过申请开通，甚至区分了不同版本、不同环境（测试、仿真、正式环境）等。在一些在线文档 toB 业务中，对于数据和报表的查看权限划分，也是产品的核心竞争力之一。
 
@@ -169,11 +164,11 @@ sidebar_label: 数据分析体系的价值与原则
 举个例子，就获客来源维度来说，可以分为自然新客、付费新客、老客带新等。这个维度几乎会被运用到所有报表当中。如果昨天上海咖啡销售额下降了。从获客来源维度上看，是付费新客的销售额下跌比较严重，那就可以和市场投放的同学开始复盘原因，看是不是引流手段出现了问题，导致这批新客都来薅羊毛，而不买咖啡。
 
 举例一些常见的维度：
-![07](/img/product/operations/data-analysis_images/07.png)
+![07](/static/img/product/operations/data-analysis_images/07.png)
 
 #### 逻辑清晰，循序渐进
 
-利用我们的[ 产品设计必备的五张图 ](docs\Product\fundamentals\design\micro-product-design\five-essential-diagrams.md)中的 “核心体验路径” 思维来规划报表逻辑结构。例如将与用户获取有关的数据统一到用户增长报表组，将与商品销售结构有关的归入商品销售情况报表组等。
+利用我们的[ 产品设计必备的五张图 ](/docs/Product/fundamentals/design/micro-product-design/five-essential-diagrams.md)中的 “核心体验路径” 思维来规划报表逻辑结构。例如将与用户获取有关的数据统一到用户增长报表组，将与商品销售结构有关的归入商品销售情况报表组等。
 
 <br/>
 
@@ -183,11 +178,11 @@ sidebar_label: 数据分析体系的价值与原则
 
 比如：获客 — 导购 — 决策 — 购买 — 售后 — 复购，这是用户核心体验路径之一，在报表中的体现如下：
 
-![08](/img/product/operations/data-analysis_images/08.png)
+![08](/static/img/product/operations/data-analysis_images/08.png)
 
 **步骤二：按对象拆解**，析不同的部门角色和应用场景：
 
-![09](/img/product/operations/data-analysis_images/09.png)
+![09](/static/img/product/operations/data-analysis_images/09.png)
 
 **步骤三：规划维度**。
 
@@ -231,7 +226,7 @@ PS：一个口径不统一的严重事故：
 
 完成数据分析体系规划，也即地基的搭建之后。接下来就是开始装修房子里的一间间房屋了。运用 “对象 — 实例” 的方式，将一个个实例放进去，最终搭建起完整的数据分析体系。
 
-![10](/img/product/operations/data-analysis_images/10.png)
+![10](/static/img/product/operations/data-analysis_images/10.png)
 <div class="text-center">*在不同的对象中填充实例*</div>
 
 

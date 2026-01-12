@@ -1,8 +1,3 @@
----
-sidebar_position: 2
-sidebar_label: 工具理论类
----
-
 # 工具理论类
 
 ## 倒漏斗营销

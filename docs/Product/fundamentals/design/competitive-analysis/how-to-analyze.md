@@ -1,8 +1,3 @@
----
-sidebar_position: 1
-sidebar_label: 如何分析竞品与行业
----
-
 # 如何分析竞品与行业
 
 为了少走弯路、寻找新突破口，在日常工作中我们经常需要分析已经发生过的事情，尽可能站在前人踩出来的路上前行。其中最重要的一种分析是针对直接竞争对手的分析，之所以能称之为对手，势必在所处的行业、发展的方向、面向的用户群体等方面存在重叠。在蓝海市场，大家可以相安无事，但是在红海市场，竞争常常是一场大规模零和游戏，谁能最终成为老大，谁就有规则制定权。抓住竞争对手的弱点，发挥自身的长处是企业竞争中每天需要发生的课题。作为产品经理，在我的认知中：
@@ -11,7 +6,7 @@ sidebar_label: 如何分析竞品与行业
 **分析竞品** 和 **设计产品** 的过程本质上是相通的。
 :::
 
-还记得[ 如何写好产品设计文档（PRD）](docs\Product\fundamentals\design\micro-product-design\how-to-write-prd.md)中的 Story Design（PRD）吗？分析竞品时我们依然可以遵从这个结构开展工作：
+还记得[ 如何写好产品设计文档（PRD）](/docs/Product/fundamentals/design/micro-product-design/how-to-write-prd.md)中的 Story Design（PRD）吗？分析竞品时我们依然可以遵从这个结构开展工作：
 
 | **设计自己的产品** | **分析别人的产品** |
 | :- | :- |
@@ -25,7 +20,7 @@ sidebar_label: 如何分析竞品与行业
 | · 路径规划 | 竞品的发展历程 |
 | 概要设计 | |
 | · **模块设计** | 竞品的模块结构 |
-| · **功能清单** | 竞品的功能清单：[如何做清单调研](docs\Product\fundamentals\design\competitive-analysis\how-to-research.md) |
+| · **功能清单** | 竞品的功能清单：[如何做清单调研](/docs/Product/fundamentals/design/competitive-analysis/how-to-research.md) |
 | · 页面结构 | 竞品的页面结构 |
 | 详细设计 | 竞品某些功能的详细使用方式 |
 
@@ -35,7 +30,7 @@ sidebar_label: 如何分析竞品与行业
 
 这不完全正确，PRD 只是阐述一个产品的设计细节，并不能完整包含公司的战略、业务运营上的策略，也没有包含对所处行业的规模、潜力和竞争态势的分析。因此，我们还有不少工作要做。
 
-![01](/img/product/product/how-to-analyze-product_images/01.png)
+![01](/static/img/product/product/how-to-analyze-product_images/01.png)
 
 ## 明确目标市场
 
@@ -50,15 +45,15 @@ sidebar_label: 如何分析竞品与行业
 
 市场边界定义清楚后才能够指导未来的分析深度。并不是所有做电商的产品都要和淘宝、京东去比较。
 
-![02](/img/product/product/how-to-analyze-product_images/02.png)
+![02](/static/img/product/product/how-to-analyze-product_images/02.png)
 
 举几个例子，比方说在证券应用内常见的虚拟商品，比方说付费指标：
 
-![03](/img/product/product/how-to-analyze-product_images/03.png)
+![03](/static/img/product/product/how-to-analyze-product_images/03.png)
 
 如果是实物商品，比方说瑜伽服饰品类，它的分类大概是：
 
-![04](/img/product/product/how-to-analyze-product_images/04.png)
+![04](/static/img/product/product/how-to-analyze-product_images/04.png)
 
 ## 明确产品类型
 
@@ -88,7 +83,7 @@ sidebar_label: 如何分析竞品与行业
     1. 大部分情况下，服务提供方的规模小于需求方，调查覆盖度相对容易更完整；
     2. 提供方往往投入度高、决策压力大，通常都会更加关注目标行业的整体发展情况，更容易收集到 “二手信息（线索）”，效率高。大型电商品牌在电商平台的年投入可能上亿，而一个买家可能每年只有几千元。
 
-![05](/img/product/product/how-to-analyze-product_images/05.png)
+![05](/static/img/product/product/how-to-analyze-product_images/05.png)
 
 举个例子，比方说我们要调研面向 B 端用户的 CRM、SaaS、金融终端等平台，最容易的方法就是和他们的产品经理（销售端）沟通，他们对市场和客户的认知要远超普通的 B 端客户。又或者我们要调研运动服饰，去线下健身房采访撸铁大佬或者去出售健身装备的商家效果会更好。
 
@@ -132,7 +127,7 @@ sidebar_label: 如何分析竞品与行业
 :::tip
 去 AppStore 看竞争 App 的用户 “最新评价”，并重点看差评。比起你自己去体验，这往往可以更快速地发现对手的弱点。
 
-更多方法：[如何搜集用户需求](docs\Product\fundamentals\design\micro-product-design\how-to-collect-user-needs.md)
+更多方法：[如何搜集用户需求](/docs/Product/fundamentals/design/micro-product-design/how-to-collect-user-needs.md)
 :::
 
 
@@ -171,7 +166,7 @@ sidebar_label: 如何分析竞品与行业
 :::
 
 例如：招商银行的话题调研、饿了么首页瀑布流浏览调研、国泰君安期货的用户偏好调研。
-![06](/img/product/product/how-to-analyze-product_images/06.png)
+![06](/static/img/product/product/how-to-analyze-product_images/06.png)
 
 NPS 调研也是最常见的轻量级问卷系统之一。你也可以调研用户对竞品某些功能的看法。
 
@@ -195,7 +190,7 @@ NPS 调研也是最常见的轻量级问卷系统之一。你也可以调研用�
 
 如果是上市公司，可以直接获取到财报文件，例如美股 [SEC](http://www.sec.gov).
 
-![07](/img/product/product/how-to-analyze-product_images/07.png)
+![07](/static/img/product/product/how-to-analyze-product_images/07.png)
 
 不同 Form Type 代表不同的文件：
     * **S1/S1-A：本土公司招股说明书。A 代 表Amendment 补充信息**
@@ -216,11 +211,11 @@ NPS 调研也是最常见的轻量级问卷系统之一。你也可以调研用�
 
 你可以从中非常准确的了解到必要的公司营收变化和关键指标变化，例如 MAU 趋势：
 
-![08](/img/product/product/how-to-analyze-product_images/08.png)
+![08](/static/img/product/product/how-to-analyze-product_images/08.png)
 
 也能够看到上图中 B 站自己对 MAU 组成的解释，往往重要的业务都会被提及。例如上图中提及了： Videos、Live broadcasting、mobile games and other content。从下图你可以清楚的了解到 B 站净收入的组成与趋势，以及业务发展情况。
 
-![09](/img/product/product/how-to-analyze-product_images/09.png)
+![09](/static/img/product/product/how-to-analyze-product_images/09.png)
 
 
 #### 专业观点
@@ -251,7 +246,7 @@ NPS 调研也是最常见的轻量级问卷系统之一。你也可以调研用�
 |   · 路径规划          | 竞品的发展历程                                                                                    |
 | 概要设计        |                                                                                            |
 |   · 模块设计          | **竞品的模块结构**                                                                       |
-|             · 功能清单 | **竞品的功能清单**：[如何做清单调研](docs\Product\fundamentals\design\competitive-analysis\how-to-research.md) |
+|             · 功能清单 | **竞品的功能清单**：[如何做清单调研](/docs/Product/fundamentals/design/competitive-analysis/how-to-research.md) |
 |      · 页面结构       | 竞品的页面结构                                                                                    |
 | 详细设计        | 竞品某些功能的详细使用方式                                                                              |
 
@@ -272,4 +267,4 @@ NPS 调研也是最常见的轻量级问卷系统之一。你也可以调研用�
 
 Ref：
 * 如果你想了解如何做核心功能清单，请阅读下一篇文章
-* 如果你想大致看竞品调研的分析过程，请阅读：[ 调研：广发元始股](docs\Product\practice\competitive-research\gf-research.md)
+* 如果你想大致看竞品调研的分析过程，请阅读：[ 调研：广发元始股](/docs/Product/practice/competitive-research/gf-research.md)

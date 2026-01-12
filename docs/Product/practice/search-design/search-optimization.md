@@ -1,8 +1,3 @@
----
-sidebar_position: 4
-sidebar_label: 搜索功能设计优化
----
-
 # 搜索功能设计优化
 
 :::tip
@@ -63,7 +58,7 @@ sidebar_label: 搜索功能设计优化
 
 带着这些问题回归搜索功能的数据体系去探索，就能发现是哪些环节导致了问题的发生。这个过程会经常和其他功能数据交叉比对。结合不同维度的数据进行分析，能够很好地对搜索功能进行分析。
 
-![01](/img/product/practice/search-optimization_images/01.png)
+![01](/static/img/product/practice/search-optimization_images/01.png)
 
 示例：
     1. 搜索 DAU 下滑，是搜索功能不好用，还是有其他更便捷的搜索途径？
@@ -92,7 +87,7 @@ sidebar_label: 搜索功能设计优化
 
 比如上文列举的创新点中，分别是是自定义内容搜索、关联/详细结果展示、标签/说明/专题展示。自定义内容搜索就很难实现，这要求产品需要做好充分的数据埋点以及算法团队的支撑。相对于其他两个要点来说成本较高。
 
-![02](/img/product/practice/search-optimization_images/02.png)
+![02](/static/img/product/practice/search-optimization_images/02.png)
 
 ## 产品优化思路
 
@@ -104,19 +99,19 @@ sidebar_label: 搜索功能设计优化
 
 在搜索输入框中，可以通过算法召回内容，用户无需操作即可搜索内容。在有营销需求的前提下，通过后台配置内容，前端滚动展示，能够增加内容或功能曝光。
 
-![03](/img/product/practice/search-optimization_images/03.png)
+![03](/static/img/product/practice/search-optimization_images/03.png)
 
 ### 搜索列表
 
 搜索列表的优化思路是通过区分搜索内容类别、标注用户键入字符、完善证券标签来实现用户的快速查找。至于搜索结果的复杂性，则通过收纳的形式让用户切换不同的 Tab 进行逐一查找。
 
-![04](/img/product/practice/search-optimization_images/04.png)
+![04](/static/img/product/practice/search-optimization_images/04.png)
 
 ### 重仓个股
 
 考虑为基金栏目增加曝光，以及提供更全面的匹配信息，在搜索功能中新增了 “重仓个股” 栏目。
 
-![05](/img/product/practice/search-optimization_images/05.png)
+![05](/static/img/product/practice/search-optimization_images/05.png)
 
 ### 热搜榜
 
@@ -126,4 +121,4 @@ sidebar_label: 搜索功能设计优化
 
 自选股识别功能类似于网易云音乐的歌单识别。这个功能的场景是为了降低迁移成本，让用户更快地过渡到新产品的使用中。
 
-![06](/img/product/practice/search-optimization_images/06.png)
+![06](/static/img/product/practice/search-optimization_images/06.png)

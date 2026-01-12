@@ -1,8 +1,3 @@
----
-sidebar_position: 2
-slug: /Product/about
----
-
 # 关于手册
 
 ## 关于

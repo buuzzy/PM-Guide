@@ -1,8 +1,3 @@
----
-sidebar_position: 1
-slug: /Product
----
-
 # 写在前面
 
 ## Preface

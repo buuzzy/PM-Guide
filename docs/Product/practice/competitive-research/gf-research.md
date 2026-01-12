@@ -1,8 +1,3 @@
----
-sidebar_position: 2
-sidebar_label: 调研：广发元始股
----
-
 # 调研：广发元始股
 
 ## 产品框架与用户路径

@@ -1,8 +1,3 @@
----
-sidebar_position: 1
-sidebar_label: 如何分析一个行业
----
-
 # 如何分析一个行业
 
 ## 行业分析的目的和逻辑
@@ -25,7 +20,7 @@ sidebar_label: 如何分析一个行业
 
 同时，之所以要分析市场规模的三个阶段，是因为分析某个阶段只会得出片面的结论。举一个简单的例子，瑞幸在切入中低价位的咖啡市场时，如果分析师只着眼过去，他们只会得出 "中国人没有喝咖啡的习惯" 这一结论。只看现在的话，会认为咖啡是一个垄断市场，被星巴克和 Costa 垄断的高端市场和被雀巢为代表的低端市场。那么对于是否切入这个市场这个问题，答案很可能是 "否"。
 
-![01](/img/product/product/how-to-analyze_images/01.png)
+![01](/static/img/product/product/how-to-analyze_images/01.png)
 <div class="text-center">*强调任意一个单一结论都不可能得到正确的答案*</div>
 <br/>
 
@@ -68,7 +63,7 @@ sidebar_label: 如何分析一个行业
 市场规模代表的是一个行业**一年内**收入的大小。如果行业中有很多企业，市场规模代表的就是行业中企业的总和，在某一年收入的大小。
 :::
 
-![02](/img/product/product/how-to-analyze_images/02.png)
+![02](/static/img/product/product/how-to-analyze_images/02.png)
 <div class="text-center">*行业甲在 2023 年的收入总和代表着它在当年的市场规模*</div>
 <br/>
 
@@ -86,7 +81,7 @@ sidebar_label: 如何分析一个行业
 
 举一个例子，假设市场上有两家咖啡店，一家叫星爸爸咖啡店，一家叫瑞星星咖啡店。星爸爸咖啡店一年收入 1000 万元，瑞星星咖啡店一年收入 3000 万元。那么咖啡行业的市场规模就是这两家咖啡店收入的总和，3000 万就是咖啡行业的市场规模。
 
-![03](/img/product/product/how-to-analyze_images/03.png)
+![03](/static/img/product/product/how-to-analyze_images/03.png)
 <div class="text-center">*市场规模是行业内所有企业收入的总和*</div>
 <br/>
 
@@ -106,7 +101,7 @@ sidebar_label: 如何分析一个行业
 
 一种变化是产品单价的变化。假如一杯咖啡的价钱由 20 元上调到 40 元，在销量不变的情况下，星爸爸咖啡店的收入会从 2000 万提升到 4000 万元。同理，当咖啡店开始扩大销量，由 100 万杯提升到 200 万杯，咖啡店的收入同样也能从 2000 万提升到 4000 万元。产品的的价格和销量的变化，使得企业收入和行业规模也在进行变化。
 
-![04](/img/product/product/how-to-analyze_images/04.png)
+![04](/static/img/product/product/how-to-analyze_images/04.png)
 
 综上，我们能够得出一个较为完善的结论：
 
@@ -116,11 +111,11 @@ sidebar_label: 如何分析一个行业
 
 举一个现实的例子。我的老东家新媒股份在 2023 年半年报公布的营业收入是 7.06 亿元，去年同期营业收入是 7.42 亿元，同比下降了 4.77%。
 
-![05](/img/product/product/how-to-analyze_images/05.png)
+![05](/static/img/product/product/how-to-analyze_images/05.png)
 
 在主营业务分析中，新媒股份并没有给出直接原因，但是财报中提及了主营业务的下滑可能与订阅费用提升、订阅用户减少有关。简言之，就是产品单价提高，销量下降带来了收入下滑。总归还是产品单价和产品销量的变化对企业经营产生了影响。
 
-![06](/img/product/product/how-to-analyze_images/06.png)
+![06](/static/img/product/product/how-to-analyze_images/06.png)
 
 不过，并非所有的量价变化都如上图的共识这般简单，“复杂” 充满了这个市场的每个角落。以风能行业距离，有一家公开资料较多的上市公司，叫做金风科技。2021 年收入 509 亿元，2022 年收入464.36 亿元，同比下降 8.77%。但金风科技在 2021 年的风机制造销售量为 11823.22 MW，2022 年则为 15495.39 MW，销量上涨了 31.06%。
 
@@ -132,7 +127,7 @@ sidebar_label: 如何分析一个行业
 
 为了加深理解，接下来我出一道题来考考大家。假如市场上只有一家咖啡店，瑞星星咖啡店。2021 年一共卖出 1000 万杯咖啡，每杯咖啡的价格是 15 元，实现收入 1.5 亿元。2022 年一共卖出 1500 万杯咖啡，每杯咖啡的价格是 9.9 元，实现收入 9900 万元。那么，市场规模变化的因素是单价还是销量呢？
 
-![07](/img/product/product/how-to-analyze_images/07.png)
+![07](/static/img/product/product/how-to-analyze_images/07.png)
 
 看到这里想必已经很清楚答案是什么，答案是两者都有，因为产品单价和产品销量均发生了变化。现在把问题升级一下，在知道 2021 年和 2022 年数据的情况下，预估 2023 年的市场规模的变化。
 
@@ -142,7 +137,7 @@ sidebar_label: 如何分析一个行业
 
 恰好，人性天然爱好预测未来。而预测未来的钥匙藏在对供需变化的分析当中。
 
-![08](/img/product/product/how-to-analyze_images/08.png)
+![08](/static/img/product/product/how-to-analyze_images/08.png)
 <div class="text-center">*通过量价关系分析行业过去、现在和未来的市场规模*</div>
 <br/>
 
@@ -160,13 +155,13 @@ sidebar_label: 如何分析一个行业
 
 中信证券在这篇研究报告中表达了一个逻辑：**未来市场规模的变化是依靠行业的量价关系来判断的。对未来量价关系的变化，源于影响量价关系的供需变化。**
 
-![09](/img/product/product/how-to-analyze_images/09.png)
+![09](/static/img/product/product/how-to-analyze_images/09.png)
 
 再用咖啡店举一个例子。假设市场上只有一家星爸爸咖啡店，每年生产 1000 万杯咖啡，每杯咖啡要 20 元，那么咖啡市场规模就是 2 亿元。如果这个市场上有 2000 万位打工人，每个人一年消耗 1 杯咖啡，那么市场对于咖啡的需求量就是 4 亿元。那么星爸爸咖啡店的市场规模会如何变化呢？
 
 其实无非就两种做法。要么把咖啡供应量给提高，上大剂量；要么就是提升价格，把咖啡价格打上去。这两种做法都能使市场规模达到正常的水平。提高供应量是产品销量的变化。调整咖啡价格是产品单价的变化。
 
-![10](/img/product/product/how-to-analyze_images/10.png)
+![10](/static/img/product/product/how-to-analyze_images/10.png)
 
 所以在判断未来行业量价关系的变化时，需要关注供需关系的变化。这个逻辑是成立的。
 
@@ -188,7 +183,7 @@ sidebar_label: 如何分析一个行业
 
 这份研究报告的观点认为乳制品的量价提升，取决于乳制品未来需求和供给的变化。这和上面推导出来的结论不谋而合。通过研究供需变化分析量价关系，进而推导市场规模，这是可行的思路。
 
-![11](/img/product/product/how-to-analyze_images/11.png)
+![11](/static/img/product/product/how-to-analyze_images/11.png)
 
 需要注意的是，**没有人能够预测供需关系在未来会如何变化。** 便在上面提到的乳制品行业的例子中，研究员也是假定人均消费类很低这一先决条件，如果假定的条件是中国的乳制品市场规模有限，或者中国人天生乳糖不耐受不适合喝牛奶呢？毫无疑问，使用这些假定条件进行分析最终会推导出完全不同的结论。
 
@@ -198,7 +193,7 @@ sidebar_label: 如何分析一个行业
 
 如果仅用量价关系去判断星爸爸咖啡店收入下降的原因，只能得出原因是咖啡行业的供给增加。但事实却是瑞星星咖啡店进入市场导致的市场竞争加剧。
 
-![12](/img/product/product/how-to-analyze_images/12.png)
+![12](/static/img/product/product/how-to-analyze_images/12.png)
 
 **小结：**
     1. 行业分析的目的是发现行业过去、现在和未来的市场规模
@@ -206,7 +201,7 @@ sidebar_label: 如何分析一个行业
     3. 量价关系并不能预测，只能通过确定已知的的供需关系来判断
     4. 当影响供需变化的因素确定时，供需关系才能确定
 
-![13](/img/product/product/how-to-analyze_images/13.png)
+![13](/static/img/product/product/how-to-analyze_images/13.png)
 
 当影响供需变化的因素确定时，供需关系才能确定。那么如何找到行业影响因素呢？实际上在许多商业研究中，关于行业影响因素已经研究得透透的。接下来将从内外部影响因素说起，闭环掉最基础的逻辑。
 
@@ -244,7 +239,7 @@ PEST 是影响外部因素的四个方面，P 代表政策，E 代表经济，S 
 
 写到这里，终于把行业分析的逻辑捋清楚了，详见下图：
 
-![14](/img/product/product/how-to-analyze_images/14.png)
+![14](/static/img/product/product/how-to-analyze_images/14.png)
 
 #### 最后一个问题
 
@@ -271,7 +266,7 @@ PEST 是影响外部因素的四个方面，P 代表政策，E 代表经济，S 
 
 但是，人均消费量提高，乳制品的消费量机会升高吗？没有人能够确定。直到这件事发生时，我们才能够知道。再念一遍：**当竞争和PEST发生的时候，那么竞争和PEST才是已知的。**
 
-![15](/img/product/product/how-to-analyze_images/15.png)
+![15](/static/img/product/product/how-to-analyze_images/15.png)
 
 最后来总结一下这篇文章的主题，如何分析一个行业，也即如何理解行业分析的逻辑：
     1. 行业分析的目的是分析行业市场规模的过去、现在和未来。行业市场规模是行业内所有企业收入的总和。
@@ -279,4 +274,4 @@ PEST 是影响外部因素的四个方面，P 代表政策，E 代表经济，S 
     3. 量价关系的变化需要通过供需关系来发现，明白供需关系的变化则需要知道影响因素的变化。
     4. 影响供需关系变化的因素是竞争和 PEST。但只有当竞争和 PEST 发生的时候，我们才能判断供需关系的变化，进而反向推导整个过程。
 
-![16](/img/product/product/how-to-analyze_images/16.png)
+![16](/static/img/product/product/how-to-analyze_images/16.png)

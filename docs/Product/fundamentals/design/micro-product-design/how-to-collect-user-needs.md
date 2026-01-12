@@ -1,8 +1,3 @@
----
-sidebar_position: 3
-sidebar_label: 如何搜集用户需求
----
-
 # 如何搜集用户需求 
 
 一提到搜集用户需求，我们往往会想到市场分析、调查问卷、用户访谈等方法，但这些手段过于复杂，耗时较长。有没有更快的方法？答案是有的，我们需要将目光集中在竞品分析上，只不过角度有些不同。
@@ -35,18 +30,18 @@ sidebar_label: 如何搜集用户需求
 
 即便产品拓展了兼容性，比方说微信和支付宝做了小程序，同花顺做了内嵌的应用商店，也还是很难扭转用户对产品的刻板认识。用户心智给产品留下了一道生门，意味着部分移动产品可以通过垂直做深去占领市场份额，与大厂对抗。
 
-![01](/img/product/product/how-to-collect-user-needs_images/01.png)
+![01](/static/img/product/product/how-to-collect-user-needs_images/01.png)
 
-依照这个思路，我们可以很快地从一众竞品中筛选出值得关注的几个，而这些产品所瞄准的细分赛道就是值得我们去了解的。你也可以在[ 竞品清单（证券/期货）](docs\Product\practice\competitive-research\stock-list.md)中找到一些值得参考的竞品，但更多有意思的产品还需要你通过榜单维度去发掘。
+依照这个思路，我们可以很快地从一众竞品中筛选出值得关注的几个，而这些产品所瞄准的细分赛道就是值得我们去了解的。你也可以在[ 竞品清单（证券/期货）](/docs/Product/practice/competitive-research/stock-list.md)中找到一些值得参考的竞品，但更多有意思的产品还需要你通过榜单维度去发掘。
 
-![02](/img/product/product/how-to-collect-user-needs_images/02.png)
+![02](/static/img/product/product/how-to-collect-user-needs_images/02.png)
 
 
 ### 榜单维度
 
 大部分情况下，新手产品经理在一开始并不知道应该调研哪些产品，或者说只会调研一些 Mentor 要求调研的主流产品。但在市面上有许多应用并非靠投流取胜，由于国内手机厂商审核严苛，他们甚至没有在安卓应用商城上架。这个时候，我通常会用一些主流的移动产品分析平台，如七麦数据、友盟等平台去刷 App Store 排行榜单。
 
-![03](/img/product/product/how-to-collect-user-needs_images/03.PNG)
+![03](/static/img/product/product/how-to-collect-user-needs_images/03.PNG)
 
 
 <div className="text-center">
@@ -55,7 +50,7 @@ sidebar_label: 如何搜集用户需求
 <br/>
 如果你已经了解了一些头部竞品，那么可以继续往下翻，去看某个领域排名的产品有没有值得你关注的，我通常关注前 500 Top 的竞品，有许多产品可能并不那么知名，但非常有趣，靠口碑传播。你还可以通过产品详情页去查看不同版本的更新时间以及更新时间对应的下载数据变化，从而去发掘产品做了哪些动作让产品变得更好或更差。
 
-![04](/img/product/product/how-to-collect-user-needs_images/04.png)
+![04](/static/img/product/product/how-to-collect-user-needs_images/04.png)
 
 <div className="text-center">
 *七麦数据：京东金融 - 实时排名*
@@ -73,7 +68,9 @@ sidebar_label: 如何搜集用户需求
 
 第一个最简单的方法是，通过各大应用商店去了解用户评价，能够大致了解产品大方面的问题集中在哪里。比方说下图中对于云闪付的差评，大部分用户反映的是产品运营策略和促销手段的问题，其中有用户提到部分补贴、优惠券无法领取，这可能是运营中台配置过期未及时下线或未在详情页说明线下适用门店。也有用户提到 Push 和运营活动设计令人不太舒服，这体现了云闪付运营团队的营销规划可能整体过于冒进，更多地考虑了收益，用户体验较差。
 
-![05](/img/product/product/how-to-collect-user-needs_images/05.png)
+![05](/static/img/product/product/how-to-collect-user-needs_images/05.png)
+
+
 
 <div className="text-center">
 [云闪付：用户评价（App Store）](https://apps.apple.com/cn/app/%E4%BA%91%E9%97%AA%E4%BB%98-%E9%93%B6%E8%A1%8C%E4%B8%9A%E7%BB%9C%E4%B8%80%E7%A7%BB%E5%8A%A8%E6%94%AF%E4%BB%98app/id600273928?see-all=reviews)
@@ -87,7 +84,7 @@ sidebar_label: 如何搜集用户需求
 
 通过 App Store 或者其他应用商店去获取用户评价是一种最简单的方法。在其他社区产品，比方说同花顺、东方财富，产品在更新后会在社区发布更新内容，也允许用户评价。我们可以通过这些帖子了解用户更加精确的问题，比方说 XX 功能不好，想要支持什么功能，最好做成什么样子。
 
-![06](/img/product/product/how-to-collect-user-needs_images/06.png)
+![06](/static/img/product/product/how-to-collect-user-needs_images/06.png)
 
 <div className="text-center">
 *东方财富 - 功能驿站*
