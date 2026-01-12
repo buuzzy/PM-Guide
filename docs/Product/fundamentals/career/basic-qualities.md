@@ -71,11 +71,11 @@ So，Let's 看手册吧，慢慢查缺补漏。
 
 ## 习惯逻辑思考
 
-逻辑思考是产品经理需要具备的能力之一。此处不再赘述，详见[什么是产品思维？](docs\Product\fundamentals\career\product-thinking.md)
+逻辑思考是产品经理需要具备的能力之一。此处不再赘述，详见[什么是产品思维？](/docs/Product/fundamentals/career/product-thinking.md)
 
 ## 善于抽象
 
-抽象是解构产品功能的最终环节，在[什么是产品思维？](docs\Product\fundamentals\career\product-thinking.md)中我们提过，抽象得好，后期产品发生大调整的概率就少，而且还能保证产品架构的稳定性。
+抽象是解构产品功能的最终环节，在[什么是产品思维？](/docs/Product/fundamentals/career/product-thinking.md)中我们提过，抽象得好，后期产品发生大调整的概率就少，而且还能保证产品架构的稳定性。
 
 ## 热爱写作
 

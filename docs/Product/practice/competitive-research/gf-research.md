@@ -15,14 +15,14 @@ sidebar_label: 调研：广发元始股
 
 #### 路径1：构建股单
 
-![02](\img\product\practice\gf-research_images\02.png)
-![03](\img\product\practice\gf-research_images\03.png)
+![02](/static/img/product/practice/gf-research_images/02.png)
+![03](/static/img/product/practice/gf-research_images/03.png)
 
 <div class="text--center">
 *股单的建立流程，自选股单在主页进行展示*
 </div>
 
-![04](\img\product\practice\gf-research_images\04.png)
+![04](/static/img/product/practice/gf-research_images/04.png)
 
 <div class="text--center">
 *通过行业检索功能建立股单，可以理解为将某一板块、概念的个股添加进入自选列表*
@@ -31,20 +31,20 @@ sidebar_label: 调研：广发元始股
 
 #### 路径2：发现个股
 
-![05](\img\product\practice\gf-research_images\05.png)
-![06](\img\product\practice\gf-research_images\06.png)
+![05](/static/img/product/practice/gf-research_images/05.png)
+![06](/static/img/product/practice/gf-research_images/06.png)
 <br/>
 
 #### 路径3：开户
 
-![07](\img\product\practice\gf-research_images\07.png)
-![08](\img\product\practice\gf-research_images\08.png)
+![07](/static/img/product/practice/gf-research_images/07.png)
+![08](/static/img/product/practice/gf-research_images/08.png)
 <br/>
 
 #### 路径4：个股交易
 
-![09](\img\product\practice\gf-research_images\09.png)
-![10](\img\product\practice\gf-research_images\10.png)
+![09](/static/img/product/practice/gf-research_images/09.png)
+![10](/static/img/product/practice/gf-research_images/10.png)
 
 <div class="text--center">  
 *个股行情页进行买卖和撤单的界面*
@@ -53,8 +53,8 @@ sidebar_label: 调研：广发元始股
 
 #### 路径5：社区参与
 
-![11](\img\product\practice\gf-research_images\11.png)  
-![12](\img\product\practice\gf-research_images\12.png)  
+![11](/static/img/product/practice/gf-research_images/11.png)  
+![12](/static/img/product/practice/gf-research_images/12.png)  
 
 <div class="text--center">  
 *在社区查看别人帖子以及发言的界面*
@@ -63,8 +63,8 @@ sidebar_label: 调研：广发元始股
 
 #### 路径6：投顾咨询
 
-![13](\img\product\practice\gf-research_images\13.png)
-![14](\img\product\practice\gf-research_images\14.png)
+![13](/static/img/product/practice/gf-research_images/13.png)
+![14](/static/img/product/practice/gf-research_images/14.png)
 
 <div class="text--center">  
 *在投顾咨询（问老师）界面进行投顾匹配和投顾聊天的界面*
@@ -76,7 +76,7 @@ sidebar_label: 调研：广发元始股
 
 #### 渠道下载量
 
-| 时间 \ 渠道 | VIVO | OPPO  | IOS  |
+| 时间 / 渠道 | VIVO | OPPO  | IOS  |
 | :------- | :---- | :----- | :---- |
 | 06.13   | 8    | -     | -    |
 | 06.14   | 24   | -     | -    |
@@ -93,11 +93,11 @@ sidebar_label: 调研：广发元始股
 | 06.25   | 7496 | 13980 | -    |
 | 06.26   | 8492 | 15281 | 1584 |
 
-*\*统计时间截止至 2023 年 6 月 27 日*
+*/*统计时间截止至 2023 年 6 月 27 日*
 
 #### 渠道增长率
 
-| 时间 \ 渠道 | VIVO   | OPPO   |
+| 时间 / 渠道 | VIVO   | OPPO   |
 | :------- | :------ | :------ |
 | 06.14   | 66.67% | -      |
 | 06.15   | 14.29% | -      |
@@ -113,7 +113,7 @@ sidebar_label: 调研：广发元始股
 | 06.25   | 10.94% | 8.32%  |
 | 06.26   | 11.73% | 8.51%  |
 
-*\*统计时间截止至 2023 年 6 月 27 日*
+*/*统计时间截止至 2023 年 6 月 27 日*
 
 ### 渠道增长分析
 
@@ -123,13 +123,13 @@ sidebar_label: 调研：广发元始股
 
 从广发元始股的版本上架记录和下载量来看，两者并没有直接联系，下载量的来源更多是手机应用商城的竞价排名和市场推广所带来的用户增长，在应用市场的评论历史也可以印证这个观点。该产品暂未实现口碑相传的裂变增长，现阶段更侧重于营销推广。
 
-![15](\img\product\practice\gf-research_images\15.png)
+![15](/static/img/product/practice/gf-research_images/15.png)
 
 <div class="text--center">  
 *评论列表*
 </div>
 
-![16](\img\product\practice\gf-research_images\16.png)
+![16](/static/img/product/practice/gf-research_images/16.png)
 
 <div class="text--center">  
 *竞价排名*
@@ -202,7 +202,7 @@ Z 世代在未来的 10 到 15 年内将成为我国社会财富的主要构成�
 
 在前端样式的设计上，广发元始股参考了 Soul 的宇宙流设计，但是缺乏实质内涵。投顾的业务指标并不是陪聊，而是让用户完成开户交易，Z 世代用户能从元始股获得多少社交反馈和情感共鸣，这是存疑的。
 
-![17](\img\product\practice\gf-research_images\17.png)
+![17](/static/img/product/practice/gf-research_images/17.png)
 
 ### 社区运营
 
@@ -230,7 +230,7 @@ Z 世代在未来的 10 到 15 年内将成为我国社会财富的主要构成�
 
 等级体系唯资金论，交易资金越高等级越高。对于大 V 是好事，但是对于整个社区的氛围会产生损害。广发元始股的社区带有资金大于内容的导向。
 
-![18](\img\product\practice\gf-research_images\18.png)
+![18](/static/img/product/practice/gf-research_images/18.png)
 
 在聊天室功能中，投顾老师仅在一段时间内进行答疑和观点输出，答疑速度较慢，也很难做到实时响应。作为一个投资文字聊天室是没问题的，但并不能在宣传口保持一致。
 
@@ -238,7 +238,7 @@ Z 世代在未来的 10 到 15 年内将成为我国社会财富的主要构成�
 
 投资指南是我个人比较感兴趣的能力。广发元始股在首页的 “投资指南” 写了产品的诞生故事，非常接近 Web3 的玩法（公开产品设计初衷、内部讨论、需求评审的模式）。在许多特色性较为明显的应用，比如有知有行、且慢等投资应用，都采用了类似的做法。
 
-![19](\img\product\practice\gf-research_images\19.png)
+![19](/static/img/product/practice/gf-research_images/19.png)
 
 <div class="text-center">
 *以上三张截图分别为：广发元始股、有知有行、且慢*
@@ -261,7 +261,7 @@ Z 世代在未来的 10 到 15 年内将成为我国社会财富的主要构成�
 
 从技术角度来看，股单创建和以基寻股使用了关联标签和 OCR 技术，官方股单的人为设计比较明显，应该为人工进行整理，模式和当前主流的股票概念、模块类似。
 
-![20](\img\product\practice\gf-research_images\20.png)
+![20](/static/img/product/practice/gf-research_images/20.png)
 
 ### 个股详情
 
@@ -275,17 +275,17 @@ Z 世代在未来的 10 到 15 年内将成为我国社会财富的主要构成�
 
 相较于其他股票应用，广发元始股的个股行情页实现了产品简洁易懂的需求，同时没有展示过多复杂和干扰要素，比如诊股、消息速递。对于新用户来说是易于上手的，但是还未能实现易懂性。理解个股本身存在一定门槛。
 
-![21](\img\product\practice\gf-research_images\21.png)
+![21](/static/img/product/practice/gf-research_images/21.png)
 
 ### 资产查询
 
 在资产页面，从上至下的功能包括：银证转账、收益分析、客户资金。可完成资金转入转出，查看账户收益分析，查看可用资金等操作。
 
-![22](\img\product\practice\gf-research_images\22.png)
+![22](/static/img/product/practice/gf-research_images/22.png)
 
 用户如果想查看持仓股票、已经委托或成交的交易单，以及清仓股票的收益，可在我的持仓模块进行查询。
 
-![23](\img\product\practice\gf-research_images\23.png)
+![23](/static/img/product/practice/gf-research_images/23.png)
 
 ## 总结
 
@@ -295,11 +295,11 @@ Z 世代在未来的 10 到 15 年内将成为我国社会财富的主要构成�
 
 广发元始股摒弃了传统炒股软件的被滥用的弹窗功能和消息提醒能力，每日的信封推送也较为克制。元始股着重强调的投顾功能，使用了类似 Soul（一款社交软件）的设计，引入了 “匹配” 的概念来改变用户和投顾之间的交流模式。
 
-![24](\img\product\practice\gf-research_images\24.png)
+![24](/static/img/product/practice/gf-research_images/24.png)
 
 但是广发元始股在 UI 上的改进并不能称之为创新。之所以这样说，是因为许多国外交易平台（比如欧易、币安等）都是这样设计的。所以当这种新颖的设计交互理念和国内市场上的股票软件一比，就会产生较大的冲击力。
 
-![25](\img\product\practice\gf-research_images\25.png)
+![25](/static/img/product/practice/gf-research_images/25.png)
 
 <div class="text-center">
 *从左到右依次是欧易、Binance、Tiger Trade*
@@ -310,17 +310,17 @@ Z 世代在未来的 10 到 15 年内将成为我国社会财富的主要构成�
 
 **从整体功能上来说**，广发元始股并没有技术突破。广发宣传的投顾、社区，很大程度上都是沿用了旧有的范式。广发元始股在宣传口提及的数字化能力模型能力，主要是标签关联的能力，这在许多股票软件中已经是被普及的能力，而非创新功能。此外，股单功能的引入股单和官方股单，则是运用了 OCR 图像识别技术，后者是做了股单的人工整合。
 
-![26](\img\product\practice\gf-research_images\26.png)
+![26](/static/img/product/practice/gf-research_images/26.png)
 
 
 **在个股详情页中**，于追求极简的理念，广发元始股在个股相关衍生功能上也相对克制，去除了 K 线图的主副图指标、K 线划线以及点位展示的功能，仅保留了一些基本面和消息面的能力。的确，对于新用户来说，技术面分析存在一定门槛，保留基本面的做法是可以理解的。但是股票交易不同于基金，择时和点位的选择也相当重要，对于这一点的改动，在进行产品设计时需要谨慎参考。
 
-![27](\img\product\practice\gf-research_images\27.png)
+![27](/static/img/product/practice/gf-research_images/27.png)
 
 
 **在开户功能方面**，于监管合规的要求，这部分功能没有出现创新，而是在 UI 样式上进行了优化，同时展示了开户流程的进度。其他的步骤和市场现有的股票软件别无二致。
 
-![28](\img\product\practice\gf-research_images\28.png)
+![28](/static/img/product/practice/gf-research_images/28.png)
 
 **在个股交易方面**，目前广发元始股仅支持买卖撤单，不支持条件单。买卖个股的前端页面展示仅提供了一档和五档价格，其余的参考信息并不多。此外，交易渠道仅支持在个股详情页进行买卖，或在持仓股票进行加减仓，渠道过于单一。
 
