@@ -9,7 +9,7 @@ sidebar_label: 调研：广发元始股
 
 ### 元始股功能架构
 
-![01](\img\product\practice\gf-research_images\01.png)
+![01](/static/img/product/practice/gf-research_images/01.png)
 
 ### 用户使用路径
 
