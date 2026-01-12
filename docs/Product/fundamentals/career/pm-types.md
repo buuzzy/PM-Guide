@@ -7,7 +7,7 @@ sidebar_position: 2
 
 很多刚毕业、想要做产品工作的小伙伴一开始除了通过小红书了解关于 PM 的相关知识，还会在招聘软件上浏览相关岗位，然后就陷入了深深的懵圈：**为什么产品经理的类型有这么多？**
 
-![01](/img/product/product/pm-types_images/01.png)
+![01](/static/img/product/product/pm-types_images/01.png)
 
 电商产品经理这个岗位我能理解，不就是拼多多或者淘宝嘛。但是什么叫 Saas 产品经理？BA 又是什么意思？为什么 “搜索” 还需要专门请个产品经理来做？搜索不是一个 “小功能” 吗...
 
@@ -35,7 +35,7 @@ sidebar_position: 2
 
 如果要搞明白哪些岗位更适合自己，这需要回归到产品经理分类的本质中进行思考。一般来说产品经理的岗位会按照三个方面来区分，分别是**产品类型、技能类型、能力水平类型**。
 
-![02](/img/product/product/pm-types_images/02.png)
+![02](/static/img/product/product/pm-types_images/02.png)
 
 ## 按产品类型区分
 
@@ -55,7 +55,7 @@ sidebar_position: 2
 
 有些技能分类可以按照公司的产品来看，比如我们知道抖音是短视频产品，美团是团购产品。有些则需要按照产品的功能（业务）来看。抖音有直播、电商、团购、社区等业务线。美团是做团购起家，但也拓展了外卖、生鲜、OTA 等业务线。
 
-![03](/img/product/product/pm-types_images/03.png)
+![03](/static/img/product/product/pm-types_images/03.png)
 
 不过有一种比较清晰的判断方法，通过上表中的 “岗位示例” 可以很明确地判断自己是否拥有此项能力。
 
@@ -114,7 +114,7 @@ sidebar_position: 2
 
 按照能力水平进行区分，也就是看个人的经验和成就。互联网大厂总包和职级参见下图。（艰难地找了一张高清图片）
 
-![04](/img/product/product/pm-types_images/04.png)
+![04](/static/img/product/product/pm-types_images/04.png)
 
 从产品线来看，主要分为应届生（实习生）、初级产品经理、中级产品经理、高级产品经理、资深产品经理、专家级产品经理、首席产品经理等不同级别。不同级别的产品经理需要具备的素质和能力也存在较大差距。
 

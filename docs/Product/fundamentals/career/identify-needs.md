@@ -4,7 +4,7 @@ sidebar_position: 5
 
 # 如何识别需求？ 
 
-在[什么是产品需求](docs\Product\fundamentals\career\product-requirements.md)中，我们讨论了需求的定义和特点。在了解需求的属性之后，我更感兴趣的一点是，**需求是如何被发现的？**
+在[什么是产品需求](/docs/Product/fundamentals/career/product-requirements.md)中，我们讨论了需求的定义和特点。在了解需求的属性之后，我更感兴趣的一点是，**需求是如何被发现的？**
 
 为什么移动设备的大量出现，美团会发现外卖配送的机会？为什么 4G 网络的推出，会推动抖音、快手这些视频平台出现？AI 为什么在 22 年末突然火了而不是在 10 年前？识别需求相当重要，它能够帮我们厘清需求的发展脉络。
 
@@ -14,7 +14,7 @@ sidebar_position: 5
 
 不同的逻辑会衍生出来不同的需求。就拿 "吃饭" 这件事来说，为了吃得高级或者款待朋友，我们会花重金去高级餐厅吃饭。或者将食品食材作为财富的象征，比方说鹿茸、花胶、燕窝等等。又比如为了吃得更健康，市面上会出现相应的轻食、补剂，以及针对你的目标而量身打造的减脂或增肌饮食。
 
-![01](/img/product/product/identify-needs_images/01.png)
+![01](/static/img/product/product/identify-needs_images/01.png)
 <div class="text-center">*吃饭这件“小事”*</div>
 <br/>
 
@@ -22,17 +22,17 @@ sidebar_position: 5
 
 在互联网普及之后，市面上有了地图软件、点评软件，信息扩散性的速度非常快。抛去带有营销性质的内容，餐馆能够以榜单、帖子的形式让每个人看到，心里有底。同时包括探店、试吃等类型的短视频流行，也进一步加快了我们了解一个地方美食、优质餐厅的效率。
 
-![02](/img/product/product/identify-needs_images/02.png)
+![02](/static/img/product/product/identify-needs_images/02.png)
 
 举一个社交领域的一个例子，目前我们熟知的社交产品，比方说国内的微信、QQ，国外的 Facebook，X（Twitter），这些社交产品并非一开始就是以 App 的形态出现。最早的互联网社交产品是个人网站，大家通过建站，在网站上放置个人的照片和信息，以此和其他人产生联系。
 
 但这种形式存在一定的技术壁垒，首先要购买域名、配备服务器，还有懂一点前端代码。于是在这个基础上出现了第二代社交产品，比方说 Chinaren 和 GeoCities，这类产品允许用户自行搭建组件建站，大大降低了用户的操作难度。
 
-![03](/img/product/product/identify-needs_images/03.png)
+![03](/static/img/product/product/identify-needs_images/03.png)
 <div class="text-center">*美剧《绝命毒师》中，主角 Walter White 的儿子为其做的筹款海报。*</div>
 <br/>
 
-![04](/img/product/product/identify-needs_images/04.PNG)
+![04](/static/img/product/product/identify-needs_images/04.PNG)
 <div class="text-center">*古早的QQ空间支持用户自定义主页，支持调整应用展示和布局。*</div>
 <br/>
 
@@ -50,7 +50,7 @@ sidebar_position: 5
 
 借由网络效应，现在互联网大部分对技术和环境的讨论都是超前的。或许说，我们不仅会讨论当下技术的难点，还会讨论未来需求和产品的形态。比方说当我们讨论所谓的 Web3 和区块链的时候，认知相当重要。Web3 是否是 Web2 的下一代版本还是说一个伪需求？区块链所宣传的去中心化理念是否是未来的发展方向？还是说仅是对日渐集中化的世界的一种叛逆？认知决定了产品经理如何处理当下的需求，也决定着他们对未来的看法。
 
-![05](/img/product/product/identify-needs_images/05.png)
+![05](/static/img/product/product/identify-needs_images/05.png)
 
 :::tip 提示
 **了解产品为什么失败**：还有一个提高认知的方式可能很少有人提及，就是去看产品是如何失败的。产品大佬们在关键节点是怎么做决策的？什么导致了失败，原因是什么？推荐大家去听潘乱的播客节目：[乱翻书](https://www.ximalaya.com/album/58236027)

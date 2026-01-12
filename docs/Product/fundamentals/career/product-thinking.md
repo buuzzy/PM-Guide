@@ -49,7 +49,7 @@ sidebar_position: 3
 
 我从未见过 “活着” 的用户。每当上级让我去搜集用户观点的时候，我会去翻不同产品的评论，看他们想要什么，讨厌什么，然后记录，形成需求。用户对我来说更像是一则评论，一条数据。我可以在数据看板知道用户在干什么，点击了哪些按钮，浏览了哪些页面，匆匆下一个结论并形成需求。
 
-![01](/img/product/product/product-thinking_images/01.png)
+![01](/static/img/product/product/product-thinking_images/01.png)
 
 那么，有哪些方式能够帮助我们快速找到用户呢？
 
@@ -70,7 +70,7 @@ sidebar_position: 3
 
 那么，一个用户最终可能会在这些渠道中留下痕迹，我们可以从这些应用中寻找用户，了解用户需要什么。
 
-![02](/img/product/product/product-thinking_images/02.png)
+![02](/static/img/product/product/product-thinking_images/02.png)
 
 * **发现用户需求**
 
@@ -89,16 +89,16 @@ sidebar_position: 3
 
 比方说，从上面提到的诸多问题中可以解构（拆解）出许多关键字，例如：
 
-![03](/img/product/product/product-thinking_images/03.png)
+![03](/static/img/product/product/product-thinking_images/03.png)
 完成拆解之后，接下来要做的是进行抽象。通过抽象，我们就能组合起用户需求。例如将身高、体重、体脂率归入人体基础指标，将锻炼组数、力竭、RM、递减组，归入锻炼细节。以此类推，我们还能抽象出锻炼时长、锻炼目的等模块。
 
-![04](/img/product/product/product-thinking_images/04.png)
+![04](/static/img/product/product/product-thinking_images/04.png)
 
 这样一看，平台上关于健身锻炼的问题，其实就可以归纳为基础信息、锻炼计划和健身饮食三个方面。用户的逻辑也比较容易理解，即用户会提供一些基础信息，需要有人帮忙制定锻炼和饮食计划。当然，这里还有非常多的模块，例如健身工具、锻炼激励等，都可以通过解构和抽象的方式来匹配用户的实际需求。
 
 
 
-以上，大部分的用户和需求，都可以通过 “让自己成为用户” 这个方法去发现。在[《启示录》](https://book.douban.com/subject/5914587/?linkid=2612)等许多产品书籍中，还提到了用户访谈，产品测试参与等许多方法，这里暂不展开。关于用户行为数据分析的部分，在[如何做好埋点设计](docs\Product\fundamentals\design\micro-product-design\data-tracking\how-to-design-tracking.md)中我会进行讲述。这些方法都能帮助我们更好地了解用户。
+以上，大部分的用户和需求，都可以通过 “让自己成为用户” 这个方法去发现。在[《启示录》](https://book.douban.com/subject/5914587/?linkid=2612)等许多产品书籍中，还提到了用户访谈，产品测试参与等许多方法，这里暂不展开。关于用户行为数据分析的部分，在[如何做好埋点设计](/docs/Product/fundamentals/design/micro-product-design/data-tracking/how-to-design-tracking.md)中我会进行讲述。这些方法都能帮助我们更好地了解用户。
 
 ## 创新和适应新技术
 
@@ -120,18 +120,19 @@ sidebar_position: 3
 
 如果将这种预定或购买书籍的形式理解为信息的流转过程，可想而知，数据的传输速度是相当慢的，动辄需要 1\~2 个月。
 
-![05](/img/product/product/product-thinking_images/05.png)
+![05](/static/img/product/product/product-thinking_images/05.png)
 
 当互联网出现之后，互联网技术提升了二进制数据的传输速度。传输协议和传输工具的出现，几乎颠覆了我们对于信息的获取方式。
 
-![06](/img/product/product/product-thinking_images/06.png)
+![06](/static/img/product/product/product-thinking_images/06.png)
 直至现在，我们还能持续发现新的应用场景来进一步放大这种传输能力的价值。例如现在很常见的云服务、云储存以及云游戏（云原神，启动！）。在现在 5G 移动通信技术的普及下，仍还有许多场景值得探索。例如远程医疗、智能驾驶、智慧城市等。
 
 
 
 再举个例子。以往你需要去到线下菜市场或者超市，对比不同商店的价格、选择蔬菜，这个过程可能需要耗费 1\~2 个小时，最终才能买好一日三餐所需要的食材。现在将传统线下对比选购的形式转换成线上浏览、比价下单、外卖到家的方式，大大节约了买菜的时间，同时生鲜的价格和质量还能得到保障。
 
-![07](/img/product/product/product-thinking_images/07.png)
+![07](/static/img/product/product/product-thinking_images/07.png)
+
 
 ### 抓住技术出现的时刻
 
@@ -215,7 +216,7 @@ sidebar_position: 3
 
 如果仅从 ROI 或者当前业务的拓展方向去考虑，可能你也会得出和我类似的结论，无法理解老板们的决定。但后来从宏观的视角去看这次调整，就比较容易发现做这次转型的原因：
 
-![08](/img/product/product/product-thinking_images/08.png)
+![08](/static/img/product/product/product-thinking_images/08.png)
 
 以上列举的原因可能有所偏颇，仅作为示例。我想要强调的就是多从宏观视角去看问题。即便针对业务列举的宏观原因看起来有点不靠谱，或者觉得离当前公司和业务太远了都没有关系。尝试用 “设想 - 验证” 的方式去解构业务会很有帮助。
 
@@ -243,14 +244,14 @@ sidebar_position: 3
 
 这里面可能存在沟通的问题，但更多地还是需求不明确带来的反复修改。我们利用解构、抽象和重组的思维简单地进行拆解，问题就能轻易解决。
 
-![09](/img/product/product/product-thinking_images/09.png)
+![09](/static/img/product/product/product-thinking_images/09.png)
 可能一开始并没有很多机会去拆解工作上的业务，但是可以通过解构、抽象、重组自己的日常生活、学习和工作进行练习。
 
 **1、解构、抽象和重组生活**
-![10](/img/product/product/product-thinking_images/10.png)
+![10](/static/img/product/product/product-thinking_images/10.png)
 
 **2、解构、抽象和重组工作流程**
-![11](/img/product/product/product-thinking_images/11.png)
+![11](/static/img/product/product/product-thinking_images/11.png)
 
 ### 重构的重要性
 
@@ -300,19 +301,19 @@ sidebar_position: 3
 
 作为产品经理，可以尝试通过运用解构、抽象和重组的产品思维对顺风车产品进行优化。假设有一个场景：司机 A 周六早上 9 点带客从上海外滩回到苏州拙政园，车上有 3 个座位。解构后的信息为：
 
-![12](/img/product/product/product-thinking_images/12.png)
+![12](/static/img/product/product/product-thinking_images/12.png)
 
 乘客甲周六早上 8 点出发，希望搭一辆顺风车跨城回到苏州老家。解构后的信息为：
 
-![13](/img/product/product/product-thinking_images/13.png)
+![13](/static/img/product/product/product-thinking_images/13.png)
 
 完成需求解构之后，将司乘双方的需求进行抽象，让复杂的信息变成结构化的模块，最终完成匹配。
 
-![14](/img/product/product/product-thinking_images/14.png)
+![14](/static/img/product/product/product-thinking_images/14.png)
 
 当然，现实情况并没有那么简单。把这个例子的复杂度提高，这更符合现实情况。以`滴滴出行`作为例子，乘客甲是 V7 里程会员，对顺风车的舒适度有一定要求，周六早上他可能在 8 点之前或 9 点以后就打算上车。司机 A 是接过 500 单顺风车的老司机，他再接了 1 个人拼车，到达苏州火车站。那么经过细化的信息就变成了：
 
-![15](/img/product/product/product-thinking_images/15.png)
+![15](/static/img/product/product/product-thinking_images/15.png)
 
 实际上，顺风车产品的设计要远比示例图来得复杂，但复杂并不是要强调的重点。在这个例子中，原有的 10 个信息变成了 18 个，但这些模块仍被框定在抽象出来的 3 个模块中。如果在后续需要不断增加信息，产品顶层设计抽象出来的模块也能够进行良好匹配，而不至于面临重新设计的挑战。倘若在产品设计初期的抽象不到位，那么每次进入需求的深入探索都要大幅修改已有的产品功能，这并不是产品思维，而是信息化。
 
@@ -349,7 +350,7 @@ sidebar_position: 3
 * 例如 Spotify，它的商业模式非常简单，用户付费订阅，Spotify 不断引进和引导生产新的音乐内容。这种直白的模式很容易理解，网飞（Netflix）也是如此。对比国内的某音乐会员（畅听会员 — 黑胶VIP — 黑胶SVIP）亦或者某视频会员（黄金VIP、白金VIP、星钻VIP、体育会员、Fun会员）学习的成本相对较低。**我们不必理解这些公司的难处，它们只需要将成本和复杂度反映在订阅成本费用上面就足够了。**
 
 <br/>
-![16](/img/product/product/product-thinking_images/16.png)
+![16](/static/img/product/product/product-thinking_images/16.png)
 <div class="text-center">*复杂的设计带来了更高的成本，复杂的会员体系是最优解吗？*</div>
 <br/>
 

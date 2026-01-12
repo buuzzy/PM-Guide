@@ -54,28 +54,28 @@ sidebar_position: 4
 
 需求的定义是复杂的，产品经理即便明确了需求的定义，也经常会在实践中把 Needs 和 Demand 混淆，进而影响产品的判断。举个例子，当我们准备在假期去某个城市旅游，可以选择的交通方式有飞机或者列车。在经济学的需求概念（Demand）中，飞机和列车的产品形态是确定的。
 
-![01](/img/product/product/product-requirements_images/01.png)
+![01](/static/img/product/product/product-requirements_images/01.png)
 
 在实际工作中，产品经理无法直接根据供需关系去开发产品，设计运营方案，因为存在场景的限制。对于出行产品来说，节假日、出发/到达地点、价格、用户偏好... 这些要素的组成会形成不同的场景。产品经理如果没有完全理解什么叫做需求（Needs），就很容易产生误判。
 
 比方说在疫情期间，从上海到北京的机票价格非常便宜，同时因为航班大量减少，飞行时间也缩短了不少。于是飞机的产品形态发生了变化，供需结构也会相应进行调整。
 
-![02](/img/product/product/product-requirements_images/02.png)
+![02](/static/img/product/product/product-requirements_images/02.png)
 
 如果产品经理使用经济学的需求概念（Demand）去讨论需求（Needs），会得出这样一个推论：“受疫情影响，机票价格降低，飞行时间缩短。在交通方式的选择上，用户会更多选择去乘坐飞机。”
 
-![03](/img/product/product/product-requirements_images/03.png)
+![03](/static/img/product/product/product-requirements_images/03.png)
 
 如果产品经理从用户需求的角度思考需求（Needs），会得出一个截然不同的结论：“用户的动机是从北京前往上海，用户需要通过选择、乘坐不同的交通工具来实现这一目标。”
 
-![04](/img/product/product/product-requirements_images/04.png)
+![04](/static/img/product/product/product-requirements_images/04.png)
 
 <div class="text-center">*需求一直存在，不过在不同的阶段下有所变化*</div>
 <br/>
 
 **产品经理对需求的不同思考路径，最终会影响产品的决策：**
 
-![05](/img/product/product/product-requirements_images/05.png)
+![05](/static/img/product/product/product-requirements_images/05.png)
 <div class="text-center">*对于需求的不同理解，会对产品决策产生影响*</div>
 <br/>
 
@@ -103,7 +103,7 @@ _*但从方案或手段的角度来看，产品决策既可以源自 Needs，也
 
 从这部影片中可以看出：一个人的预期与现实世界的状态之间的差距，构成了全部的内心活动，从而产生三种常见的心理状态：预期等于、低于或高于现状。
 
-![06](/img/product/product/product-requirements_images/06.png)
+![06](/static/img/product/product/product-requirements_images/06.png)
 
 当预期等于现状时，人们容易产生 “安于现状” 的心态。此时，他们对现有条件感到满足，对生活没有太多要求，怡然自得。这很容易会让人跌入[平庸陷阱](http://xhslink.com/idqsmO)。
 
@@ -186,7 +186,7 @@ ROI、规模化运作、竞争力需求是三位一体的。假设一个团队�
 
 在这里，我们可以认为群体需求的产生和变化源自社会客观条件的变化。各种客观的先决条件聚合到了一起，需求就诞生了。就像马斯洛需求层次理论，人类需要先实现一层需求才能产生上一层的需求，如果下层需求没有满足或者被破坏了，那上层需求就会垮台。[《1942》](https://movie.douban.com/subject/6011805/)说的就是这个例子，当饥荒蔓延，人的尊严就是最不值钱的东西。
 
-![08](/img/product/product/product-requirements_images/08.png)
+![08](/static/img/product/product/product-requirements_images/08.png)
 
 
 <div class="text-center">*需求的诞生：变化性和永恒性的区别（更多例子：利他主义）*</div>
@@ -205,7 +205,7 @@ ROI、规模化运作、竞争力需求是三位一体的。假设一个团队�
 
 还有些需求因为社会环境、财富水平和人类认知等原因而被放大。虽然需求在存在与否的层面上是绝对的，但需求的强度、广泛度以及实现的可能性却受多种因素影响。
 
-![09](/img/product/product/product-requirements_images/09.png)
+![09](/static/img/product/product/product-requirements_images/09.png)
 <div class="text-center">*需求没有变化，但满足这些需求的方式发生了改变*</div>
 <br/>
 
@@ -238,7 +238,7 @@ ROI、规模化运作、竞争力需求是三位一体的。假设一个团队�
 
 如果从技术角度上看，街猫这款产品在很早之前就已经满足的软硬件条件，但另一方面，大众的认知进步此刻却成为了必要条件。如果社会对于流浪动物的认知还停留在捕杀收容，或者社会对流浪动物并没有形成重视，那么这款产品此刻就不会存在。
 
-![10](/img/product/product/product-requirements_images/10.png)   
+![10](/static/img/product/product/product-requirements_images/10.png)   
 <div class="text-center">*社会认知有时是充分条件，有时是必要条件*</div>
 <br/>
 

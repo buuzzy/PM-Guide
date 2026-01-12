@@ -4,9 +4,9 @@ sidebar_position: 6
 
 # 产品经理的职业发展路径 
 
-产品经理整体上的发展路径可以参考[运营的职业发展路径](docs\Product\operations\career\career-path.md)，归纳起来看，不同职级的能力无非都是分这几个阶段：
+产品经理整体上的发展路径可以参考[运营的职业发展路径](/docs/Product/operations/career/career-path.md)，归纳起来看，不同职级的能力无非都是分这几个阶段：
 
-![01](/img/product/product/career-path_images/01.png)
+![01](/static/img/product/product/career-path_images/01.png)
 
 具体的素质要求就不再复述了，重点讲讲身为产品经理，不同阶段应该如何提升自己，为进入下个阶段做准备。
 
@@ -46,7 +46,7 @@ sidebar_position: 6
 
 指熟练程度不断提升，同样的事情完成周期更短、质量更高。这个时期往往你会开始接管更加重要的产品模块，团队对你不仅有质量的要求，更有速度的要求。更重要的是，你的效率变高了，工作时段中可以用来思考的时间变得更多，是你**开始沉淀知识、总结方法论的好时机**。这个阶段强烈建议开始建立自己的思考体系，开始可以锻炼 **"将复杂的事情简化"、"将难的问题解耦"** 的能力，这会进一步加快你对产品世界的认知能力。
 
-![02](/img/product/product/career-path_images/02.png)
+![02](/static/img/product/product/career-path_images/02.png)
 
 借假修真，这个时期的你关注工作背后对自己成长的帮助：
 
@@ -73,7 +73,8 @@ sidebar_position: 6
 
 **你的任务视野变大了**，这时候的你应该已经具备了比较优秀的产品设计方法论，在产品路线上能够继续学到的新技能开始变少，是**开始横向变强的好时机**。不应该继续局限在产品专业知识的沉淀中，而是需要抓紧补充业务知识、商业认知，理解每个业务团队的运作机制。
 
-![03](/img/product/product/career-path_images/03.png)
+![03](/static/img/product/product/career-path_images/03.png)
+
 
 换个角度看，这也会是产品经理职业发展的瓶颈期和分水岭，因为在你的专业线能够积累的技能不多了，只能够通过不断加深对业务的理解、更多行业的理解来提升自己的综合实力。我想，35 岁危机大概也就是这个意思吧。你会的东西，年轻人都慢慢会了，但年轻人比你更 "便宜"。
 
@@ -89,11 +90,11 @@ sidebar_position: 6
 
 你兜里揣着大量的成熟方法论，但是你贵啊！公司雇佣你的性价比也可能开始变低，因为你的能力过剩了，你的价值不会再随着你的知识面提升，竞争力开始下降。残酷的现实...
 
-![04](/img/product/product/career-path_images/04.png)
+![04](/static/img/product/product/career-path_images/04.png)
 
 是时候改变了，需要主动降低产品能力在你综合能力中的占比，开始叠加第二技能实力，例如运营能力、业务创新能力、商业化能力等等。当然，这些技能你可以更早的开始储备。
 
-![05](/img/product/product/career-path_images/05.png)
+![05](/static/img/product/product/career-path_images/05.png)
 
 最终，产品实力在你综合实力的占比开始变低，但放心，你依然是优秀的产品经理，请继续保持对产品的热爱 :）
 
