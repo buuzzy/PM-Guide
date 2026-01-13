@@ -6,24 +6,25 @@
 
 不过部分和 AI 相关的内容可能是 2 年前的产物，你可以忽略我当初对它们的看法，毕竟现在 AI 发展的太快了。
 
-## 产品知识--/docs/Product
+## 产品知识  /docs/Product
+### fundamentals
 
-- **fundamentals/career**
+- /career
 
 定义产品经理的角色边界、核心素质与职业发展路径。深入探讨“产品思维”这一核心认知，以及如何辨别真伪需求。
 
-
-- **fundamentals/design**
+- /design
 
 涵盖从宏观（战略与价值）到微观（功能实现）的全链路设计。包含 Scrum敏捷开发流程、进度管理，以及竞品分析和行业分析等系统化方法论。
 
+### general-skills
 
-- **general-skills/what-is**
+- /what-is
 
 解析驱动产品成功的核心商业概念与经济学原理。理解增长与可持续发展背后的底层逻辑（如飞轮效应、网络效应、单位经济模型）。
 
 
-- **general-skills/workplace-skills**
+- /workplace-skills
 
 职场生存与进阶实战指南。涵盖面试策略、OKR目标管理、个人效率提升，以及周报撰写的意义等实用技能。
 
