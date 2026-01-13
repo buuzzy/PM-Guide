@@ -14,34 +14,34 @@ Hi，大家好，我叫 Nakocai，目前任职于腾讯金融科技（FiT）条�
 ## 产品知识  /docs/Product
 ### /fundamentals
 
-- /career
+- [/career](https://github.com/buuzzy/PM-Guide/tree/main/docs/Product/fundamentals/career)
 
 定义产品经理的角色边界、核心素质与职业发展路径。深入探讨“产品思维”这一核心认知，以及如何辨别真伪需求。
 
-- /design
+- [/design](https://github.com/buuzzy/PM-Guide/tree/main/docs/Product/fundamentals/design)
 
 涵盖从宏观（战略与价值）到微观（功能实现）的全链路设计。包含 Scrum敏捷开发流程、进度管理，以及竞品分析和行业分析等系统化方法论。
 
 ### /general-skills
 
-- /what-is
+- [/what-is](https://github.com/buuzzy/PM-Guide/tree/main/docs/Product/general-skills/what-is)
 
 解析驱动产品成功的核心商业概念与经济学原理。理解增长与可持续发展背后的底层逻辑（如飞轮效应、网络效应、单位经济模型）。
 
-- /workplace-skills
+- [/workplace-skills](https://github.com/buuzzy/PM-Guide/tree/main/docs/Product/general-skills/workplace-skills)
 
 职场生存与进阶实战指南。涵盖面试策略、OKR目标管理、个人效率提升，以及周报撰写的意义等实用技能。
 
 ### /operations
-- /career
+- [/career](https://github.com/buuzzy/PM-Guide/tree/main/docs/Product/operations/career)
 
 探讨数据分析体系、增长策略以及运营与产品的协同。包含运营职业路径规划以及如何成功转岗产品经理的实战建议。
 
-- /practice
+- [/practice](https://github.com/buuzzy/PM-Guide/tree/main/docs/Product/practice)
 
 产品经理技能的真实应用。包含深度竞品调研、复杂项目拆解方法论，以及针对搜索系统等特定功能的深度设计分析。
 
-- /reading
+- [/reading](https://github.com/buuzzy/PM-Guide/tree/main/docs/Product/reading)
 
 精选企业史、产品理论相关的书单推荐，以及产品作品集分享。
 
@@ -49,16 +49,16 @@ Hi，大家好，我叫 Nakocai，目前任职于腾讯金融科技（FiT）条�
 
 - 请注意，这部分知识和 AI 关联的内容可能过期，不过你可以学习整个项目的实现逻辑，以此实现自己的 AI 产品。虽然现在很多 APP 都支持了一键生成和部署的能力，但是这个项目可以让你学习前后端的实现细节，以及如何将 AI 模型整合到产品中。
 
-- /basic
+- [/basic](https://github.com/buuzzy/PM-Guide/tree/main/docs/ai/basic)
 
 环境搭建、部署。
 
 
-- /common-use
+- [/common-use](https://github.com/buuzzy/PM-Guide/tree/main/docs/ai/common-use)
 
 上线一个网站。
 
 
-- /ai-wallpaper
+- [/ai-wallpaper](https://github.com/buuzzy/PM-Guide/tree/main/docs/ai/AI-Wallpaper)
 
 一个 AI 产品实战系列（AI 壁纸生成），完整记录从立项到实现的系统化过程。
