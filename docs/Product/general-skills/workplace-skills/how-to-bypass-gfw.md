@@ -27,7 +27,7 @@
 
 1、打开纸巾云[官网链接](https://www.papercloud.cloud/#/login)，完成注册、登录
 
-![01](\static\img\product\general-skills\how-to-bypass-gfw_images\01.png)
+![01](/static/img/product/general-skills/how-to-bypass-gfw_images/01.png)
 
 2、完成注册登录后，找到并点击`购买订阅`（用手机打开网页的操作也是一样的）
 
