@@ -50,7 +50,7 @@
 
 需求的定义是复杂的，产品经理即便明确了需求的定义，也经常会在实践中把 Needs 和 Demand 混淆，进而影响产品的判断。举个例子，当我们准备在假期去某个城市旅游，可以选择的交通方式有飞机或者列车。在经济学的需求概念（Demand）中，飞机和列车的产品形态是确定的。
 
-![01](/static/img/product/product/product-requirements_images/01.png)
+![01](\static\img\product\product\product-requirements_images\01.png)
 
 在实际工作中，产品经理无法直接根据供需关系去开发产品，设计运营方案，因为存在场景的限制。对于出行产品来说，节假日、出发/到达地点、价格、用户偏好... 这些要素的组成会形成不同的场景。产品经理如果没有完全理解什么叫做需求（Needs），就很容易产生误判。
 
