@@ -31,11 +31,11 @@
 
 2、完成注册登录后，找到并点击`购买订阅`（用手机打开网页的操作也是一样的）
 
-![02](\static\img\product\general-skills\how-to-bypass-gfw_images\02.png)
+![02](/static/img/product/general-skills/how-to-bypass-gfw_images/02.png)
 
 3、在购买订阅页面选择最便宜的套餐进行尝试，后续体验好的话可以按需付费，或者更换🪜
 
-![03](\static\img\product\general-skills\how-to-bypass-gfw_images\03.png)
+![03](/static/img/product/general-skills/how-to-bypass-gfw_images/03.png)
 
 无论是哪家🪜，每一家的官网上均有非常详细的操作说明，具体细节上的操作不再赘述。
 
@@ -53,13 +53,13 @@
 
 2. 复制你购买节点的订阅地址，订阅地址一般在官网中提供
 
-![04](\static\img\product\general-skills\how-to-bypass-gfw_images\04.png)
+![04](/static/img/product/general-skills/how-to-bypass-gfw_images/04.png)
 
-![05](\static\img\product\general-skills\how-to-bypass-gfw_images\05.png)
+![05](/static/img/product/general-skills/how-to-bypass-gfw_images/05.png)
 
 3、复制完成后，打开我们上面下载的软件，按照下图的流程进行导入就可以使用了
 
-![06](\static\img\product\general-skills\how-to-bypass-gfw_images\06.png)
+![06](/static/img/product/general-skills/how-to-bypass-gfw_images/06.png)
 
 同理，如果你使用的是备用软件或者其他软件，同样也可以通过链接或二维码导入，方法都是类似的。
 
@@ -71,17 +71,17 @@
 
 1、打开[下载链接](https://clashverge.org/clash-verge-download/)，下载与你当前电脑系统对应的软件
 
-![07](\static\img\product\general-skills\how-to-bypass-gfw_images\07.png)
+![07](/static/img/product/general-skills/how-to-bypass-gfw_images/07.png)
 
 2、安装并打开软件，点击`订阅`，粘贴进节点地址，点击`导入`
 
-![08](\static\img\product\general-skills\how-to-bypass-gfw_images\08.png)
+![08](/static/img/product/general-skills/how-to-bypass-gfw_images/08.png)
 
 3、点击`设置`，开启`系统代理`（多数情况下不用手动选择代理，软件会自动选择最优节点）
 
-![09](\static\img\product\general-skills\how-to-bypass-gfw_images\09.png)
+![09](/static/img/product/general-skills/how-to-bypass-gfw_images/09.png)
 
 * 软件左下角显示实时网速意味着连接成功
 
-![10](\static\img\product\general-skills\how-to-bypass-gfw_images\10.png)
+![10](/static/img/product/general-skills/how-to-bypass-gfw_images/10.png)
  
